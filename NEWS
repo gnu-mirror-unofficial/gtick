@@ -1,0 +1,8 @@
+2003-05-13
+
+New maintainer: Roland Stigge
+
+I rewrote the DSP core, especially sound generation and did most changes since
+2003. Please contact me if you have contact to (or actually are) Alex Roberts.
+I just "hijacked" the package to get it into a usable state for Debian.
+

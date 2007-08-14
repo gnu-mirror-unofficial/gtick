@@ -1,0 +1,500 @@
+# Translation of `gtick' messages to Ukrainian.
+# Copyright (C) 2007 Roland Stigge (msgid)
+# This file is distributed under the same license as the gtick package.
+# Youri Bulka <jblk@icmail.net>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.3.12\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2007-08-13 18:20+0200\n"
+"PO-Revision-Date: 2007-02-19 10:00+0300\n"
+"Last-Translator: Youri Bulka <jblk@icmail.net>\n"
+"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gtick.c:79
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Використання: %s [ПАРАМЕТР...]\n"
+"\n"
+"Параметри:\n"
+"  -h, --help\tПоказати це повідомлення\n"
+"  -v, --version\tПоказати інформацію про версію\n"
+"  -d, --debug[=level]\tДрукувати додаткову інформацію, корисну для "
+"ліквідації помилок\n"
+"\n"
+
+#: src/help.c:74
+msgid "About GTick"
+msgstr "Про GTick"
+
+#: src/help.c:76
+msgid "License"
+msgstr "Ліцензія"
+
+#: src/help.c:101
+#, fuzzy
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Автор лоґотипу Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Домашня сторінка:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Висилайте повідомлення про помилки, коментарі, і т.д. на\n"
+"список розсилки розробників:\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:125
+msgid "GTick License"
+msgstr "Ліцензія GTick"
+
+#: src/help.c:126
+#, fuzzy
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - Метроном\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Ця програма - вільне програмне забезпечення; ви маєте право розповсюджувати "
+"і змінювати його згідно з Загальною Публічною Ґну,\n"
+"виданою Free Software Foundation; версією 2, або (за вашим вибором) будь-"
+"якою наступною версією.\n"
+"\n"
+"Ця програма розповсюджується з надією що вона буде корисною,\n"
+"але БЕЗ ЖОДНИХ ГАРАНТІЙ; навіть без передбачено гарантії на\n"
+"ПРАЦЕЗДАТНІСТЬ, або на придатність на використання В БУДЬ-ЯКИХ ЦІЛЯХ. "
+"Дивіться Загальну Публічну Ліцензію Ґну задля подробиць.\n"
+"Ви повинні були отримати копію Загальної Публічної Ліцензії Ґну разом з цією "
+"програмою; якщо ні, напишіть до Фундації Вільного Програмного Забезпечення, "
+"51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA."
+
+#: src/help.c:153
+msgid "Shortcuts"
+msgstr "Швидкі клавіші"
+
+#: src/help.c:160
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:166
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:172
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:178
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:184
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:190
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:196
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:202
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:208
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:214
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:220
+msgid "Shift-w"
+msgstr "Shift-w"
+
+#: src/help.c:226
+msgid "Shift-q"
+msgstr "Shift-q"
+
+#: src/help.c:232
+msgid "Shift-a"
+msgstr "Shift-a"
+
+#: src/help.c:238
+msgid "Shift-s"
+msgstr "Shift-s"
+
+#: src/help.c:244
+msgid "Shift-z"
+msgstr "Shift-z"
+
+#: src/help.c:250
+msgid "Shift-x"
+msgstr "Shift-x"
+
+#: src/help.c:256
+msgid "Start/Stop"
+msgstr "Старт/Стоп"
+
+#: src/help.c:262
+msgid "Speed: Faster"
+msgstr "Темп: швидший"
+
+#: src/help.c:268
+msgid "Speed: Slower"
+msgstr "Темп: повільніший"
+
+#: src/help.c:274
+msgid "Base Meter"
+msgstr "Базовий Метр"
+
+#: src/help.c:280
+msgid "Double Speed"
+msgstr "Подвійний темп"
+
+#: src/help.c:286
+msgid "Half Speed"
+msgstr "Пів-темп"
+
+#: src/help.c:292
+msgid "Speed: -10"
+msgstr "Темп: -10"
+
+#: src/help.c:298
+msgid "Speed: +10"
+msgstr "Темп: +10"
+
+#: src/help.c:304
+msgid "Speed: -2"
+msgstr "Темп: -2"
+
+#: src/help.c:310
+msgid "Speed: +2"
+msgstr "Темп: +2"
+
+#: src/help.c:316
+msgid "Double Volume"
+msgstr "Подвійна гучність"
+
+#: src/help.c:322
+msgid "Half Volume"
+msgstr "Пів-гучність"
+
+#: src/help.c:328
+msgid "Volume: -10"
+msgstr "Гучність: -10"
+
+#: src/help.c:334
+msgid "Volume: +10"
+msgstr "Гучність: +10"
+
+#: src/help.c:340
+msgid "Volume: -2"
+msgstr "Гучність: -2"
+
+#: src/help.c:346
+msgid "Volume: +2"
+msgstr "Гучність: +2"
+
+#: src/metro.c:69
+msgid "Idle"
+msgstr "Бездіяльність"
+
+#: src/metro.c:69 src/metro.c:85
+msgid "Start"
+msgstr "Старт"
+
+#: src/metro.c:70
+msgid "Running"
+msgstr "Запущено"
+
+#: src/metro.c:70
+msgid "Stop"
+msgstr "Стоп"
+
+#: src/metro.c:74
+msgid "_Help"
+msgstr "_Довідка"
+
+#: src/metro.c:75
+msgid "_Metronome"
+msgstr "_Метроном"
+
+#: src/metro.c:76
+msgid "_Quit"
+msgstr "_Вихід"
+
+#: src/metro.c:77
+msgid "_Edit"
+msgstr "_Редагування"
+
+#: src/metro.c:78
+msgid "_Preferences"
+msgstr "_Налаштування"
+
+#: src/metro.c:79
+msgid "_View"
+msgstr "_Вигляд"
+
+#: src/metro.c:80
+msgid "_About"
+msgstr "_Про"
+
+#: src/metro.c:81
+msgid "_Shortcuts"
+msgstr "_Швидкі клавіші"
+
+#: src/metro.c:85
+msgid "Start the metronome"
+msgstr "Запустити метроном"
+
+#: src/metro.c:86
+msgid "_Visual Tick"
+msgstr "_Візуальний пульс"
+
+#: src/metro.c:87
+msgid "_Accent Table"
+msgstr "Таблиця _акцентів"
+
+#: src/metro.c:88
+msgid "Pr_ofiles"
+msgstr "Про_файли"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:128
+msgid "Larghissimo"
+msgstr "Larghissimo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:131
+msgid "Largo"
+msgstr "Largo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:134
+msgid "Larghetto"
+msgstr "Larghetto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:137
+msgid "Adagio"
+msgstr "Adagio"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:140
+msgid "Andante"
+msgstr "Andante"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:143
+msgid "Moderato"
+msgstr "Moderato"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:146
+msgid "Allegro"
+msgstr "Allegro"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:149
+msgid "Presto"
+msgstr "Presto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:152
+msgid "Prestissimo"
+msgstr "Prestissimo"
+
+#: src/metro.c:1500
+msgid "Settings"
+msgstr "Налаштування"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1529
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr "%s   (%d ... %d)"
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1543
+msgid "Tap"
+msgstr "Стук!"
+
+#: src/metro.c:1548
+msgid "Speed:"
+msgstr "Темп:"
+
+#: src/metro.c:1617
+msgid "Volume:"
+msgstr "Гучність:"
+
+#: src/metro.c:1651
+msgid "Beat"
+msgstr "Метр"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1674
+msgid "Even"
+msgstr "Поодинчий"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1687
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1698
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1709
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1720 src/gtkoptions.c:329
+msgid "Other:"
+msgstr "Інший:"
+
+#: src/metro.c:1742
+msgid "Beat Accent"
+msgstr "Акцент"
+
+#: src/metro.c:1910
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Не можливо запустити метроном.\n"
+"Будь-ласка перевірте чи вибраний звуковий пристрій і файл звуку (стуку) є "
+"доступними."
+
+#: src/gtkoptions.c:182
+msgid "Please choose a sound file."
+msgstr "Будь-ласка виберіть звуковий пристрій."
+
+#: src/gtkoptions.c:238
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: src/gtkoptions.c:282
+msgid "Sound"
+msgstr "Звук"
+
+#: src/gtkoptions.c:298
+msgid "Default"
+msgstr "Типовий"
+
+#: src/gtkoptions.c:311
+msgid "Sine"
+msgstr "Синусоподібний"
+
+#: src/gtkoptions.c:356
+msgid "Choose"
+msgstr "Вибрати"
+
+#: src/gtkoptions.c:377
+msgid "Sound Device"
+msgstr "Звуковий пристрій"
+
+#: src/gtkoptions.c:397
+msgid "Device filename:"
+msgstr "Файл пристрою:"
+
+#: src/gtkoptions.c:416
+msgid "External Commands"
+msgstr "Зовнішні команди"
+
+#: src/gtkoptions.c:434
+msgid "Execute on start:"
+msgstr "Виконувати при старті:"
+
+#: src/gtkoptions.c:452
+msgid "Execute on stop:"
+msgstr "Виконувати під-час зупинки:"
+
+#: src/gtkoptions.c:473
+msgid "Speed Range"
+msgstr "Швидкісні межі темпу"
+
+#: src/gtkoptions.c:491
+msgid "Minimum BPM:"
+msgstr "Мінімальна к-сть ударів/хв.:"
+
+#: src/gtkoptions.c:508
+msgid "Maximum BPM:"
+msgstr "Максимальна к-сть ударів/хв.:"
+
+#: src/profiles.c:326 src/profiles.c:612
+msgid "Unnamed Profile"
+msgstr "Неназваний профайл"
+
+#: src/profiles.c:504
+msgid "Edit Profile"
+msgstr "Про_файли"
+
+#: src/profiles.c:520
+msgid "Please enter new Profile name: "
+msgstr "Будь-ласка введіть назву нового профайлу:"
+
+#: src/profiles.c:678
+msgid "Profiles"
+msgstr "Про_файли"

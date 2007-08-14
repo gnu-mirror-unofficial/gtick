@@ -1,0 +1,583 @@
+# Basq8e translation of gtick
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gtick package.
+# Mikel Olasagasti <hey_neken@euskal.org>, 2004.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.2.12\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2007-08-13 18:20+0200\n"
+"PO-Revision-Date: 2004-04-22 16:07+0200\n"
+"Last-Translator: Mikel Olasagasti <hey_neken@euskal.org>\n"
+"Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gtick.c:79
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Erabilera: %s [AUKERA...]\n"
+"\n"
+"Aukerak:\n"
+"  -h, --help              Laguntza mezu hau erakutsi\n"
+"  -v, --version         Bertsioari buruzko informazioa erakutsi\n"
+"  -d, --debug[=maila]     Erakutsi debug informazio adiozanal gehiago "
+"programa exekutatua dagoen bitartean\n"
+"\n"
+
+#: src/help.c:74
+msgid "About GTick"
+msgstr ""
+
+#: src/help.c:76
+#, fuzzy
+msgid "License"
+msgstr "GTick lizentzia"
+
+#: src/help.c:101
+#, fuzzy
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Logoa Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Etxe-orria:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug-ak, azalpenak, etab. hona\n"
+"Garatzaileen posta zerrenda:\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:125
+msgid "GTick License"
+msgstr "GTick lizentzia"
+
+#: src/help.c:126
+#, fuzzy
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - Metronomoa\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Programa hau software askea da; berriz distribuitu dezakezu\n"
+"edo/eta GNU General Public Licence-pean modifikatu, Free Software Foundation-"
+"ek \n"
+"publikatua; lizentziaren 2. bertsioan, edo (zure aukeran) edozein bertsio "
+"berriago batean oinarrituz.\n"
+"\n"
+"Programa hau erabilgarria izango delakoan distribuitzen\n"
+"da, baina INOLAKO BERMERIK GABE; gainera MERKATU edo\n"
+"ARRAZOI JAKIN BATEN OSASUNERAKO bermerik ere ez du.\n"
+"Ikusi GNU General Public Licence azalpen gehiagorako.\n"
+"\n"
+"Kopia honekin GNU General Public License-ren kopia bat\n"
+"jasoko zenuen; honela izango ez balitz, idatzi hona: Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA."
+
+#: src/help.c:153
+msgid "Shortcuts"
+msgstr "Lasterbideak"
+
+#: src/help.c:160
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:166
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:172
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:178
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:184
+msgid "Alt-w"
+msgstr ""
+
+#: src/help.c:190
+msgid "Alt-q"
+msgstr ""
+
+#: src/help.c:196
+msgid "Alt-a"
+msgstr ""
+
+#: src/help.c:202
+msgid "Alt-s"
+msgstr ""
+
+#: src/help.c:208
+msgid "Alt-z"
+msgstr ""
+
+#: src/help.c:214
+msgid "Alt-x"
+msgstr ""
+
+#: src/help.c:220
+msgid "Shift-w"
+msgstr ""
+
+#: src/help.c:226
+msgid "Shift-q"
+msgstr ""
+
+#: src/help.c:232
+msgid "Shift-a"
+msgstr ""
+
+#: src/help.c:238
+msgid "Shift-s"
+msgstr ""
+
+#: src/help.c:244
+msgid "Shift-z"
+msgstr ""
+
+#: src/help.c:250
+msgid "Shift-x"
+msgstr ""
+
+#: src/help.c:256
+msgid "Start/Stop"
+msgstr "Hasi/Gelditu"
+
+#: src/help.c:262
+msgid "Speed: Faster"
+msgstr "Abiadura: Azkarrago"
+
+#: src/help.c:268
+msgid "Speed: Slower"
+msgstr "Abiadura: Motelago"
+
+#: src/help.c:274
+msgid "Base Meter"
+msgstr "Oinarrizko neurgailua"
+
+#: src/help.c:280
+msgid "Double Speed"
+msgstr ""
+
+#: src/help.c:286
+#, fuzzy
+msgid "Half Speed"
+msgstr "Abiadura"
+
+#: src/help.c:292
+#, fuzzy
+msgid "Speed: -10"
+msgstr "Abiadura"
+
+#: src/help.c:298
+#, fuzzy
+msgid "Speed: +10"
+msgstr "Abiadura"
+
+#: src/help.c:304
+#, fuzzy
+msgid "Speed: -2"
+msgstr "Abiadura"
+
+#: src/help.c:310
+#, fuzzy
+msgid "Speed: +2"
+msgstr "Abiadura"
+
+#: src/help.c:316
+#, fuzzy
+msgid "Double Volume"
+msgstr "Bolumena:"
+
+#: src/help.c:322
+#, fuzzy
+msgid "Half Volume"
+msgstr "Bolumena:"
+
+#: src/help.c:328
+#, fuzzy
+msgid "Volume: -10"
+msgstr "Bolumena:"
+
+#: src/help.c:334
+#, fuzzy
+msgid "Volume: +10"
+msgstr "Bolumena:"
+
+#: src/help.c:340
+#, fuzzy
+msgid "Volume: -2"
+msgstr "Bolumena:"
+
+#: src/help.c:346
+#, fuzzy
+msgid "Volume: +2"
+msgstr "Bolumena:"
+
+#: src/metro.c:69
+msgid "Idle"
+msgstr "Inaktibo"
+
+#: src/metro.c:69 src/metro.c:85
+msgid "Start"
+msgstr "Hasi"
+
+#: src/metro.c:70
+msgid "Running"
+msgstr "Exekutatzen"
+
+#: src/metro.c:70
+msgid "Stop"
+msgstr "Gelditu"
+
+#: src/metro.c:74
+#, fuzzy
+msgid "_Help"
+msgstr "/_Laguntza"
+
+#: src/metro.c:75
+#, fuzzy
+msgid "_Metronome"
+msgstr "/_Metronomoa"
+
+#: src/metro.c:76
+msgid "_Quit"
+msgstr ""
+
+#: src/metro.c:77
+msgid "_Edit"
+msgstr ""
+
+#: src/metro.c:78
+msgid "_Preferences"
+msgstr ""
+
+#: src/metro.c:79
+msgid "_View"
+msgstr ""
+
+#: src/metro.c:80
+#, fuzzy
+msgid "_About"
+msgstr "/Laguntza/_Honi buruz"
+
+#: src/metro.c:81
+#, fuzzy
+msgid "_Shortcuts"
+msgstr "Lasterbideak"
+
+#: src/metro.c:85
+msgid "Start the metronome"
+msgstr ""
+
+#: src/metro.c:86
+#, fuzzy
+msgid "_Visual Tick"
+msgstr "/Aukerak/Erakutsi tick-a _bisualki"
+
+#: src/metro.c:87
+#, fuzzy
+msgid "_Accent Table"
+msgstr "Azentu taula"
+
+#: src/metro.c:88
+#, fuzzy
+msgid "Pr_ofiles"
+msgstr "Propietateak"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:128
+msgid "Larghissimo"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:131
+msgid "Largo"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:134
+msgid "Larghetto"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:137
+msgid "Adagio"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:140
+msgid "Andante"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:143
+msgid "Moderato"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:146
+msgid "Allegro"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:149
+msgid "Presto"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:152
+msgid "Prestissimo"
+msgstr ""
+
+#: src/metro.c:1500
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1529
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr ""
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1543
+msgid "Tap"
+msgstr "Kolpea"
+
+#: src/metro.c:1548
+msgid "Speed:"
+msgstr "Abiadura"
+
+#: src/metro.c:1617
+msgid "Volume:"
+msgstr "Bolumena:"
+
+#: src/metro.c:1651
+msgid "Beat"
+msgstr "Konpasa"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1674
+msgid "Even"
+msgstr "Berdin"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1687
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1698
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1709
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1720 src/gtkoptions.c:329
+msgid "Other:"
+msgstr "Beste bat:"
+
+#: src/metro.c:1742
+msgid "Beat Accent"
+msgstr ""
+
+#: src/metro.c:1910
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Ezin izan da abiaratu metronomoa.\n"
+"Mesedez egiaztatu aukeratutako soinu gailua\n"
+"eta soinu fitxategiak eskuragarri daudela."
+
+#: src/gtkoptions.c:182
+msgid "Please choose a sound file."
+msgstr "Mesedez aukeratu soinu fitxategi bat."
+
+#: src/gtkoptions.c:238
+msgid "Preferences"
+msgstr ""
+
+#: src/gtkoptions.c:282
+msgid "Sound"
+msgstr "Soinua"
+
+#: src/gtkoptions.c:298
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: src/gtkoptions.c:311
+msgid "Sine"
+msgstr "Sinua"
+
+#: src/gtkoptions.c:356
+msgid "Choose"
+msgstr "Aukeratu"
+
+#: src/gtkoptions.c:377
+msgid "Sound Device"
+msgstr "Soinu gailua"
+
+#: src/gtkoptions.c:397
+msgid "Device filename:"
+msgstr "Gailuaren fitxategia:"
+
+#: src/gtkoptions.c:416
+msgid "External Commands"
+msgstr "Komando externoak"
+
+#: src/gtkoptions.c:434
+msgid "Execute on start:"
+msgstr "Exekutatu abiaratzean:"
+
+#: src/gtkoptions.c:452
+msgid "Execute on stop:"
+msgstr "Exekutatu gelditzean:"
+
+#: src/gtkoptions.c:473
+msgid "Speed Range"
+msgstr "Abiadura tartea"
+
+#: src/gtkoptions.c:491
+msgid "Minimum BPM:"
+msgstr "Gutxienezko BPMa:"
+
+#: src/gtkoptions.c:508
+msgid "Maximum BPM:"
+msgstr "Gehienezko BPMa:"
+
+#: src/profiles.c:326 src/profiles.c:612
+msgid "Unnamed Profile"
+msgstr ""
+
+#: src/profiles.c:504
+#, fuzzy
+msgid "Edit Profile"
+msgstr "Propietateak"
+
+#: src/profiles.c:520
+msgid "Please enter new Profile name: "
+msgstr ""
+
+#: src/profiles.c:678
+#, fuzzy
+msgid "Profiles"
+msgstr "Propietateak"
+
+#, fuzzy
+#~ msgid "_Profiles"
+#~ msgstr "Propietateak"
+
+#, fuzzy
+#~ msgid "_Manual Timer"
+#~ msgstr "Esku kontagailua"
+
+#~ msgid "Manual Timer"
+#~ msgstr "Esku kontagailua"
+
+#~ msgid "Reset"
+#~ msgstr "Garbitu"
+
+#~ msgid ""
+#~ "Here, you can approximate the desired\n"
+#~ "speed by tapping at the \"Tap\" button.\n"
+#~ "\n"
+#~ "Just start tapping with the mouse or Enter.\n"
+#~ "\n"
+#~ "To use the calculated value, click \"OK\".\n"
+#~ "To start again, click \"Reset\".\n"
+#~ msgstr ""
+#~ "Hemen, lortu nahi duzun abiadura\n"
+#~ "gerturatu zaitezke \"Kolpea\" klikatuz.\n"
+#~ "\n"
+#~ "Hasteko klikatu xaguan edo sakatu Intro.\n"
+#~ "\n"
+#~ "Kalkulatutako abiadura erabiltzeko, klikatu \"OK\".\n"
+#~ "Berriz hasteko, sakatu \"Garbitu\".\n"
+
+#~ msgid "/Metronome/Start"
+#~ msgstr "/Metronomoa/Hasi"
+
+#~ msgid "/Metronome/_Manual Timer"
+#~ msgstr "/Metronomoa/_Denbora manualki ezarri"
+
+#~ msgid "/Metronome/"
+#~ msgstr "/Metronomoa/"
+
+#~ msgid "/Metronome/_Quit"
+#~ msgstr "/Metronomoa/_Irten"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Aukerak"
+
+#~ msgid "/Options/Show _Accent Table"
+#~ msgstr "/Aukerak/Erakutsi _azentu taula"
+
+#~ msgid "/Options/_Properties"
+#~ msgstr "/Aukerak/_Propietateak"
+
+#~ msgid "/Help/_Shortcuts"
+#~ msgstr "/Laguntza/_Lasterbideak"
+
+#~ msgid "/Help/_License"
+#~ msgstr "/Laguntza/_Lizentzia"

@@ -1,0 +1,30 @@
+GTick TODO List
+===============
+
+* sub beats
+* start actual beat at time of setting speed (?)
+* save settings periodically, also on every profile saved
+* set to defaults
+* test suite
+* valgrind run
+
+Further ideas:
+* Bugs:
+  - Sounds correct (all platforms)?
+* start gtick in running state
+* not only normal and accentuated tick, but one of the following:
+  - third state for each tick: off
+  - list of sounds (built-in, sound files) for each tick to choose from
+* Java version for cellular phones like Siemens C55 or Sony-Ericsson t610
+* GLADE integration
+* C++ transition (?)
+* Implement PC Speaker output
+* Feedback: Playing statistics (std. deviation, ...)
+* Info: Sample rate, device, ...
+
+* generalize gtick (library?) for:
+  - GTK standalone mode (currently)
+  - console mode (interactive, record to file, ...)
+  - XMMS plugin
+  
+* ALSA support

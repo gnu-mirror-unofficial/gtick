@@ -1,0 +1,502 @@
+# translation of gtick.po to Slovak
+# Jozef Riha <jose1711@gmail.com>, 2007.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.3.9\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2007-08-13 18:20+0200\n"
+"PO-Revision-Date: 2007-04-29 22:35+0200\n"
+"Last-Translator: Jozef Riha <jose1711@gmail.com\n"
+"Language-Team: Slovak\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: src/gtick.c:79
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Použitie: %s [PREPÍNAČ...]\n"
+"\n"
+"Prepínače:\n"
+"  -h, --help              Vypíše túto nápovedu\n"
+"  -v, --version           Vypíše informáciu o verzii\n"
+"  -d, --debug[=level]     Vypíše ďalšie ladiace dáta o behu programu na "
+"stdout\n"
+"\n"
+
+#: src/help.c:74
+msgid "About GTick"
+msgstr "O GTick"
+
+#: src/help.c:76
+msgid "License"
+msgstr "Licencia"
+
+#: src/help.c:101
+#, fuzzy
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Logo Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
+"Preložil Jozef Říha <jose1711@gmail.com>\n"
+"\n"
+"Domovská stránka:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Hlásenia o chybách, pripomienky, atď.\n"
+"posielajte do vývojárskej konferencie:\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:125
+msgid "GTick License"
+msgstr "Licencia GTick"
+
+#: src/help.c:126
+#, fuzzy
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - Metronóm\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"GTick je free software; môžete ho redistribuovať a upravovať\n"
+"za podmienok GNU General Public License zverejnenej Free Software\n"
+"Foundation; a to buď verzie 2 licencie, alebo (podľa vášho zváženia)\n"
+"ľubovoľnej neskoršej verzie.\n"
+"\n"
+"GTick je šírený v nádeji, že bude užitočný, ale BEZ AKEJKOĽVEK\n"
+"ZÁRUKY; a to ani bez predpokladanej záruky PREDAJNOSTI alebo\n"
+"VHODNOSTI PRE KONKRÉTNY ÚČEL. Pre ďalšie podrobnosti viď\n"
+"GNU General Public License.\n"
+"\n"
+"Kópiu GNU General Public License ste meli dostať spolu s GTick;\n"
+"ak sa tak nestalo, napíšte Free Software Foundation, Inc.,\n"
+"59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#: src/help.c:153
+msgid "Shortcuts"
+msgstr "Klávesové skratky"
+
+#: src/help.c:160
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:166
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:172
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:178
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:184
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:190
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:196
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:202
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:208
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:214
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:220
+msgid "Shift-w"
+msgstr "Shift-w"
+
+#: src/help.c:226
+msgid "Shift-q"
+msgstr "Shift-q"
+
+#: src/help.c:232
+msgid "Shift-a"
+msgstr "Shift-a"
+
+#: src/help.c:238
+msgid "Shift-s"
+msgstr "Shift-s"
+
+#: src/help.c:244
+msgid "Shift-z"
+msgstr "Shift-z"
+
+#: src/help.c:250
+msgid "Shift-x"
+msgstr "Shift-x"
+
+#: src/help.c:256
+msgid "Start/Stop"
+msgstr "Štart/Stop"
+
+#: src/help.c:262
+msgid "Speed: Faster"
+msgstr "Tempo: rýchlejšie"
+
+#: src/help.c:268
+msgid "Speed: Slower"
+msgstr "Tempo: pomalšie"
+
+#: src/help.c:274
+msgid "Base Meter"
+msgstr "Výber taktu"
+
+#: src/help.c:280
+msgid "Double Speed"
+msgstr "Dvojnásobné tempo"
+
+#: src/help.c:286
+msgid "Half Speed"
+msgstr "Polovičné tempo"
+
+#: src/help.c:292
+msgid "Speed: -10"
+msgstr "Tempo: -10"
+
+#: src/help.c:298
+msgid "Speed: +10"
+msgstr "Tempo: +10"
+
+#: src/help.c:304
+msgid "Speed: -2"
+msgstr "Tempo: -2"
+
+#: src/help.c:310
+msgid "Speed: +2"
+msgstr "Tempo: +2"
+
+#: src/help.c:316
+msgid "Double Volume"
+msgstr "Dvojnásobná hlasitosť"
+
+#: src/help.c:322
+msgid "Half Volume"
+msgstr "Polovičná hlasitosť"
+
+#: src/help.c:328
+msgid "Volume: -10"
+msgstr "Hlasitosť: -10"
+
+#: src/help.c:334
+msgid "Volume: +10"
+msgstr "Hlasitosť: +10"
+
+#: src/help.c:340
+msgid "Volume: -2"
+msgstr "Hlasitosť: -2"
+
+#: src/help.c:346
+msgid "Volume: +2"
+msgstr "Hlasitosť: +2"
+
+#: src/metro.c:69
+msgid "Idle"
+msgstr "Nečinný"
+
+#: src/metro.c:69 src/metro.c:85
+msgid "Start"
+msgstr "Štart"
+
+#: src/metro.c:70
+msgid "Running"
+msgstr "Spustený"
+
+#: src/metro.c:70
+msgid "Stop"
+msgstr "Stop"
+
+#: src/metro.c:74
+msgid "_Help"
+msgstr "_Nápoveda"
+
+#: src/metro.c:75
+msgid "_Metronome"
+msgstr "_Metronóm"
+
+#: src/metro.c:76
+msgid "_Quit"
+msgstr "_Ukončiť"
+
+#: src/metro.c:77
+msgid "_Edit"
+msgstr "_Upraviť"
+
+#: src/metro.c:78
+msgid "_Preferences"
+msgstr "_Nastavenia"
+
+#: src/metro.c:79
+msgid "_View"
+msgstr "_Zobraziť"
+
+#: src/metro.c:80
+msgid "_About"
+msgstr "O _aplikácii"
+
+#: src/metro.c:81
+msgid "_Shortcuts"
+msgstr "_Klávesové skratky"
+
+#: src/metro.c:85
+msgid "Start the metronome"
+msgstr "Spustiť metronóm"
+
+#: src/metro.c:86
+msgid "_Visual Tick"
+msgstr "Zobrazit ť_ukanie vizuálne"
+
+#: src/metro.c:87
+msgid "_Accent Table"
+msgstr "T_abuľka prízvukov"
+
+#: src/metro.c:88
+msgid "Pr_ofiles"
+msgstr "Pr_ofily"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:128
+msgid "Larghissimo"
+msgstr "Larghissimo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:131
+msgid "Largo"
+msgstr "Largo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:134
+msgid "Larghetto"
+msgstr "Larghetto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:137
+msgid "Adagio"
+msgstr "Adagio"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:140
+msgid "Andante"
+msgstr "Andante"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:143
+msgid "Moderato"
+msgstr "Moderato"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:146
+msgid "Allegro"
+msgstr "Allegro"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:149
+msgid "Presto"
+msgstr "Presto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:152
+msgid "Prestissimo"
+msgstr "Prestissimo"
+
+#: src/metro.c:1500
+msgid "Settings"
+msgstr "Nastavenia"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1529
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr "%s  (%d ... %d)"
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1543
+msgid "Tap"
+msgstr "Ťuk"
+
+#: src/metro.c:1548
+msgid "Speed:"
+msgstr "Tempo:"
+
+#: src/metro.c:1617
+msgid "Volume:"
+msgstr "Hlasitosť:"
+
+#: src/metro.c:1651
+msgid "Beat"
+msgstr "Takt"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1674
+msgid "Even"
+msgstr "Pravidelný"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1687
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1698
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1709
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1720 src/gtkoptions.c:329
+msgid "Other:"
+msgstr "Iný:"
+
+#: src/metro.c:1742
+msgid "Beat Accent"
+msgstr "Prízvučná doba"
+
+#: src/metro.c:1910
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Metronóm nemožno spustiť.\n"
+"Skontrolujte prosím, či sú vybrané zvukové zariadenia\n"
+"a vzorkovací súbor prístupné."
+
+#: src/gtkoptions.c:182
+msgid "Please choose a sound file."
+msgstr "Vyberte prosím zvukový súbor."
+
+#: src/gtkoptions.c:238
+msgid "Preferences"
+msgstr "Nastavenia"
+
+#: src/gtkoptions.c:282
+msgid "Sound"
+msgstr "Zvuk"
+
+#: src/gtkoptions.c:298
+msgid "Default"
+msgstr "Východzie"
+
+#: src/gtkoptions.c:311
+msgid "Sine"
+msgstr "Sínus"
+
+#: src/gtkoptions.c:356
+msgid "Choose"
+msgstr "Vybrať"
+
+#: src/gtkoptions.c:377
+msgid "Sound Device"
+msgstr "Zvukové zariadenie"
+
+#: src/gtkoptions.c:397
+msgid "Device filename:"
+msgstr "Názov zariadenia:"
+
+#: src/gtkoptions.c:416
+msgid "External Commands"
+msgstr "Externé príkazy"
+
+#: src/gtkoptions.c:434
+msgid "Execute on start:"
+msgstr "Vykonať pri štarte:"
+
+#: src/gtkoptions.c:452
+msgid "Execute on stop:"
+msgstr "Vykonať pri zastavení:"
+
+#: src/gtkoptions.c:473
+msgid "Speed Range"
+msgstr "Rozmedzie tempa"
+
+#: src/gtkoptions.c:491
+msgid "Minimum BPM:"
+msgstr "Najnižšie BPM:"
+
+#: src/gtkoptions.c:508
+msgid "Maximum BPM:"
+msgstr "Najvyššie BPM:"
+
+#: src/profiles.c:326 src/profiles.c:612
+msgid "Unnamed Profile"
+msgstr "Nepomenovaný profil"
+
+#: src/profiles.c:504
+msgid "Edit Profile"
+msgstr "Upraviť profil"
+
+#: src/profiles.c:520
+msgid "Please enter new Profile name: "
+msgstr "Prosím zadajte názov nového profilu: "
+
+#: src/profiles.c:678
+msgid "Profiles"
+msgstr "Profily"

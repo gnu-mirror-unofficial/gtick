@@ -1,0 +1,375 @@
+gtick 0.4.0, 2007-08-13, Roland Stigge <stigge@antcom.de>
+	* Changed mailing list address to gtick-devel@gnu.org
+	* Updated to GPL v3
+	* Updated Dutch, Finnish, Irish, Italian and Vietnamese translations
+
+gtick 0.3.15, 2007-05-05, Roland Stigge <stigge@antcom.de>
+	* src/Makefile.am: Use LDADD instead of AM_LDFLAGS for used libraries,
+	  thanks to Alex V. Myltsev of ALT Linux
+	* po/sk.po: Added Slovak translation, thanks to Jozef Riha
+
+gtick 0.3.14, 2007-04-29, Roland Stigge <stigge@antcom.de>
+	* Updated Russian, Ukrainian and Vietnamese translations
+
+gtick 0.3.13, 2007-02-12, Roland Stigge <stigge@antcom.de>
+	* src/util.c: Fixed zombies on metronome start/stop
+	* Added Korean translation thanks to jacojang
+
+gtick 0.3.12, 2006-10-27, Roland Stigge <stigge@antcom.de>
+	* Fixed missing translatable strings
+	* Updated Czech, German, Irish, Russian and Vietnamese translations
+
+gtick 0.3.11, 2006-09-25, Roland Stigge <stigge@antcom.de>
+	* Updated spec file (thanks to Eric Lemarque)
+	* Added Chinese translation (zh_CN, thanks to Wenshu Liu)
+	* Fixed g_thread_init() call (with g_thread_supported() check)
+	* Incorporated patches by Theo van Klaveren:
+	  - Adaptions to GNOME HIG
+	  - More Glib usage
+	  - GtkAction utilization
+	* Changed FSF address and updated Copyright notices
+	* Made speed related options integer
+	* Implemented ComboBox for speed names
+	* Added Tap button to main window (removed old dialog)
+	* Added profiles (save/restore)
+
+gtick 0.3.10, 2006-05-16, Roland Stigge <stigge@antcom.de>
+	* Updated Czech, German, Irish, Italian, Russian and Vietnamese
+	  translations
+
+gtick 0.3.9, 2006-03-18, Roland Stigge <stigge@antcom.de>
+	* Added Ukrainian translation (po/uk.po)
+
+gtick 0.3.8, 2006-03-06, Roland Stigge <stigge@antcom.de>
+	* po/vi.po: Updated Vietnamese translation
+	* src/metro.c: Applied patch by Tom Hargreaves <hex@freezone.co.uk>
+	  against race condition
+	* Applied additional keybindings, patch by Jeremiah Benham
+	  <jjbenham@chicagoguitar.com>
+
+gtick 0.3.7, 2005-11-21, Roland Stigge <stigge@antcom.de>
+	* src/dsp.c: Fixed integer size problem for custom sound playback
+	* src/dsp.c: Added FreeBSD_kernel support
+
+gtick 0.3.6, 2005-08-06, Roland Stigge <stigge@antcom.de>
+	* Revised po/br_PT.po
+	* Added po/cs.po (Czech translation, thanks to Jiří Pejchal)
+	* Added tempo names patch by Marco Túlio Gontijo e Silva
+
+gtick 0.3.5, 2005-01-28, Roland Stigge <stigge@antcom.de>
+	* Added po/it.po (Italian translation, thanks to Marco Colombo)
+	* Added po/br_PT.po (Brazilian Portuguese translation, thanks to
+	  Marco Túlio Gontijo e Silva)
+	* Added po/vi.po (Vietnamese translation, thanks to Clytie Siddall)
+
+gtick 0.3.4, 2004-08-02, Roland Stigge <stigge@antcom.de>
+	* Updated po/ca.po
+
+gtick 0.3.3, 2004-07-28, Roland Stigge <stigge@antcom.de>
+	* Added po/ca.po (Catalan translation)
+
+gtick 0.3.2, 2004-06-17, Roland Stigge <stigge@antcom.de>
+	* Added po/sv.po (Swedish translation)
+
+gtick 0.3.1, 2004-04-30, Roland Stigge <stigge@antcom.de>
+	* Fixed bug disabling meters > 5 after decreasing the spin button
+	  lower than 5
+	* Added po/eu.po (Basque translation)
+	* Updated po/fi.po
+	* Removed OSS mixer handling and replaced it with (local) software mixer
+
+gtick 0.3.0, 2004-02-11, Roland Stigge <stigge@antcom.de>
+	* GTick integrated into GNU Project (no functional changes)
+
+gtick 0.2.14, 2004-01-24, Roland Stigge <stigge@antcom.de>
+	* Integrated po/af.po (Afrikaans translation)
+	* Updated po/ga.po
+
+gtick 0.2.13, 2004-01-09, Roland Stigge <stigge@antcom.de>
+	* Integrated po/fr.po (French translation)
+	* Updated po/{es,nl,ru}.po
+
+gtick 0.2.12, 2003-12-25, Roland Stigge <stigge@antcom.de>
+	* Fixed splitting of menus for translated versions
+
+gtick 0.2.11, 2003-12-15, Roland Stigge <stigge@antcom.de>
+	* Updated po/{ga,ro,ru}.po
+
+gtick 0.2.10, 2003-12-08, Roland Stigge <stigge@antcom.de>
+	* Fixed compile error
+	  ("cannot specify -o with -c or -S and multiple compilations")
+
+gtick 0.2.9, 2003-12-08, Roland Stigge <stigge@antcom.de>
+	* Added shortcuts: Start/Stop (^S), Speed (^+,^-), Meter (^1 ... ^9)
+	* Made BPM range configurable
+	* Improved debug output
+	* Fixed src/dsp.c to release dsp device if mixer is not supported
+	* Added "Accent Table" to enable more flexible meters, e.g. 3 + 4
+	* Added Attack Padding for accents
+	* Added a Visual Tick
+	* Added ./configure option --with-sndfile, i.e. it must be specified
+	  explicitly to enable reading sounds from files
+
+gtick 0.2.8, 2003-11-19, Roland Stigge <stigge@antcom.de>
+	* Added po/es.po (Spanish) translation file
+
+gtick 0.2.7, 2003-10-31, Roland Stigge <stigge@antcom.de>
+	* Updated po/ru.po
+
+gtick 0.2.6, 2003-10-13, Roland Stigge <stigge@antcom.de>
+	* Updated po/fi.po
+	* Integrated po/ru.po (Russian)
+
+gtick 0.2.5, 2003-10-01, Roland Stigge <stigge@antcom.de>
+	* Fixed conditional compilation for FreeBSD
+	* Updated po/nl.po
+	* Integrated po/ga.po (Irish) translation file
+
+gtick 0.2.4, 2003-09-09, Roland Stigge <stigge@antcom.de>
+	* Updated po/{nl,ro,de}.po
+	* Added rc file (~/.gtickrc) save / restore functions
+	* Added "Apply" function to properties dialog
+	* Made sound device configurable (OSS programming recommendations)
+	* Moved mixer code to dsp code (OSS programming recommendations)
+	* Ignore errors if no mixer present (OSS programming recommendations)
+	* Change mixer setting on external change (other mixer application)
+	* Changed DSP feeder from cycle based to tick based rounds to
+	  prevent clicks on fast speed changes
+	* Added rc file option for speed and meter
+	* Code cleanup: Some variable renaming, further GTK+2 adjustments
+	* Added separate audio thread
+	* Added customizable shell commands at metronome start / stop
+
+gtick 0.2.3, 2003-08-29, Roland Stigge <stigge@antcom.de>
+	* Integrated po/{nl,ro,fi}.po (Dutch, Romanian and Finnish) translation
+	  files
+	* Adjusted to automake 1.7
+	* Fixed command line codeset (UTF-8 only for GTK)
+        * Changed policy of speed slider from GTK_UPDATE_DELAYED to
+	  GTK_UPDATE_CONTINUOUS
+	* Added spinbutton to speed and volume adjustments
+	* Fixed bad look of speed slider border
+	* Added menu and status bar
+	* Added (manual) tapping rate approximation (with Enter / mouse key)
+	  after patches from Tomas Znamenacek <tomas.znamenacek@centrum.cz>
+	* Added SIGTERM / SIGINT (Ctrl-C) handler
+	* Implemented customizable output sound (via libsndfile1)
+	* Added sine sound
+	* Added options handling system
+	* Updated po/de.po
+
+gtick 0.2.2, 2003-07-28, Roland Stigge <stigge@antcom.de>
+	* Added gtick.spec for RPM, tested under RedHat 9, thanks to
+	  Kyrian <kyrian@orenet.co.uk>
+	* Fixed gettext_noop warning in globals.h (commented out #define)
+	* Adjusted GTick to gettext 0.12.1
+	* Added src/converter.c (C source generator for sample data)
+	* Default click now 44.1kHz, 16 bit (signed)
+	* Added icon from logo
+	* GTick now releases unused device
+	* Implemented faster meter changes
+	* Improved accent handling: double frequency on first beats in measure
+	* Made possible variable playback rates / sample size / mono/stereo
+
+gtick 0.2.1, 2003-06-24, Roland Stigge <stigge@antcom.de>
+	* added new logo, thanks to Ivan Schepens <itronic@tiscali.be>
+	* added autoconf & automake support
+	* GTK+ 2.0 port
+	* adjusted the remaining LGPL'ed .c files to GPL, version 2, according
+	  to the LGPL point 3
+	* added --version, --help, --debug options
+	* added more meters (spinbutton for 1 .. 99 tick per measure)
+	* added i18n via GNU gettext, l10n: de.po
+
+gtick 0.2.0, 2003-05-13, Roland Stigge <stigge@antcom.de>
+	* New maintainer, Alex Roberts doesn't respond and didn't update
+	  the package for more than 4 years now.
+	* Fixed GLib-CRITICAL error (g_source_remove)
+	  Thanks to Akira TAGOH <tagoh@debian.org>
+	* Fixed uninitialized startup state which defaults to ticking == 0
+	* Fixed Gtk-CRITICAL (gtk_widget_destroy) on exit (window closed)
+	* Rewrite of OSS init, tick generation (enhanced reliability)
+	* Built-in tick sample included (tickdata.c)
+	* GUI improvements (changing toggle button label)
+	* included man page from Debian package
+	* included GPL (COPYING)
+
+--- changelog format change ---
+
+1999-19-02 (16:42) Alex Roberts  <bse@dial.pipex.com>
+
+	* dsp.c: Included gtick.h... Eeek.. 
+	
+	* main.c: If /dev/dsp is busy or not available exit the program!
+
+1999-19-02 (15:43) Alex Roberts  <bse@dial.pipex.com>
+
+	* mixer.c: Added /dev/mixer code. Mostly taken from GMix and the 
+	  mixer_applet from Gnome-Core.
+	
+	* main.c: Connected Volume slider to the mixer update callback.
+	
+	* main.c: Moved sound system initialisation to before UI init..
+	  so we can set the slider to the inital PCM volume..
+	
+1999-19-02 (14:32) Alex Roberts  <bse@dial.pipex.com>
+
+	* main.c: Added Volume slider/label.. Doesn't vary volume yet..
+	  PCM Volume would be the best volume to vary though.. I guess..
+	
+1999-19-02 (14:04) Alex Roberts  <bse@dial.pipex.com>
+
+	* about.c: Added new About box.. for no reason other than it's a
+	  fun (yet pointless) addition..
+
+1999-19-02 (13:22) Alex Roberts  <bse@dial.pipex.com>
+
+	* gtick.h: removed gtSetDSPRate(..).. it was never needed..
+	  Hrmm.. "gint count" wasn't in the gtDSPTick function declaration,
+	  it shouldn't have compiled! but it did!
+	
+	* dsp.c: On Normal timing, use the longer tone...
+	
+	* Makefile: Added "dist" target, to build the gTick distro..
+	
+	* 0.1.1 -> 0.1.2
+
+1999-17-02 (14:37) Alex Roberts  <bse@dial.pipex.com>
+
+	* dsp.c: Make sure timing count doesn't go over the time chosen..
+	
+1999-17-02 (12:51) Alex Roberts  <bse@dial.pipex.com>
+
+	* Makefile: We're debugging, so include DEBUG symbols. And the
+	  VERSION definition should be in $CFLAGS..
+
+	* dsp.c: Implemented normal, 2/4, 3/4, 4/4 timeing in the gtDSPTick, 
+	  output function. Requires an arg. of 1, 2, 3 or 4; for the
+	  respective output.
+
+	* main.c: Implemented Radio Buttons for timeing. The timeout callback
+	  now works out which radio button is active, and sends the correct
+	  signal to gtDSPTick.
+
+1999-16-02 (22:10) Alex Roberts  <bse@dial.pipex.com>
+
+	* dsp.c: Implemented first version of a Tick-Tock-Tick-Tock type of 
+	  alternating output, for different timings..
+	
+1999-16-02 (16:50) Alex Roberts  <bse@dial.pipex.com>
+
+	* *.c: Tidied up code.
+	
+1999-16-02 (13:32) Alex Roberts  <bse@dial.pipex.com>
+
+	* gtick.h:
+	  main.c: Added Timing radio buttons (2/4, 3/4, etc).. Now I have to
+	  actually implement the buttons..
+
+1999-14-02 (23:03) Alex Roberts  <bse@dial.pipex.com>
+
+	* main.c: Fixed compile warnings.. gtk_signal_connect instead of
+	  gtk_signal_connect_object.. it was segfaulting before because i
+	  wasnt referencing the correct pointer setup..
+	  
+	* dsp.c: Changed output rate from 16kHz to 44.1kHz, now tempo really
+	  does vary from 30bpm to 250bpm (and it does it proprely)
+	  
+	* Makefile: version 0.1.0 -> 0.1.1
+
+1999-14-02 (20:00) Alex Roberts  <bse@dial.pipex.com>
+
+	* dsp.c: Added FreeBSD compatibility.. thanks to Kain
+
+1999-14-02 (19:42) Alex Roberts  <bse@dial.pipex.com>
+
+	* *.[ch]: Added GPL Licence.. Time for a release, methinks...
+
+	* dsp.c: Removed old depreciated function..
+
+1999-14-02 (18:11) Alex Roberts  <bse@dial.pipex.com>
+
+	* dsp.c: Changed output format to Signed 16bit Little Endian and output
+	  rate to 22.05kHz.. with a duration of 256 (however long that is in ms),
+	  all is fantastic..
+	  
+	* Makefile: 0.0.3 -> 0.1.0
+
+1999-14-02 (16:47) Alex Roberts  <bse@dial.pipex.com>
+
+	* main.c: Added signal callback for an adjustment change.. Changes
+	  the BPM rate interval for the timeout. If the timeout is running, it
+	  stops it before changing the rate then restarts.
+	  Also, moved the interval code from gtBeat to gtUpdateRate, which is
+	  the new signal callback.
+	
+	* Makefile: Upped version no. to 0.0.3.. 
+
+1999-14-02 (16:30) Alex Roberts  <bse@dial.pipex.com>
+
+	* main.c: Thanks to Kain (dalnet/#linuxos) the timeout interval can be
+	  easily changed, with the nifty formula (see NOTES)..
+	
+1999-14-02 (15:04) Alex Roberts  <bse@dial.pipex.com>
+
+	* main.c: Added gtk_timeout functions for metronome output..
+	  the timeout frequencies are weird.. just gotta make the DSP output
+	  sound like it does in the dsp.c test program (-DTEST_DSP)..
+
+1999-14-02 (13:36) Alex Roberts  <bse@dial.pipex.com>
+
+	* dsp.c: Implemented BPM to DSP Rate interface, see NOTES for the
+	  magic numbers required :]
+
+1999-13-02 (21:56) Alex Roberts  <bse@dial.pipex.com>
+
+	* Added frame around BPM scale slider
+	  Makes it look a lot nicer
+	
+	* BPM slider modified to go 50 to 250, with 75 as the default
+	
+	* Started Log
+
+--- the following is an excerpt of the old NEWS file by Alex Roberts: ---
+
+0.1.2 -> 0.1.3
+
+	* Implemented variable output volume (using /dev/mixer and
+	  the PCM output, which /dev/dsp uses).
+	  (Much of this code was taken from Gmix and the Gnome-Panel 
+	  mixer_applet).
+	
+	* Public release of 0.1.3
+
+0.1.1 -> 0.1.2
+
+	* Tidied up code 
+
+	* Added 2/4, 3/4, 4/4 timings
+	
+	* Put longer duration back as the normal output (How it got
+	  changed to the shorter duration I have no idea.. it was at
+	  64 instead of 256.. no wonder people have problems with the
+	  0.1.1 release!)
+
+0.1.0 -> 0.1.1
+
+	* Modifications to /dev/dsp, set output to 44.1kHz
+
+	* First public release (0.1.1)
+
+0.0.3 -> 0.1.0
+
+	* Implemented variable BPM
+	
+	* Implemented /dev/dsp
+	
+	* Various bug fixes
+
+0.0.1 -> 0.0.3
+	
+	* First developments..
+
+	* Developed interface
+	
+

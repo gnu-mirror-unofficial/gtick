@@ -1,3 +1,40 @@
-This is the initial (empty) GIT repository for the GNU GTick project.
+GNU GTick - The Metronome
+Copyright (c) 1999 Alex Roberts <bse@dial.pipex.com>
+Copyright (c) 2003, 2004 Roland Stigge <stigge@antcom.de>
+This software is part of the GNU Project.
 
-Feel free to contact me at stigge@gnu.org for further information.
+Welcome to GTick, a metronome application written using the GTK+ widget set.
+This application was written because of a need for a Linux (or UN*X) based
+metronome program.
+
+Having seen similar programs for Win95 (not really seen but at least noticed
+links to on various search engines), and not seen any for Linux/Un*x, Alex
+decided to go for it and wrote his own. Since then, many changes have been made
+to GTick, most importantly a more robust timing engine was added in 2003.
+
+GTick has a BPM (Beats Per Minute) scale of 30bpm to 250bpm, catering for
+almost any need; and it is known to work on Linux (Kernel 2.2.x to 2.6.x) and
+FreeBSD.  It was initially developed using GTK+ 1.1.14, but moved to GTK+ 2.x.
+
+This is still in development, so there are likely to be bugs; So use it at your
+own risk, I can't be held responsible for anything bad happening to your
+computer or your life.
+
+To use external ticking sounds you need libsndfile, at least version 1.
+
+If you find a bug, have any comments or ideas, then email me,
+stigge@antcom.de or preferably the GTick development mailing list at
+gtick-devel@gnu.org.
+
+I "hijacked" this package because Alex doesn't respond to any mail and the
+package needed urgent work to be useable at all. Later, I got an email from
+him. He is fine and is still tracking GTick's progress.
+
+Visit the GTick homepage at http://www.antcom.de/gtick/ for the latest release
+of GTick. And don't forget, the most important thing, HAVE FUN!!!
+
+Thanks
+
+--
+Roland Stigge <stigge@antcom.de> (current maintainer)
+Alex Roberts <bse@dial.pipex.com> (initial maintainer)

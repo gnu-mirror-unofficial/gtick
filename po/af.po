@@ -1,0 +1,580 @@
+# GTick is 'n metronoomapplikasie. 
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gtick package.
+# Hanlie Pretorius <hpretorius@pnp.co.za>, 2004
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.2.12\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2007-08-13 18:20+0200\n"
+"PO-Revision-Date: 2004-01-02 16:00+2\n"
+"Last-Translator: Ysbeer <ysbeer@af.org.za>\n"
+"Language-Team: Afrikaans <i18n@af.org.za>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gtick.c:79
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Gebruik: %s [OPSIE...]\n"
+"\n"
+"Opsies:\n"
+"  -h, --hulp               Wys hierdie hulpboodskap\n"
+"  -v, --weergawe           Druk weergawe-inligting\n"
+"  -d, --ontfout[=vlak]     Druk addisionele looptydontfoutingsdata na "
+"stdout\n"
+"\n"
+
+#: src/help.c:74
+msgid "About GTick"
+msgstr ""
+
+#: src/help.c:76
+#, fuzzy
+msgid "License"
+msgstr "GTick Lisensie"
+
+#: src/help.c:101
+#, fuzzy
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Kopiereg (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Kopiereg (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Logo deur Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Tuisblad:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"E-pos foutverslae, kommentaar, ens. aan\n"
+"Programmeerders se poslys:\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:125
+msgid "GTick License"
+msgstr "GTick Lisensie"
+
+#: src/help.c:126
+#, fuzzy
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - Die Metronoom\n"
+"Kopiereg (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Kopiereg (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Hierdie program is gratis sagteware; jy kan dit versprei en/of\n"
+"verander in terme van die 'GNU General Public License'\n"
+"soos gepubliseer deur die Free Software Foundation; of weergawe 2\n"
+"van die lisensie, of (as jy wil) enige latere weergawe.\n"
+"\n"
+"Hierdie program word versprei in die hoop dat dit nuttig sal wees,\n"
+"maar SONDER ENIGE WAARBORG; sonder selfs die geÃÆÃÂ¯mpliseerde waarborg\n"
+"VERKOOPBAARHEID of TOEPASLIKHEID VIR 'N SEKERE DOEL.  Kyk na die\n"
+"'GNU General Public License' vir meer besonderhede.\n"
+"\n"
+"Jy behoort 'n kopie van die 'GNU General Public License' saam met hierdie "
+"program\n"
+"te gekry het; indien nie, skryf aan die Free Software\n"
+"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA."
+
+#: src/help.c:153
+msgid "Shortcuts"
+msgstr "Kortpaaie"
+
+#: src/help.c:160
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:166
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:172
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:178
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:184
+msgid "Alt-w"
+msgstr ""
+
+#: src/help.c:190
+msgid "Alt-q"
+msgstr ""
+
+#: src/help.c:196
+msgid "Alt-a"
+msgstr ""
+
+#: src/help.c:202
+msgid "Alt-s"
+msgstr ""
+
+#: src/help.c:208
+msgid "Alt-z"
+msgstr ""
+
+#: src/help.c:214
+msgid "Alt-x"
+msgstr ""
+
+#: src/help.c:220
+msgid "Shift-w"
+msgstr ""
+
+#: src/help.c:226
+msgid "Shift-q"
+msgstr ""
+
+#: src/help.c:232
+msgid "Shift-a"
+msgstr ""
+
+#: src/help.c:238
+msgid "Shift-s"
+msgstr ""
+
+#: src/help.c:244
+msgid "Shift-z"
+msgstr ""
+
+#: src/help.c:250
+msgid "Shift-x"
+msgstr ""
+
+#: src/help.c:256
+msgid "Start/Stop"
+msgstr "Begin/Stop"
+
+#: src/help.c:262
+msgid "Speed: Faster"
+msgstr "Spoed: vinniger"
+
+#: src/help.c:268
+msgid "Speed: Slower"
+msgstr "Spoed: stadiger"
+
+#: src/help.c:274
+msgid "Base Meter"
+msgstr "Basisritme"
+
+#: src/help.c:280
+msgid "Double Speed"
+msgstr ""
+
+#: src/help.c:286
+#, fuzzy
+msgid "Half Speed"
+msgstr "Spoed:"
+
+#: src/help.c:292
+#, fuzzy
+msgid "Speed: -10"
+msgstr "Spoed:"
+
+#: src/help.c:298
+#, fuzzy
+msgid "Speed: +10"
+msgstr "Spoed:"
+
+#: src/help.c:304
+#, fuzzy
+msgid "Speed: -2"
+msgstr "Spoed:"
+
+#: src/help.c:310
+#, fuzzy
+msgid "Speed: +2"
+msgstr "Spoed:"
+
+#: src/help.c:316
+#, fuzzy
+msgid "Double Volume"
+msgstr "Volume"
+
+#: src/help.c:322
+#, fuzzy
+msgid "Half Volume"
+msgstr "Volume"
+
+#: src/help.c:328
+#, fuzzy
+msgid "Volume: -10"
+msgstr "Volume"
+
+#: src/help.c:334
+#, fuzzy
+msgid "Volume: +10"
+msgstr "Volume"
+
+#: src/help.c:340
+#, fuzzy
+msgid "Volume: -2"
+msgstr "Volume"
+
+#: src/help.c:346
+#, fuzzy
+msgid "Volume: +2"
+msgstr "Volume"
+
+#: src/metro.c:69
+msgid "Idle"
+msgstr "Stilstaande"
+
+#: src/metro.c:69 src/metro.c:85
+msgid "Start"
+msgstr "Begin"
+
+#: src/metro.c:70
+msgid "Running"
+msgstr "Aan die gang"
+
+#: src/metro.c:70
+msgid "Stop"
+msgstr "Stop"
+
+#: src/metro.c:74
+#, fuzzy
+msgid "_Help"
+msgstr "/_Hulp"
+
+#: src/metro.c:75
+#, fuzzy
+msgid "_Metronome"
+msgstr "/_Metronoom"
+
+#: src/metro.c:76
+msgid "_Quit"
+msgstr ""
+
+#: src/metro.c:77
+msgid "_Edit"
+msgstr ""
+
+#: src/metro.c:78
+msgid "_Preferences"
+msgstr ""
+
+#: src/metro.c:79
+msgid "_View"
+msgstr ""
+
+#: src/metro.c:80
+#, fuzzy
+msgid "_About"
+msgstr "/_Hulp/Alles aangaande"
+
+#: src/metro.c:81
+#, fuzzy
+msgid "_Shortcuts"
+msgstr "Kortpaaie"
+
+#: src/metro.c:85
+msgid "Start the metronome"
+msgstr ""
+
+#: src/metro.c:86
+#, fuzzy
+msgid "_Visual Tick"
+msgstr "/_Opsies/Wys _visuele tiek"
+
+#: src/metro.c:87
+#, fuzzy
+msgid "_Accent Table"
+msgstr "Aksenttabel"
+
+#: src/metro.c:88
+#, fuzzy
+msgid "Pr_ofiles"
+msgstr "Eienskappe"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:128
+msgid "Larghissimo"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:131
+msgid "Largo"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:134
+msgid "Larghetto"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:137
+msgid "Adagio"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:140
+msgid "Andante"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:143
+msgid "Moderato"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:146
+msgid "Allegro"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:149
+msgid "Presto"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:152
+msgid "Prestissimo"
+msgstr ""
+
+#: src/metro.c:1500
+msgid "Settings"
+msgstr "Instellings"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1529
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr ""
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1543
+msgid "Tap"
+msgstr "Tik"
+
+#: src/metro.c:1548
+msgid "Speed:"
+msgstr "Spoed:"
+
+#: src/metro.c:1617
+msgid "Volume:"
+msgstr "Volume"
+
+#: src/metro.c:1651
+msgid "Beat"
+msgstr "Ritme"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1674
+msgid "Even"
+msgstr "Gelyk"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1687
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1698
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1709
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1720 src/gtkoptions.c:329
+msgid "Other:"
+msgstr "Ander:"
+
+#: src/metro.c:1742
+msgid "Beat Accent"
+msgstr ""
+
+#: src/metro.c:1910
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Kon nie metronoom begin nie.\n"
+"Kyk asseblief of gespesifiseerde klanktoestel\n"
+"en voorbeeldlÃÆÃÂªers toeganklik is."
+
+#: src/gtkoptions.c:182
+msgid "Please choose a sound file."
+msgstr "Kies asseblief 'n klanklÃÆÃÂªer"
+
+#: src/gtkoptions.c:238
+msgid "Preferences"
+msgstr ""
+
+#: src/gtkoptions.c:282
+msgid "Sound"
+msgstr "Klank"
+
+#: src/gtkoptions.c:298
+msgid "Default"
+msgstr "Verstek"
+
+#: src/gtkoptions.c:311
+msgid "Sine"
+msgstr "Sin"
+
+#: src/gtkoptions.c:356
+msgid "Choose"
+msgstr "Kies"
+
+#: src/gtkoptions.c:377
+msgid "Sound Device"
+msgstr "Klanktoestel"
+
+#: src/gtkoptions.c:397
+msgid "Device filename:"
+msgstr "KlantoestellÃÆÃÂªernaam:"
+
+#: src/gtkoptions.c:416
+msgid "External Commands"
+msgstr "Eksterne bevele"
+
+#: src/gtkoptions.c:434
+msgid "Execute on start:"
+msgstr "Voer uit tydens begin:"
+
+#: src/gtkoptions.c:452
+msgid "Execute on stop:"
+msgstr "Voer uit tydens einde:"
+
+#: src/gtkoptions.c:473
+msgid "Speed Range"
+msgstr "Spoedstrekking"
+
+#: src/gtkoptions.c:491
+msgid "Minimum BPM:"
+msgstr "Minimum SPM:"
+
+#: src/gtkoptions.c:508
+msgid "Maximum BPM:"
+msgstr "Maksimum SPM:"
+
+#: src/profiles.c:326 src/profiles.c:612
+msgid "Unnamed Profile"
+msgstr ""
+
+#: src/profiles.c:504
+#, fuzzy
+msgid "Edit Profile"
+msgstr "Eienskappe"
+
+#: src/profiles.c:520
+msgid "Please enter new Profile name: "
+msgstr ""
+
+#: src/profiles.c:678
+#, fuzzy
+msgid "Profiles"
+msgstr "Eienskappe"
+
+#, fuzzy
+#~ msgid "_Profiles"
+#~ msgstr "Eienskappe"
+
+#, fuzzy
+#~ msgid "_Manual Timer"
+#~ msgstr "Handtydhouer"
+
+#~ msgid "Manual Timer"
+#~ msgstr "Handtydhouer"
+
+#~ msgid "Reset"
+#~ msgstr "Herstel"
+
+#~ msgid ""
+#~ "Here, you can approximate the desired\n"
+#~ "speed by tapping at the \"Tap\" button.\n"
+#~ "\n"
+#~ "Just start tapping with the mouse or Enter.\n"
+#~ "\n"
+#~ "To use the calculated value, click \"OK\".\n"
+#~ "To start again, click \"Reset\".\n"
+#~ msgstr ""
+#~ "Hier kan jy die verlangde speod benader\n"
+#~ "deur die Tikknoppie te kliek.\n"
+#~ "\n"
+#~ "begin kliek met die muis of druk Enter.\n"
+#~ "\n"
+#~ "Om die berekende waarde te gebruik, kliek OK.\n"
+#~ "Om weer te begin, kliek Herstel.\n"
+
+#~ msgid "/Metronome/Start"
+#~ msgstr "/Metronoom/Begin"
+
+#~ msgid "/Metronome/_Manual Timer"
+#~ msgstr "/Metronoom/_Handtydhouer"
+
+#~ msgid "/Metronome/"
+#~ msgstr "/Metronoom/"
+
+#~ msgid "/Metronome/_Quit"
+#~ msgstr "/Metronoom/_Verlaat program"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Opsies"
+
+#~ msgid "/Options/Show _Accent Table"
+#~ msgstr "/_Opsies/Wys _aksenttabel"
+
+#~ msgid "/Options/_Properties"
+#~ msgstr "/_Opsies/_Eienskappe"
+
+#~ msgid "/Help/_Shortcuts"
+#~ msgstr "/_Hulp/_Kortpaaie"
+
+#~ msgid "/Help/_License"
+#~ msgstr "/_Hulp/_Lisensie"

@@ -1,0 +1,72 @@
+NOTE: The following lines from Alex are left here for historical reasons. To no
+extent should it reflect the programmer's competence. ;)
+
+-- Roland Stigge
+
+
+USEFUL INFO
+-----------
+
+<Kain> 1000ms = 60 bpm
+<Kain> well 1000ms = 1s of which 60 occur in one minute
+
+dsp:
+write (dsp,data,4000):
+			real    0m43.922s
+write (dsp,data,8000):
+			real    1m27.853s
+
+a rate of 8000 (8Hz) seems to give 60BPM
+16000 (16Hz?) appaers to give 30BPM
+i can only guess 4000(4Hz?) is 120BPM..
+2000 must be 240BPM
+
+NOOO!!! All that is wrong...
+
+8000 is 60BPM.. yes
+16000 is in fact 120BPM!
+4000 is 30BPM (4000 is half that of 8000.. 30 is half that of 60!)
+I've been so stupid ;]
+
+so.. the linking number between all of this is __133__
+60 multiplied by 133 is approxomatily 8000..
+
+so Rate (in Hz) = BPM * 133
+NO! THis is all crap too..
+
+gtk_timeout info:
+The timeout function requires the Interval for the timeout to be called, so this 
+can be used for the BPM setting.. as the first argument in the gtk_timeout_add is
+the interval in ms, we can use 1000 as 60bpm.. and so on...
+The next problem is working out the best settings for the DSP rates..
+ok, thanks to Kain (#LinuxOS/DALnet), we have a nice formular:
+1000/(BPM/60.0) (BPM is a float).. this can be easily used as the Interval arg
+required for the gtk_timeout_set..
+
+
+speaker:
+<Kain> ok you write to /dev/console
+<Kain> you have to turn it on, usleep() then turn it off
+<Kain> is usleep() blocking?
+If this is the case for speaker output, I need to find a better way..
+
+
+Timing:
+from what i know...
+2/4: Tik Tok Tik Tok
+3/4: Tik Tok Tok Tik Tok Tok
+4/4: Tik Tok Tok Tok Tik Tok Tok Tok
+
+gint count;
+
+time = 1 (if time = 0)
+
+if (time = 1)
+  write(output, to, DSP);
+  time ++;
+  
+if (time = count)
+time = 1;
+
+That code (when written in corect C) should allow for any timing..
+Which can allow for future upgrades.
