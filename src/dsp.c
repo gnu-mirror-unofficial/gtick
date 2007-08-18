@@ -344,13 +344,9 @@ int generate_sine(int samplefreq, double sinfreq, double sigdur, double fadedur,
 int sndfile_get_samples(const char* filename,
                         short** samples, int* rate, int* channels)
 {
-  short* s;
   SF_INFO sfinfo;
   SNDFILE* sf;
   int frames;
-  int bufsize = 1024 * 16; /* number of frames in one read */
-  int i = 0; /* counter */
-  int result = 1; /* temporary result in read loop */
 
   sfinfo.format = 0;
   if (!(sf = sf_open(filename, SFM_READ, &sfinfo))) {
@@ -365,15 +361,11 @@ int sndfile_get_samples(const char* filename,
   *rate = sfinfo.samplerate;
   *channels = sfinfo.channels ;
 
-  s = (short*) g_malloc(frames * sizeof(short) * sfinfo.channels);
-  
-  while (i < frames && result != 0) {
-    result = sf_readf_short(sf, &s[i * sfinfo.channels], bufsize);
-    i += result;
-  }
+  *samples = (short*) g_malloc(frames * sizeof(short) * sfinfo.channels);
+ 
+  sf_readf_short(sf, *samples, frames);
   
   sf_close(sf);
-  *samples = s;
   return frames;
 }
 #endif /* WITH_SNDFILE */

@@ -1,3 +1,6 @@
+gtick 0.4.1, 2007-08-18, Roland Stigge <stigge@antcom.de>
+	* Fixed segfault with user defined sound file (libsndfile)
+
 gtick 0.4.0, 2007-08-13, Roland Stigge <stigge@antcom.de>
 	* Changed mailing list address to gtick-devel@gnu.org
 	* Updated to GPL v3
