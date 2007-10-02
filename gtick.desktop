@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=GTick
+Comment=a GTK-based metronome
+Comment[pt]=Um metrônomo baseado em GTK
+Comment[pt-br]=Um metrônomo baseado em GTK
+Exec=/usr/bin/gtick
+Icon=/usr/share/pixmaps/gtick_32x32.xpm
+Terminal=false
+Type=Application
+Categories=GTK;AudioVideo;Audio;
+GenericName[pt_BR]=
