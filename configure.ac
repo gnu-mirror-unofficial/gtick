@@ -57,7 +57,7 @@ AC_ARG_WITH([sndfile],
 
 AC_MSG_CHECKING(to see if we can add '-Wall -W' to CFLAGS)
 if test x$GCC != x ; then
-  CFLAGS="$CFLAGS -D_U_=\"__attribute__((unused))\" -Wall -W -D_GNU_SOURCE -O3"
+  CFLAGS="$CFLAGS -D_U_=\"__attribute__((unused))\" -Wall -W -D_GNU_SOURCE"
   AC_MSG_RESULT(yes)
 else
   CFLAGS="-D_U_=\"\" $CFLAGS"
