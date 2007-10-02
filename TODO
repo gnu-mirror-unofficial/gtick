@@ -17,7 +17,6 @@ Further ideas:
   - list of sounds (built-in, sound files) for each tick to choose from
 * Java version for cellular phones like Siemens C55 or Sony-Ericsson t610
 * GLADE integration
-* C++ transition (?)
 * Implement PC Speaker output
 * Feedback: Playing statistics (std. deviation, ...)
 * Info: Sample rate, device, ...
@@ -28,3 +27,4 @@ Further ideas:
   - XMMS plugin
   
 * ALSA support
+* JACK support
