@@ -1,14 +1,15 @@
 # Vietnamese Translation for GTick.
-# Copyright © 2007 Roland Stigge (msgid)
-# Copyright © 2007 Free Software Foundation, Inc.
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2007.
+# Copyright © 2008 Roland Stigge (msgid)
+# Copyright © 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gtick-0.4.1 package
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2008.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.3.15\n"
+"Project-Id-Version: gtick 0.4.1\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2007-08-13 18:20+0200\n"
-"PO-Revision-Date: 2007-07-26 18:50+0930\n"
+"POT-Creation-Date: 2007-08-18 13:41+0200\n"
+"PO-Revision-Date: 2008-01-10 16:45+1030\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -33,8 +34,7 @@ msgstr ""
 "Tùy chọn:\n"
 "  -h, --help              Hiển thị _trợ giúp_ này\n"
 "  -v, --version           In ra thông tin _phiên bản_\n"
-"  -d, --debug[=level]     Xuất dữ liệu gõ lỗi giờ chạy thêm ra thiết bị xuất "
-"chuẩn \n"
+"  -d, --debug[=level]     Xuất dữ liệu gõ lỗi giờ chạy thêm ra thiết bị xuất chuẩn \n"
 "\n"
 
 #: src/help.c:74
@@ -46,7 +46,6 @@ msgid "License"
 msgstr "Giấy phép"
 
 #: src/help.c:101
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -60,22 +59,21 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Bản quyền © năm 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Bản quyền © năm 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Bản quyền © năm 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "Biểu hình của Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Trang chủ:\n"
 "http://www.antcom.de/gtick/\n"
 "\n"
-"Hãy gởi thông báo lỗi, chú thích v.v. cho\n"
+"Hãy gửi thông báo lỗi, chú thích v.v. cho\n"
 "Hộp thư chung của nhà phát triển:\n"
-"gtick-devel@nongnu.org"
+"gtick-devel@gnu.org"
 
 #: src/help.c:125
 msgid "GTick License"
 msgstr "Quyền phép GTick"
 
 #: src/help.c:126
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -95,23 +93,14 @@ msgid ""
 "along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "GTick - Máy Nhịp\n"
-"Bản quyền © năm 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Bản quyền © năm 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Tác quyền © năm 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Tác quyền © năm 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "\n"
-"Chương trình này là phần mềm tự do; bạn có thể phát hành lại nó và/hoặc sửa "
-"đổi nó với điều kiện của Giấy Phép Công Cộng GNU như được xuất bản bởi Tổ "
-"Chức Phần Mềm Tự Do; hoặc phiên bản 2 của Giấy Phép này, hoặc (tùy chọn) bất "
-"kỳ phiên bản sau nào.\n"
+"Chương trình này là phần mềm tự do; bạn có thể phát hành lại nó và/hoặc sửa đổi nó với điều kiện của Giấy Phép Công Cộng GNU như được xuất bản bởi Tổ Chức Phần Mềm Tự Do; hoặc phiên bản 2 của Giấy Phép này, hoặc (tùy chọn) bất kỳ phiên bản sau nào.\n"
 "\n"
-"Chương trình này được phát hành vì mong muốn nó có ích, nhưng KHÔNG CÓ BẢO "
-"HÀNH GÌ CẢ, THẬM CHÍ KHÔNG CÓ BẢO ĐẢM ĐƯỢC NGỤ Ý KHẢ NĂNG BÁN HAY KHẢ NĂNG "
-"LÀM ĐƯỢC VIỆC DỨT KHOÁT. Xem Giấy Phép Công Cộng GNU để biết thêm chi tiết.\n"
+"Chương trình này được phát hành vì mong muốn nó có ích, nhưng KHÔNG CÓ BẢO HÀNH GÌ CẢ, THẬM CHÍ KHÔNG CÓ BẢO ĐẢM ĐƯỢC NGỤ Ý KHẢ NĂNG BÁN HAY KHẢ NĂNG LÀM ĐƯỢC VIỆC DỨT KHOÁT. Xem Giấy Phép Công Cộng GNU để biết thêm chi tiết.\n"
 "\n"
-"Bạn đã nhận một bản sao của Giấy Phép Công Cộng GNU cùng với chương trình "
-"này; nếu không, hãy viết thư cho Tổ Chức Phần Mềm Tự Do,\n"
-"Free Software Foundation, Inc.,\n"
-"51 Franklin Street, Fifth Floor,\n"
-"Boston, MA  02110-1301, USA."
+"Bạn đã nhận một bản sao của Giấy Phép Công Cộng GNU cùng với chương trình này; nếu không, xem địa chỉ « http://www.gnu.org/licenses/ »."
 
 #: src/help.c:153
 msgid "Shortcuts"
@@ -521,53 +510,3 @@ msgstr "Hãy nhập tên hồ sơ mới: "
 #: src/profiles.c:678
 msgid "Profiles"
 msgstr "Hồ sơ"
-
-#~ msgid "/Metronome/Start"
-#~ msgstr "/Máy nhịp/Chạy"
-
-#~ msgid "/Metronome/_Manual Timer"
-#~ msgstr "/Máy nhịp/Bộ đếm giờ thủ công"
-
-#~ msgid "/Metronome/"
-#~ msgstr "/Máy nhịp/"
-
-#~ msgid "/Metronome/_Quit"
-#~ msgstr "/Máy nhịp/T_hoát"
-
-#~ msgid "/_Options"
-#~ msgstr "/Tù_y chọn"
-
-#~ msgid "/Options/Show _Accent Table"
-#~ msgstr "/Tùy chọn/Hiện bảng _giọng"
-
-#~ msgid "/Options/_Properties"
-#~ msgstr "/Tùy chọn/_Tài sản"
-
-#~ msgid "/Help/_Shortcuts"
-#~ msgstr "/Trợ giúp/_Phím tắt"
-
-#~ msgid "/Help/_License"
-#~ msgstr "/Trợ giúp/_Quyền phép"
-
-#~ msgid "Manual Timer"
-#~ msgstr "Bộ đếm giờ thủ công"
-
-#~ msgid "Reset"
-#~ msgstr "Lập lại"
-
-#~ msgid ""
-#~ "Here, you can approximate the desired\n"
-#~ "speed by tapping at the \"Tap\" button.\n"
-#~ "\n"
-#~ "Just start tapping with the mouse or Enter.\n"
-#~ "\n"
-#~ "To use the calculated value, click \"OK\".\n"
-#~ "To start again, click \"Reset\".\n"
-#~ msgstr ""
-#~ "Ở đây, bạn có thể tạo gần tốc độ được\n"
-#~ "muốn bằng cách gõ nhẹ cái nút « Gõ nhẹ ».\n"
-#~ "\n"
-#~ "Chỉ hãy bắt đầu gõ nhẹ bằng chuột hay phím Enter.\n"
-#~ "\n"
-#~ "Để sử dụng giá trị đã tính hãy nhấp nút « Được ».\n"
-#~ "Để bắt đầu lại hãy nhấp nút « Lập lại ».\n"
