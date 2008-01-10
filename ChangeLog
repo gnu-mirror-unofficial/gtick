@@ -1,5 +1,8 @@
 gtick 0.4.2 UNRELEASED, 2007-XX-XX, Roland Stigge <stigge@antcom.de>
 	* Added Polish translation, thanks to Tomasz Sałaciński
+	* Updated Vietnamese translation, thanks to Clytie Siddall
+	* configure.ac: Drop default -O3 optimization
+	* Added gtick.desktop
 
 gtick 0.4.1, 2007-08-18, Roland Stigge <stigge@antcom.de>
 	* Fixed segfault with user defined sound file (libsndfile)
