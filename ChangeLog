@@ -1,6 +1,6 @@
 gtick 0.4.2 UNRELEASED, 2007-XX-XX, Roland Stigge <stigge@antcom.de>
 	* Added Polish translation, thanks to Tomasz Sałaciński
-	* Updated Vietnamese translation, thanks to Clytie Siddall
+	* Updated Italian and Vietnamese translations
 	* configure.ac: Drop default -O3 optimization
 	* Added gtick.desktop
 

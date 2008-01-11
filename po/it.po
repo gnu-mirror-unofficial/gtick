@@ -2,13 +2,13 @@
 # Copyright (C) 2006 Roland Stigge (msgid)
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtick package.
-# Marco Colombo <m.colombo@ed.ac.uk>, 2005, 2006, 2007.
+# Marco Colombo <m.colombo@ed.ac.uk>, 2005, 2006, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.3.12\n"
+"Project-Id-Version: gtick 0.4.1\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2007-08-13 18:20+0200\n"
-"PO-Revision-Date: 2007-06-05 16:48+0100\n"
+"POT-Creation-Date: 2007-08-18 13:41+0200\n"
+"PO-Revision-Date: 2008-01-11 12:25+0000\n"
 "Last-Translator: Marco Colombo <m.colombo@ed.ac.uk>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,7 @@ msgstr ""
 "Opzioni:\n"
 "  -h, --help              Mostra questo messaggio d'aiuto\n"
 "  -v, --version           Stampa informazioni sulla versione\n"
-"  -d, --debug[=livello]   Stampa dati di debug sullo standard output "
-"durante\n"
+"  -d, --debug[=livello]   Stampa dati di debug sullo standard output durante\n"
 "                          l'esecuzione\n"
 "\n"
 
@@ -45,7 +44,6 @@ msgid "License"
 msgstr "Licenza"
 
 #: src/help.c:101
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -59,7 +57,7 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "Logo di Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Homepage:\n"
@@ -74,7 +72,6 @@ msgid "GTick License"
 msgstr "Licenza di GTick"
 
 #: src/help.c:126
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -99,7 +96,7 @@ msgstr ""
 "\n"
 "Questo è software libero; potete redistribuirlo e/o modificarlo\n"
 "secondo i termini della GNU General Public Licence come pubblicata\n"
-"dalla Free Software Foundation; la versione 2 della Licenza o\n"
+"dalla Free Software Foundation; la versione 3 della Licenza o\n"
 "(a vostra scelta) ogni versione successiva.\n"
 "\n"
 "Questo programma è distribuito nella speranza che possa essere utile,\n"
@@ -108,8 +105,7 @@ msgstr ""
 "Si consulti la GNU General Public License per ulteriori dettagli.\n"
 "\n"
 "Dovreste aver ricevuto una copia della GNU General Public License\n"
-"con questo programma; altrimenti scrivete alla Free Software\n"
-"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+"con questo programma; altrimenti consultare a <http://www.gnu.org/licenses/>."
 
 #: src/help.c:153
 msgid "Shortcuts"
