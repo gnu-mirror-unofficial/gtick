@@ -2,14 +2,14 @@
 # Copyright (C) 2006 Roland Stigge (msgid)
 # Copyright (C) 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtick package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006, 2007
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006, 2007, 2008
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.3.15\n"
+"Project-Id-Version: gtick 0.4.1\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2007-08-13 18:20+0200\n"
-"PO-Revision-Date: 2007-07-20 19:39-0500\n"
+"POT-Creation-Date: 2007-08-18 13:41+0200\n"
+"PO-Revision-Date: 2008-01-09 19:39-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,6 @@ msgid "License"
 msgstr "Ceadúnas"
 
 #: src/help.c:101
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -58,8 +57,7 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Cóipcheart/Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Cóipcheart/Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom."
-"de>\n"
+"Cóipcheart/Copyright © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "Lógó le Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Leathanach Baile:\n"
@@ -67,7 +65,7 @@ msgstr ""
 "\n"
 "Seol tuairiscí fabhtanna, nótaí tráchta, srl. chuig\n"
 "Liosta r-phoist na bhforbróirí:\n"
-"gtick-devel@nongnu.org"
+"gtick-devel@gnu.org"
 
 #: src/help.c:125
 msgid "GTick License"
@@ -75,7 +73,6 @@ msgstr "Ceadúnas GTick"
 
 # Diarmaid Mac Mathuna did some of this for our GaelSpell project - KPS
 #: src/help.c:126
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -96,12 +93,11 @@ msgid ""
 msgstr ""
 "GTick - An Méadranóm\n"
 "Cóipcheart/Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Cóipcheart/Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom."
-"de>\n"
+"Cóipcheart/Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
 "\n"
 "Is saorbhogearra an ríomhchlár seo; is féidir leat é a scaipeadh agus/nó\n"
 "a athrú de réir na gcoinníollacha den GNU General Public License mar atá\n"
-"foilsithe ag an Free Software Foundation; faoi leagan 2 den cheadúnas,\n"
+"foilsithe ag an Free Software Foundation; faoi leagan 3 den cheadúnas,\n"
 "nó (más mian leat) aon leagan níos déanaí.\n"
 "\n"
 "Scaiptear an ríomhchlár seo le súil go mbeidh se áisiúil,\n"
@@ -110,9 +106,8 @@ msgstr ""
 "GNU General Public License chun níos mó sonraí a fháil.\n"
 "\n"
 "Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil in\n"
-"éineacht leis an ríomhchlár seo; mura bhfuair, scríobh chuig an Free "
-"Software\n"
-"Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+"éineacht leis an ríomhchlár seo; mura bhfuair, féach ar\n"
+"<http://www.gnu.org/licenses/>."
 
 #: src/help.c:153
 msgid "Shortcuts"
@@ -224,27 +219,27 @@ msgstr "Luas: +2"
 
 #: src/help.c:316
 msgid "Double Volume"
-msgstr "Láine Dhúbailte"
+msgstr "Airde Dhúbailte"
 
 #: src/help.c:322
 msgid "Half Volume"
-msgstr "Leathláine"
+msgstr "Leathairde"
 
 #: src/help.c:328
 msgid "Volume: -10"
-msgstr "Láine: -10"
+msgstr "Airde: -10"
 
 #: src/help.c:334
 msgid "Volume: +10"
-msgstr "Láine: +10"
+msgstr "Airde: +10"
 
 #: src/help.c:340
 msgid "Volume: -2"
-msgstr "Láine: -2"
+msgstr "Airde: -2"
 
 #: src/help.c:346
 msgid "Volume: +2"
-msgstr "Láine: +2"
+msgstr "Airde: +2"
 
 #: src/metro.c:69
 msgid "Idle"
@@ -387,7 +382,7 @@ msgstr "Luas:"
 
 #: src/metro.c:1617
 msgid "Volume:"
-msgstr "Láine:"
+msgstr "Airde:"
 
 #: src/metro.c:1651
 msgid "Beat"
