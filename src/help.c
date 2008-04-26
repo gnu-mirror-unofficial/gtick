@@ -271,7 +271,7 @@ void help_shortcuts(GtkAction *action _U_, metro_t *metro _U_) {
                    GTK_EXPAND | GTK_FILL, 0, 10, 5);
   gtk_widget_show(label);
   
-  label = gtk_label_new(_("Base Meter"));
+  label = gtk_label_new(_("Meter"));
   gtk_misc_set_alignment(GTK_MISC(label), 0, 0.5);
   gtk_table_attach(GTK_TABLE(table), label, 1, 2, 3, 4,
                    GTK_EXPAND | GTK_FILL, 0, 10, 5);

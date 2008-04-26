@@ -1648,7 +1648,7 @@ metro_t* metro_new(void) {
   
   /* Timing UI Code */
   
-  beatframe = gtk_frame_new (_("Beat"));
+  beatframe = gtk_frame_new (_("Meter"));
   gtk_frame_set_shadow_type(GTK_FRAME(beatframe), GTK_SHADOW_NONE);
   label = gtk_frame_get_label_widget(GTK_FRAME(beatframe));
   gtk_label_attr_bold(GTK_LABEL(label));
