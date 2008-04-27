@@ -1,0 +1,8 @@
+.deps
+*.o
+optionlexer.*
+optionparser.*
+testdsp
+testg711
+testmetro
+testmetro-static

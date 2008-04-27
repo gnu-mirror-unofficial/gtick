@@ -32,10 +32,15 @@
 #include <signal.h>
 #include <string.h>
 #include <math.h>
+#include <assert.h>
 
 /* GTK+ headers */
 #include <gtk/gtk.h>
 #include <glib.h>
+
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
 
 /* own headers */
 #include "globals.h"
@@ -188,13 +193,15 @@ static int is_in_range_of_index_name(int speed, int index) {
 }
 
 /*
- * Called whenever
+ * Called whenever tap button is clicked
  */
 static void tap_cb(metro_t* metro)
 {
   struct timeval thistime;
   struct timeval diffval;
   double timediff;
+
+  assert(metro != NULL);
 
   gettimeofday(&thistime, NULL);
   

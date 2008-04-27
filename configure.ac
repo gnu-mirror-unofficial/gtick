@@ -23,10 +23,12 @@ AC_PROG_YACC
 # Checks for libraries.
 AC_CHECK_LIB([m], [floor])
 AC_CHECK_LIB([sndfile], [sf_open])
+AC_CHECK_LIB([check], [fail_if])
+AC_CHECK_LIB([dmalloc], [dmalloc_debug])
 
 # Checks for header files.
 AC_HEADER_STDC
-AC_CHECK_HEADERS([fcntl.h libintl.h stdlib.h sys/ioctl.h unistd.h sys/time.h math.h])
+AC_CHECK_HEADERS([fcntl.h libintl.h stdlib.h sys/ioctl.h unistd.h sys/time.h math.h sys/types.h stdarg.h assert.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 
@@ -74,9 +76,28 @@ AM_GNU_GETTEXT_VERSION(0.16.1)
 # defaults to package root
 #AC_CONFIG_AUX_DIR
 
+PKG_CHECK_MODULES([CHECK], [check >= 0.9.4],
+		  AC_DEFINE(WITH_CHECK, 1, [Check detection]),
+		  AC_DEFINE(WITH_CHECK, 0, [Check detection]))
+
+AC_CHECK_HEADERS([dmalloc.h],
+		 AC_DEFINE(DMALLOC_LIBS, "-ldmalloc", "Dmalloc LDFLAGS"),
+                 [],
+		 [
+#ifdef HAVE_STDARG_H
+#include <stdarg.h>
+#endif
+#ifdef HAVE_SYS_TYPES_H
+#include <sys/types.h>
+#endif
+		])
+AC_SUBST(DMALLOC_CFLAGS)
+AC_SUBST(DMALLOC_LIBS)
+
 AC_CONFIG_FILES([Makefile
 		 doc/Makefile
 		 intl/Makefile
 		 po/Makefile.in
-		 src/Makefile])
+		 src/Makefile
+		 testsuite/Makefile])
 AC_OUTPUT

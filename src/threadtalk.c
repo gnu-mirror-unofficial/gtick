@@ -25,9 +25,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /* GTK+ headers */
 #include <glib.h>
+
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
 
 /* own headers */
 #include "threadtalk.h"

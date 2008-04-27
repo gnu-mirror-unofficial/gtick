@@ -32,6 +32,10 @@
 #include <gtk/gtk.h>
 #include <glib.h>
 
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
+
 /* own headers */
 #include "globals.h"
 #include "metro.h"

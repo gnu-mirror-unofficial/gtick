@@ -26,6 +26,10 @@
 
 #include <config.h>
 
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
+
 /*
  * g711.c
  *

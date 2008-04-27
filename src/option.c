@@ -31,6 +31,10 @@
 /* GTK+ headers */
 #include <glib.h>
 
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
+
 /* own headers */
 #include "globals.h"
 #include "option.h"

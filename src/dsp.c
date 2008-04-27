@@ -33,6 +33,7 @@
 #include <string.h>
 #include <math.h>
 #include <time.h>
+#include <assert.h>
 
 /* libsndfile */
 #ifdef WITH_SNDFILE
@@ -48,6 +49,10 @@
 
 /* GTK+ headers */
 #include <glib.h>
+
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
 
 /* own headers */
 #include "g711.h"
@@ -769,6 +774,8 @@ gboolean dsp_feed(dsp_t* dsp)
  */
 double dsp_get_volume(dsp_t* dsp)
 {
+  assert(dsp->volume >= 0.0 && dsp->volume <= 1.0);
+
   return dsp->volume;
 }
 
@@ -779,6 +786,8 @@ double dsp_get_volume(dsp_t* dsp)
  */
 void dsp_set_volume(dsp_t* dsp, double volume)
 {
+  assert(volume >= 0.0 && volume <= 1.0);
+
   dsp->volume = volume;
   if (dsp->running) {
     free(dsp->tickdata0);

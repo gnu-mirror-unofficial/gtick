@@ -43,9 +43,16 @@
 /* GTK+ headers */
 #include <glib.h>
 
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
+
 /* own headers */
 #include "globals.h"
 #include "util.h"
+
+/* global debug flag */
+int debug;
 
 /*
  * Subtract the `struct timeval' values X and Y,

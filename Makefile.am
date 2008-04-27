@@ -1,4 +1,4 @@
-SUBDIRS = doc intl po src
+SUBDIRS = doc intl po src testsuite
 
 EXTRA_DIST = config.rpath \
 	     autogen.sh \

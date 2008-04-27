@@ -27,6 +27,10 @@
 #include <unistd.h>
 #include <fcntl.h>
 
+#ifdef USE_DMALLOC
+#include <dmalloc.h>
+#endif
+
 #define SAMPLESIZE sizeof(short)
 
 int main(int argc, char* argv[]) {

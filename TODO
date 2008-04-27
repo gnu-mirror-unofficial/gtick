@@ -5,8 +5,7 @@ GTick TODO List
 * start actual beat at time of setting speed (?)
 * save settings periodically, also on every profile saved
 * set to defaults
-* test suite
-* valgrind run
+* extend test suite
 
 Further ideas:
 * Bugs:
