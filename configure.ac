@@ -6,6 +6,8 @@ AM_INIT_AUTOMAKE(gtick, "0.4.1", gtick-devel@gnu.org)
 AC_CONFIG_SRCDIR([config.h.in])
 AM_CONFIG_HEADER([config.h])
 
+AC_GNU_SOURCE
+
 # Checks for programs.
 AC_PROG_CC
 AC_PROG_INSTALL
