@@ -64,6 +64,7 @@ START_TEST(test__tap_cb__0) {
 	close(STDERR_FILENO);
 	tap_cb(NULL);
 	dup2(tempfd, STDERR_FILENO);
+	close(tempfd);
 	RESOURCE_GUARD_END();
 }
 END_TEST
