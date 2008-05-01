@@ -5,7 +5,7 @@ GTick TODO List
 * start actual beat at time of setting speed (?)
 * save settings periodically, also on every profile saved
 * set to defaults
-* extend test suite
+* extend test suite, add resource check for FDs
 
 Further ideas:
 * Bugs:
