@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtick 0.4.1\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2007-08-18 13:41+0200\n"
+"POT-Creation-Date: 2008-05-22 14:39+0200\n"
 "PO-Revision-Date: 2008-05-01 02:32+0100\n"
 "Last-Translator: Frederik 'Freso' S. Olesen <freso.dk@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-Language: Danish\n"
 "X-Poedit-Country: DENMARK\n"
 
-#: src/gtick.c:79
+#: src/gtick.c:81
 #, fuzzy, c-format
 msgid ""
 "Usage: %s [OPTION...]\n"
@@ -34,18 +34,19 @@ msgstr ""
 "Tilvalg:\n"
 "  -h, --help              Vis denne hjælpebesked\n"
 "  -v, --version           Vis versionsinformation\n"
-"  -d, --debug[=niveau]    Vis yderligere [[runtime]] fejlsøgningsdata til standardud\n"
+"  -d, --debug[=niveau]    Vis yderligere [[runtime]] fejlsøgningsdata til "
+"standardud\n"
 "\n"
 
-#: src/help.c:74
+#: src/help.c:78
 msgid "About GTick"
 msgstr "Om GTick"
 
-#: src/help.c:76
+#: src/help.c:80
 msgid "License"
 msgstr "Licens"
 
-#: src/help.c:101
+#: src/help.c:105
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -69,11 +70,11 @@ msgstr ""
 "udviklerpostlisten (engelsksproget):\n"
 "gtick-devel@gnu.org"
 
-#: src/help.c:125
+#: src/help.c:129
 msgid "GTick License"
 msgstr "GTick-licens"
 
-#: src/help.c:126
+#: src/help.c:130
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -109,315 +110,312 @@ msgstr ""
 "Du skulle have modtaget en kopi af GNU General Public License sammen\n"
 "med dette program. Hvis ikke, så se <http://www.gnu.org/licenses/>."
 
-#: src/help.c:153
+#: src/help.c:157
 msgid "Shortcuts"
 msgstr "Genveje"
 
-#: src/help.c:160
+#: src/help.c:164
 msgid "Ctrl-S"
 msgstr "Ctrl-S"
 
-#: src/help.c:166
+#: src/help.c:170
 msgid "Ctrl-+"
 msgstr "Ctrl-+"
 
-#: src/help.c:172
+#: src/help.c:176
 msgid "Ctrl--"
 msgstr "Ctrl--"
 
-#: src/help.c:178
+#: src/help.c:182
 msgid "Ctrl-1 ... Ctrl-9"
 msgstr "Ctrl-1 ... Ctrl-9"
 
-#: src/help.c:184
+#: src/help.c:188
 msgid "Alt-w"
 msgstr "Alt-w"
 
-#: src/help.c:190
+#: src/help.c:194
 msgid "Alt-q"
 msgstr "Alt-q"
 
-#: src/help.c:196
+#: src/help.c:200
 msgid "Alt-a"
 msgstr "Alt-a"
 
-#: src/help.c:202
+#: src/help.c:206
 msgid "Alt-s"
 msgstr "Alt-s"
 
-#: src/help.c:208
+#: src/help.c:212
 msgid "Alt-z"
 msgstr "Alt-z"
 
-#: src/help.c:214
+#: src/help.c:218
 msgid "Alt-x"
 msgstr "Alt-x"
 
-#: src/help.c:220
+#: src/help.c:224
 msgid "Shift-w"
 msgstr "Shift-w"
 
-#: src/help.c:226
+#: src/help.c:230
 msgid "Shift-q"
 msgstr "Shift-q"
 
-#: src/help.c:232
+#: src/help.c:236
 msgid "Shift-a"
 msgstr "Shift-a"
 
-#: src/help.c:238
+#: src/help.c:242
 msgid "Shift-s"
 msgstr "Shift-s"
 
-#: src/help.c:244
+#: src/help.c:248
 msgid "Shift-z"
 msgstr "Shift-z"
 
-#: src/help.c:250
+#: src/help.c:254
 msgid "Shift-x"
 msgstr "Shift-x"
 
-#: src/help.c:256
+#: src/help.c:260
 msgid "Start/Stop"
 msgstr "Start/Stop"
 
-#: src/help.c:262
+#: src/help.c:266
 msgid "Speed: Faster"
 msgstr "Tempo: Hurtigere"
 
-#: src/help.c:268
+#: src/help.c:272
 msgid "Speed: Slower"
 msgstr "Tempo: Langsommere"
 
-#: src/help.c:274
-msgid "Base Meter"
+#: src/help.c:278 src/metro.c:1658
+#, fuzzy
+msgid "Meter"
 msgstr "Takt"
 
-#: src/help.c:280
+#: src/help.c:284
 msgid "Double Speed"
 msgstr "Dobbelt tempo"
 
-#: src/help.c:286
+#: src/help.c:290
 msgid "Half Speed"
 msgstr "Halvt tempo"
 
-#: src/help.c:292
+#: src/help.c:296
 msgid "Speed: -10"
 msgstr "Tempo: -10"
 
-#: src/help.c:298
+#: src/help.c:302
 msgid "Speed: +10"
 msgstr "Tempo: +10"
 
-#: src/help.c:304
+#: src/help.c:308
 msgid "Speed: -2"
 msgstr "Tempo: -2"
 
-#: src/help.c:310
+#: src/help.c:314
 msgid "Speed: +2"
 msgstr "Tempo: +2"
 
-#: src/help.c:316
+#: src/help.c:320
 msgid "Double Volume"
 msgstr "Dobbel lydstyrke"
 
-#: src/help.c:322
+#: src/help.c:326
 msgid "Half Volume"
 msgstr "Halv lydstyrke"
 
-#: src/help.c:328
+#: src/help.c:332
 msgid "Volume: -10"
 msgstr "Lydstyrke: -10"
 
-#: src/help.c:334
+#: src/help.c:338
 msgid "Volume: +10"
 msgstr "Lydstyrke: +10"
 
-#: src/help.c:340
+#: src/help.c:344
 msgid "Volume: -2"
 msgstr "Lydstyrke: -2"
 
-#: src/help.c:346
+#: src/help.c:350
 msgid "Volume: +2"
 msgstr "Lydstyrke: +2"
 
-#: src/metro.c:69
+#: src/metro.c:74
 msgid "Idle"
 msgstr "Inaktiv"
 
-#: src/metro.c:69 src/metro.c:85
+#: src/metro.c:74 src/metro.c:90
 msgid "Start"
 msgstr "Start"
 
-#: src/metro.c:70
+#: src/metro.c:75
 msgid "Running"
 msgstr "Kører"
 
-#: src/metro.c:70
+#: src/metro.c:75
 msgid "Stop"
 msgstr "Stop"
 
-#: src/metro.c:74
+#: src/metro.c:79
 msgid "_Help"
 msgstr "_Hjælp"
 
-#: src/metro.c:75
+#: src/metro.c:80
 msgid "_Metronome"
 msgstr "_Metronom"
 
-#: src/metro.c:76
+#: src/metro.c:81
 msgid "_Quit"
 msgstr "_Afslut"
 
-#: src/metro.c:77
+#: src/metro.c:82
 msgid "_Edit"
 msgstr "_Redigér"
 
-#: src/metro.c:78
+#: src/metro.c:83
 msgid "_Preferences"
 msgstr "_Indstillinger"
 
-#: src/metro.c:79
+#: src/metro.c:84
 msgid "_View"
 msgstr "_Vis"
 
-#: src/metro.c:80
+#: src/metro.c:85
 msgid "_About"
 msgstr "_Om"
 
-#: src/metro.c:81
+#: src/metro.c:86
 msgid "_Shortcuts"
 msgstr "_Genveje"
 
-#: src/metro.c:85
+#: src/metro.c:90
 msgid "Start the metronome"
 msgstr "Start metronomen"
 
-#: src/metro.c:86
+#: src/metro.c:91
 msgid "_Visual Tick"
 msgstr "_Visuelt slag"
 
-#: src/metro.c:87
+#: src/metro.c:92
 msgid "_Accent Table"
 msgstr "Pulst_abel"
 
-#: src/metro.c:88
+#: src/metro.c:93
 msgid "Pr_ofiles"
 msgstr "Pr_ofiler"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:128
+#: src/metro.c:133
 msgid "Larghissimo"
 msgstr "Larghissimo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:131
+#: src/metro.c:136
 msgid "Largo"
 msgstr "Largo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:134
+#: src/metro.c:139
 msgid "Larghetto"
 msgstr "Larghetto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:137
+#: src/metro.c:142
 msgid "Adagio"
 msgstr "Adagio"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:140
+#: src/metro.c:145
 msgid "Andante"
 msgstr "Andante"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:143
+#: src/metro.c:148
 msgid "Moderato"
 msgstr "Moderato"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:146
+#: src/metro.c:151
 msgid "Allegro"
 msgstr "Allegro"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:149
+#: src/metro.c:154
 msgid "Presto"
 msgstr "Presto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
-#: src/metro.c:152
+#: src/metro.c:157
 msgid "Prestissimo"
 msgstr "Prestissimo"
 
-#: src/metro.c:1500
+#: src/metro.c:1507
 msgid "Settings"
 msgstr "Opsætning"
 
 #. TRANSLATORS: This is a tempo name with its associated BPM
 #. (beats per minute) range
-#: src/metro.c:1529
+#: src/metro.c:1536
 #, c-format
 msgid "%s   (%d ... %d)"
 msgstr "%s   (%d ... %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
-#: src/metro.c:1543
+#: src/metro.c:1550
 msgid "Tap"
 msgstr "Klik"
 
-#: src/metro.c:1548
+#: src/metro.c:1555
 msgid "Speed:"
 msgstr "Tempo:"
 
-#: src/metro.c:1617
+#: src/metro.c:1624
 msgid "Volume:"
 msgstr "Lydstyrke:"
 
-#: src/metro.c:1651
-msgid "Beat"
-msgstr "Takt"
-
 #. TRANSLATORS: all beats are equal
-#: src/metro.c:1674
+#: src/metro.c:1681
 msgid "Even"
 msgstr "Jævn"
 
 #. TRANSLATORS: duple meter
-#: src/metro.c:1687
+#: src/metro.c:1694
 msgid "2/4"
 msgstr "2/4"
 
 #. TRANSLATORS: triple meter
-#: src/metro.c:1698
+#: src/metro.c:1705
 msgid "3/4"
 msgstr "3/4"
 
 #. TRANSLATORS: quadruple meter / common meter
-#: src/metro.c:1709
+#: src/metro.c:1716
 msgid "4/4"
 msgstr "4/4"
 
 #. TRANSLATORS: meter with more than 4 beats per measure
-#: src/metro.c:1720 src/gtkoptions.c:329
+#: src/metro.c:1727 src/gtkoptions.c:333
 msgid "Other:"
 msgstr "Anden:"
 
-#: src/metro.c:1742
+#: src/metro.c:1749
 msgid "Beat Accent"
 msgstr "Pulsslag"
 
-#: src/metro.c:1910
+#: src/metro.c:1917
 msgid ""
 "Couldn't start metronome.\n"
 "Please check if specified sound device\n"
@@ -427,75 +425,78 @@ msgstr ""
 "Tjek venligst at den angivne lydenhed\n"
 "og lydfil er tilgængelige."
 
-#: src/gtkoptions.c:182
+#: src/gtkoptions.c:186
 msgid "Please choose a sound file."
 msgstr "Vælg venligst en lydfil."
 
-#: src/gtkoptions.c:238
+#: src/gtkoptions.c:242
 msgid "Preferences"
 msgstr "Indstillinger"
 
-#: src/gtkoptions.c:282
+#: src/gtkoptions.c:286
 msgid "Sound"
 msgstr "Lyd"
 
-#: src/gtkoptions.c:298
+#: src/gtkoptions.c:302
 msgid "Default"
 msgstr "Standard"
 
-#: src/gtkoptions.c:311
+#: src/gtkoptions.c:315
 #, fuzzy
 msgid "Sine"
 msgstr "Sinus"
 
-#: src/gtkoptions.c:356
+#: src/gtkoptions.c:360
 msgid "Choose"
 msgstr "Vælg"
 
-#: src/gtkoptions.c:377
+#: src/gtkoptions.c:381
 msgid "Sound Device"
 msgstr "Lydenhed"
 
-#: src/gtkoptions.c:397
+#: src/gtkoptions.c:401
 msgid "Device filename:"
 msgstr "Enhedsfilnavn:"
 
-#: src/gtkoptions.c:416
+#: src/gtkoptions.c:420
 msgid "External Commands"
 msgstr "Eksterne kommandoer"
 
-#: src/gtkoptions.c:434
+#: src/gtkoptions.c:438
 msgid "Execute on start:"
 msgstr "Kør ved start:"
 
-#: src/gtkoptions.c:452
+#: src/gtkoptions.c:456
 msgid "Execute on stop:"
 msgstr "Kør ved stop:"
 
-#: src/gtkoptions.c:473
+#: src/gtkoptions.c:477
 msgid "Speed Range"
 msgstr "Tempoområde"
 
-#: src/gtkoptions.c:491
+#: src/gtkoptions.c:495
 msgid "Minimum BPM:"
 msgstr "Minimum BPM:"
 
-#: src/gtkoptions.c:508
+#: src/gtkoptions.c:512
 msgid "Maximum BPM:"
 msgstr "Maksimum BPM:"
 
-#: src/profiles.c:326 src/profiles.c:612
+#: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
 msgstr "Unavngiven profil"
 
-#: src/profiles.c:504
+#: src/profiles.c:508
 msgid "Edit Profile"
 msgstr "Rediger profil"
 
-#: src/profiles.c:520
+#: src/profiles.c:524
 msgid "Please enter new Profile name: "
 msgstr "Indtast venligst et nyt profilnavn: "
 
-#: src/profiles.c:678
+#: src/profiles.c:682
 msgid "Profiles"
 msgstr "Profiler"
+
+#~ msgid "Beat"
+#~ msgstr "Takt"
