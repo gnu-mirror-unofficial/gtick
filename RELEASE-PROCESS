@@ -1,0 +1,27 @@
+Release Process for GNU GTick
+=============================
+
+* The package is prepared in the following way:
+
+$ ./autogen.sh
+$ ./configure
+$ make
+$ make dist
+
+-> The resulting tarball is to be released at the project's web site.
+
+* The resulting configuration is to be tagged in the GIT repository as
+  "GTICK-X.Y.Z"
+
+* On release, the following places need to be notified:
+
+  - Mailing list gtick-devel@gnu.org
+  - The Translation Project at coordinator@translationproject.org, no matter
+    how much of the POT file is new, to provide an up to date synchronization
+    on current sources.
+  - Freshmeat.net with new release info for project "gtick"
+  - Debian Package update in Debian sid
+
+
+-- Roland Stigge <stigge@antcom.de>, Thu, 22 May 2008 14:59:58 +0200
+
