@@ -1,5 +1,5 @@
-# Translation of gtick-0.4.1 to Dutch.
-# Copyright (C) 2007 Roland Stigge (msgid)
+# Dutch translations for gtick.
+# Copyright (C) 2008 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
 #
 # Taco Witte <T.C.Witte@phys.uu.nl>, 2003.
@@ -7,10 +7,10 @@
 # Benno Schulenberg <benno@vertaalt.nl>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick-0.4.1\n"
+"Project-Id-Version: gtick-0.4.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2008-05-22 14:39+0200\n"
-"PO-Revision-Date: 2008-01-08 21:11+0100\n"
+"PO-Revision-Date: 2008-05-23 20:05+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -60,11 +60,10 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Copyright (C) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (C) 2003-2007, Roland Stigge <stigge@antcom.de>\n"
+"Copyright (C) 2003–2008, Roland Stigge <stigge@antcom.de>\n"
 "Logo gemaakt door Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
-"Homepage:\n"
-"http://www.antcom.de/gtick/\n"
+"Homepage: http://www.antcom.de/gtick/\n"
 "\n"
 "Stuur foutrapportages, opmerkingen en dergelijke\n"
 "naar <gtick-devel@nongnu.org>."
@@ -94,7 +93,7 @@ msgid ""
 msgstr ""
 "GTick - de Metronoom\n"
 "Copyright (C) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (C) 2003-2007, Roland Stigge <stigge@antcom.de>\n"
+"Copyright (C) 2003–2008, Roland Stigge <stigge@antcom.de>\n"
 "\n"
 "Dit programma is vrije software; u mag het verder verspreiden en/of\n"
 "wijzigen onder de voorwaarden van de GNU General Public License zoals\n"
@@ -194,33 +193,32 @@ msgid "Speed: Slower"
 msgstr "Langzamer"
 
 #: src/help.c:278 src/metro.c:1658
-#, fuzzy
 msgid "Meter"
-msgstr "Basisritme"
+msgstr "Maat"
 
 #: src/help.c:284
 msgid "Double Speed"
-msgstr "Snelheid verdubbelen"
+msgstr "Tempo verdubbelen"
 
 #: src/help.c:290
 msgid "Half Speed"
-msgstr "Snelheid halveren"
+msgstr "Tempo halveren"
 
 #: src/help.c:296
 msgid "Speed: -10"
-msgstr "Snelheid - 10"
+msgstr "Tempo - 10"
 
 #: src/help.c:302
 msgid "Speed: +10"
-msgstr "Snelheid + 10"
+msgstr "Tempo + 10"
 
 #: src/help.c:308
 msgid "Speed: -2"
-msgstr "Snelheid - 2"
+msgstr "Tempo - 2"
 
 #: src/help.c:314
 msgid "Speed: +2"
-msgstr "Snelheid + 2"
+msgstr "Tempo + 2"
 
 #: src/help.c:320
 msgid "Double Volume"
@@ -373,17 +371,17 @@ msgstr "Instellingen"
 #: src/metro.c:1536
 #, c-format
 msgid "%s   (%d ... %d)"
-msgstr "%s  (%d - %d)"
+msgstr "%s  (%d – %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
 #: src/metro.c:1550
 msgid "Tap"
-msgstr "Tempo aangeven"
+msgstr "Klik tempo hier"
 
 #: src/metro.c:1555
 msgid "Speed:"
-msgstr "Snelheid:"
+msgstr "Tempo:"
 
 #: src/metro.c:1624
 msgid "Volume:"
@@ -416,7 +414,7 @@ msgstr "Anders:"
 
 #: src/metro.c:1749
 msgid "Beat Accent"
-msgstr "Beat-accent"
+msgstr "Maataccent"
 
 #: src/metro.c:1917
 msgid ""
@@ -474,7 +472,7 @@ msgstr "Uitvoeren bij stoppen:"
 
 #: src/gtkoptions.c:477
 msgid "Speed Range"
-msgstr "Snelheidsbereik"
+msgstr "Tempobereik"
 
 #: src/gtkoptions.c:495
 msgid "Minimum BPM:"
@@ -499,6 +497,3 @@ msgstr "Nieuwe profielnaam: "
 #: src/profiles.c:682
 msgid "Profiles"
 msgstr "Profielen"
-
-#~ msgid "Beat"
-#~ msgstr "Ritme"
