@@ -3,6 +3,12 @@ Release Process for GNU GTick
 
 * The package is prepared in the following way:
 
+  Synchronize with the Translation Project at translationproject.org:
+
+$ rsync -Lrtvz  translationproject.org::tp/latest/gtick/  po
+
+  Build:
+
 $ ./autogen.sh
 $ ./configure
 $ make
