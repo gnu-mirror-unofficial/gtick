@@ -3,9 +3,13 @@ Release Process for GNU GTick
 
 * The package is prepared in the following way:
 
-  Synchronize with the Translation Project at translationproject.org:
+  Synchronize translations with the Translation Project at
+  translationproject.org:
 
 $ rsync -Lrtvz  translationproject.org::tp/latest/gtick/  po
+
+  The list can also be seen at http://translationproject.org/latest/gtick/
+
 
   Build:
 
