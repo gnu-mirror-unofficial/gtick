@@ -1,21 +1,23 @@
-# Translation of gtick-0.3.15 to Dutch.
+# Translation of gtick-0.4.1 to Dutch.
 # Copyright (C) 2007 Roland Stigge (msgid)
 # This file is distributed under the same license as the gtick package.
 #
 # Taco Witte <T.C.Witte@phys.uu.nl>, 2003.
 # Elros Cyriatan <cyriatan@fastmail.fm>, 2003, 2004.
-# Benno Schulenberg <benno@vertaalt.nl>, 2007.
+# Benno Schulenberg <benno@vertaalt.nl>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick-0.3.15\n"
+"Project-Id-Version: gtick-0.4.1\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2008-05-22 14:39+0200\n"
-"PO-Revision-Date: 2007-08-13 14:28+0200\n"
+"PO-Revision-Date: 2008-01-08 21:11+0100\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/gtick.c:81
 #, c-format
@@ -45,7 +47,6 @@ msgid "License"
 msgstr "Licentie"
 
 #: src/help.c:105
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -59,8 +60,8 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Copyright (C) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (C) 2003-2006, Roland Stigge <stigge@antcom.de>\n"
-"Logo van Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"Copyright (C) 2003-2007, Roland Stigge <stigge@antcom.de>\n"
+"Logo gemaakt door Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Homepage:\n"
 "http://www.antcom.de/gtick/\n"
@@ -73,7 +74,6 @@ msgid "GTick License"
 msgstr "GTick-licentie"
 
 #: src/help.c:130
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -94,7 +94,7 @@ msgid ""
 msgstr ""
 "GTick - de Metronoom\n"
 "Copyright (C) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (C) 2003-2006, Roland Stigge <stigge@antcom.de>\n"
+"Copyright (C) 2003-2007, Roland Stigge <stigge@antcom.de>\n"
 "\n"
 "Dit programma is vrije software; u mag het verder verspreiden en/of\n"
 "wijzigen onder de voorwaarden van de GNU General Public License zoals\n"
@@ -131,53 +131,55 @@ msgstr "Ctrl--"
 msgid "Ctrl-1 ... Ctrl-9"
 msgstr "Ctrl-1 ... Ctrl-9"
 
+# Deze wordt geblokkeerd door standaard Be_werken.
 #: src/help.c:188
 msgid "Alt-w"
-msgstr ""
+msgstr "   "
 
 #: src/help.c:194
 msgid "Alt-q"
-msgstr ""
+msgstr "Alt-Q"
 
 #: src/help.c:200
 msgid "Alt-a"
-msgstr ""
+msgstr "Alt-A"
 
+# Deze wordt geblokkeerd door standaard Op_slaan.
 #: src/help.c:206
 msgid "Alt-s"
-msgstr ""
+msgstr "   "
 
 #: src/help.c:212
 msgid "Alt-z"
-msgstr ""
+msgstr "Alt-Z"
 
 #: src/help.c:218
 msgid "Alt-x"
-msgstr ""
+msgstr "Alt-X"
 
 #: src/help.c:224
 msgid "Shift-w"
-msgstr "Shift-w"
+msgstr "Shift-W"
 
 #: src/help.c:230
 msgid "Shift-q"
-msgstr "Shift-q"
+msgstr "Shift-Q"
 
 #: src/help.c:236
 msgid "Shift-a"
-msgstr "Shift-a"
+msgstr "Shift-A"
 
 #: src/help.c:242
 msgid "Shift-s"
-msgstr "Shift-s"
+msgstr "Shift-S"
 
 #: src/help.c:248
 msgid "Shift-z"
-msgstr "Shift-z"
+msgstr "Shift-Z"
 
 #: src/help.c:254
 msgid "Shift-x"
-msgstr "Shift-x"
+msgstr "Shift-X"
 
 #: src/help.c:260
 msgid "Start/Stop"
@@ -246,7 +248,7 @@ msgstr "Volume + 2"
 
 #: src/metro.c:74
 msgid "Idle"
-msgstr "Niet bezig"
+msgstr "Rust"
 
 #: src/metro.c:74 src/metro.c:90
 msgid "Start"
@@ -254,7 +256,7 @@ msgstr "Starten"
 
 #: src/metro.c:75
 msgid "Running"
-msgstr "Bezig"
+msgstr "Tikkend"
 
 #: src/metro.c:75
 msgid "Stop"
@@ -312,55 +314,55 @@ msgstr "_Profielen"
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:133
 msgid "Larghissimo"
-msgstr ""
+msgstr "Larghissimo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:136
 msgid "Largo"
-msgstr ""
+msgstr "Largo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:139
 msgid "Larghetto"
-msgstr ""
+msgstr "Larghetto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:142
 msgid "Adagio"
-msgstr ""
+msgstr "Adagio"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:145
 msgid "Andante"
-msgstr ""
+msgstr "Andante"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:148
 msgid "Moderato"
-msgstr ""
+msgstr "Moderato"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:151
 msgid "Allegro"
-msgstr ""
+msgstr "Allegro"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:154
 msgid "Presto"
-msgstr ""
+msgstr "Presto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:157
 msgid "Prestissimo"
-msgstr ""
+msgstr "Prestissimo"
 
 #: src/metro.c:1507
 msgid "Settings"
@@ -371,7 +373,7 @@ msgstr "Instellingen"
 #: src/metro.c:1536
 #, c-format
 msgid "%s   (%d ... %d)"
-msgstr "%s   (%d ... %d)"
+msgstr "%s  (%d - %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
