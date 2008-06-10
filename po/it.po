@@ -1,14 +1,14 @@
 # Italian messages for gtick.
-# Copyright (C) 2006 Roland Stigge (msgid)
+# Copyright (C) 2006 Roland Stigge (msgids)
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gtick package.
 # Marco Colombo <m.colombo@ed.ac.uk>, 2005, 2006, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.4.1\n"
+"Project-Id-Version: gtick 0.4.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2008-05-22 14:39+0200\n"
-"PO-Revision-Date: 2008-01-11 12:25+0000\n"
+"PO-Revision-Date: 2008-06-10 11:58+0100\n"
 "Last-Translator: Marco Colombo <m.colombo@ed.ac.uk>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,7 @@ msgstr ""
 "Opzioni:\n"
 "  -h, --help              Mostra questo messaggio d'aiuto\n"
 "  -v, --version           Stampa informazioni sulla versione\n"
-"  -d, --debug[=livello]   Stampa dati di debug sullo standard output "
-"durante\n"
+"  -d, --debug[=livello]   Stampa dati di debug sullo standard output durante\n"
 "                          l'esecuzione\n"
 "\n"
 
@@ -189,7 +188,6 @@ msgid "Speed: Slower"
 msgstr "Tempo: più lento"
 
 #: src/help.c:278 src/metro.c:1658
-#, fuzzy
 msgid "Meter"
 msgstr "Battiti"
 
