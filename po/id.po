@@ -1,0 +1,493 @@
+# Indonesian translations for gtick package.
+# Copyright (C) 2008 Roland Stigge (msgids)
+# This file is distributed under the same license as the gtick package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.4.2\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2008-05-22 14:39+0200\n"
+"PO-Revision-Date: 2008-08-17 19:03+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gtick.c:81
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Penggunaan: %s [OPSI...]\n"
+"\n"
+"Opsi:\n"
+"  -h, --help              Tampilkan pesan bantuan ini\n"
+"  -v, --version           Cetak informasi versi\n"
+"  -d, --debug[=level]     Cetak data awakutu waktu operasi tambahan ke keluaran standar\n"
+"\n"
+
+#: src/help.c:78
+msgid "About GTick"
+msgstr "Tentang GTick"
+
+#: src/help.c:80
+msgid "License"
+msgstr "Lisensi"
+
+#: src/help.c:105
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Hak cipta (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Hak cipta (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo oleh Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Laman:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email laporan kutu, komentar, dsb. ke\n"
+"Milis pengembang:\n"
+"gtick-devel@gnu.org"
+
+#: src/help.c:129
+msgid "GTick License"
+msgstr "Lisensi GTick"
+
+#: src/help.c:130
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - Metronom\n"
+"Hak cipta (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Hak cipta (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Program ini adalah perangkat lunak bebas; anda dapat mendistribusikan\n"
+"ulang atau memodifikasinya di bawah perjanjian Lisensi Publik Umum GNU\n"
+"yang diterbitkan oleh Free Software Foundation; baik versi 3 dari\n"
+"Lisensi, atau (sesuai pilihan anda) versi manapun setelahnya.\n"
+"\n"
+"Program ini didistribusikan dengan harapan dapat berguna,\n"
+"tapi TANPA GARANSI APAPUN; tanpa pula garansi implisit dari\n"
+"PENJUALAN atau PENGGUNAAN UNTUK TUJUAN KHUSUS.  Lihat\n"
+"Lisensi Publik Umum GNU untuk detail lebih lanjut.\n"
+"\n"
+"Anda seharusnya menerima salinan dari Lisensi Publik Umum GNU\n"
+"bersama dengan program ini; jika tidak, lihat <http://www.gnu.org/licenses/>."
+
+#: src/help.c:157
+msgid "Shortcuts"
+msgstr "Jalan pintas"
+
+#: src/help.c:164
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:170
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:176
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:182
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:188
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:194
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:200
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:206
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:212
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:218
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:224
+msgid "Shift-w"
+msgstr "Shift-w"
+
+#: src/help.c:230
+msgid "Shift-q"
+msgstr "Shift-q"
+
+#: src/help.c:236
+msgid "Shift-a"
+msgstr "Shift-a"
+
+#: src/help.c:242
+msgid "Shift-s"
+msgstr "Shift-s"
+
+#: src/help.c:248
+msgid "Shift-z"
+msgstr "Shift-z"
+
+#: src/help.c:254
+msgid "Shift-x"
+msgstr "Shift-x"
+
+#: src/help.c:260
+msgid "Start/Stop"
+msgstr "Mulai/Stop"
+
+#: src/help.c:266
+msgid "Speed: Faster"
+msgstr "Kecepatan: Lebih Cepat"
+
+#: src/help.c:272
+msgid "Speed: Slower"
+msgstr "Kecepatan: Lebih Lambat"
+
+#: src/help.c:278 src/metro.c:1658
+msgid "Meter"
+msgstr "Meter"
+
+#: src/help.c:284
+msgid "Double Speed"
+msgstr "Kecepatan Ganda"
+
+#: src/help.c:290
+msgid "Half Speed"
+msgstr "Kecepatan Setengah"
+
+#: src/help.c:296
+msgid "Speed: -10"
+msgstr "Kecepatan: -10"
+
+#: src/help.c:302
+msgid "Speed: +10"
+msgstr "Kecepatan: +10"
+
+#: src/help.c:308
+msgid "Speed: -2"
+msgstr "Kecepatan: -2"
+
+#: src/help.c:314
+msgid "Speed: +2"
+msgstr "Kecepatan: +2"
+
+#: src/help.c:320
+msgid "Double Volume"
+msgstr "Volume Ganda"
+
+#: src/help.c:326
+msgid "Half Volume"
+msgstr "Volume Setengah"
+
+#: src/help.c:332
+msgid "Volume: -10"
+msgstr "Volume: -10"
+
+#: src/help.c:338
+msgid "Volume: +10"
+msgstr "Volume: +10"
+
+#: src/help.c:344
+msgid "Volume: -2"
+msgstr "Volume: -2"
+
+#: src/help.c:350
+msgid "Volume: +2"
+msgstr "Volume: +2"
+
+#: src/metro.c:74
+msgid "Idle"
+msgstr "Menganggur"
+
+#: src/metro.c:74 src/metro.c:90
+msgid "Start"
+msgstr "Mulai"
+
+#: src/metro.c:75
+msgid "Running"
+msgstr "Berjalan"
+
+#: src/metro.c:75
+msgid "Stop"
+msgstr "Stop"
+
+#: src/metro.c:79
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: src/metro.c:80
+msgid "_Metronome"
+msgstr "_Metronom"
+
+#: src/metro.c:81
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: src/metro.c:82
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: src/metro.c:83
+msgid "_Preferences"
+msgstr "_Pengaturan"
+
+#: src/metro.c:84
+msgid "_View"
+msgstr "_Tampilan"
+
+#: src/metro.c:85
+msgid "_About"
+msgstr "T_entang"
+
+#: src/metro.c:86
+msgid "_Shortcuts"
+msgstr "_Jalan Pintas"
+
+#: src/metro.c:90
+msgid "Start the metronome"
+msgstr "Mulai metronom"
+
+#: src/metro.c:91
+msgid "_Visual Tick"
+msgstr "_Tanda Visual"
+
+#: src/metro.c:92
+msgid "_Accent Table"
+msgstr "Tabel _Aksen"
+
+#: src/metro.c:93
+msgid "Pr_ofiles"
+msgstr "Pr_ofil"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:133
+msgid "Larghissimo"
+msgstr "Larghissimo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:136
+msgid "Largo"
+msgstr "Largo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:139
+msgid "Larghetto"
+msgstr "Larghetto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:142
+msgid "Adagio"
+msgstr "Adagio"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:145
+msgid "Andante"
+msgstr "Andante"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:148
+msgid "Moderato"
+msgstr "Moderato"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:151
+msgid "Allegro"
+msgstr "Allegro"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:154
+msgid "Presto"
+msgstr "Presto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:157
+msgid "Prestissimo"
+msgstr "Prestissimo"
+
+#: src/metro.c:1507
+msgid "Settings"
+msgstr "Pengaturan"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1536
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr "%s   (%d ... %d)"
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1550
+msgid "Tap"
+msgstr "Bunyi Sentuh"
+
+#: src/metro.c:1555
+msgid "Speed:"
+msgstr "Kecepatan:"
+
+#: src/metro.c:1624
+msgid "Volume:"
+msgstr "Volume:"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1681
+msgid "Even"
+msgstr "Sama"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1694
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1705
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1716
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1727 src/gtkoptions.c:333
+msgid "Other:"
+msgstr "Lainnya:"
+
+#: src/metro.c:1749
+msgid "Beat Accent"
+msgstr "Aksen Irama"
+
+#: src/metro.c:1917
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Tak dapat memulai metronom.\n"
+"Silakan cek apakah divais suara ditentukan\n"
+"dan berkas contoh dapat diakses."
+
+#: src/gtkoptions.c:186
+msgid "Please choose a sound file."
+msgstr "Silakan pilih berkas suara."
+
+#: src/gtkoptions.c:242
+msgid "Preferences"
+msgstr "Pengaturan"
+
+#: src/gtkoptions.c:286
+msgid "Sound"
+msgstr "Suara"
+
+#: src/gtkoptions.c:302
+msgid "Default"
+msgstr "Standar"
+
+#: src/gtkoptions.c:315
+msgid "Sine"
+msgstr "Sinus"
+
+#: src/gtkoptions.c:360
+msgid "Choose"
+msgstr "Pilih"
+
+#: src/gtkoptions.c:381
+msgid "Sound Device"
+msgstr "Divais Suara"
+
+#: src/gtkoptions.c:401
+msgid "Device filename:"
+msgstr "Nama berkas divais:"
+
+#: src/gtkoptions.c:420
+msgid "External Commands"
+msgstr "Perintah Eksternal"
+
+#: src/gtkoptions.c:438
+msgid "Execute on start:"
+msgstr "Eksekusi saat mulai:"
+
+#: src/gtkoptions.c:456
+msgid "Execute on stop:"
+msgstr "Eksekusi saat stop:"
+
+#: src/gtkoptions.c:477
+msgid "Speed Range"
+msgstr "Jangkauan Kecepatan"
+
+#: src/gtkoptions.c:495
+msgid "Minimum BPM:"
+msgstr "Minimum BPM:"
+
+#: src/gtkoptions.c:512
+msgid "Maximum BPM:"
+msgstr "Maksimum BPM:"
+
+#: src/profiles.c:330 src/profiles.c:616
+msgid "Unnamed Profile"
+msgstr "Profil Tak Dinamai"
+
+#: src/profiles.c:508
+msgid "Edit Profile"
+msgstr "Sunting Profil"
+
+#: src/profiles.c:524
+msgid "Please enter new Profile name: "
+msgstr "Silakan masukkan nama Profil baru: "
+
+#: src/profiles.c:682
+msgid "Profiles"
+msgstr "Profil"
