@@ -1,0 +1,492 @@
+# Esperanto translation of GTick
+# Copyright (C) 2008 Roland Stigge (msgids)
+# This file is distributed under the same license as the gtick package.
+# Felipe Castro <fefcas@gmail.com>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.4.2\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2008-05-22 14:39+0200\n"
+"PO-Revision-Date: 2008-08-31 21:53-0300\n"
+"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gtick.c:81
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Uzado: %s [OPCIO...]\n"
+"\n"
+"Opcioj:\n"
+"  -h, --help              Montri tiun ĉi help-mesaĝon\n"
+"  -v, --version           Montri informon pri versio\n"
+"  -d, --debug[=nivelo]    Sendi kroman funkcitempan rafinigan datumaron al 'stdout'\n"
+"\n"
+
+#: src/help.c:78
+msgid "About GTick"
+msgstr "Pri GTick"
+
+#: src/help.c:80
+msgid "License"
+msgstr "Permeso"
+
+#: src/help.c:105
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Kopirajto (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Kopirajto (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Bildo de Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Retejo:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Sendu raportojn pri eraroj, komentojn, ktp, al\n"
+"Diskut-listo de programantoj:\n"
+"gtick-devel@gnu.org"
+
+#: src/help.c:129
+msgid "GTick License"
+msgstr "Permeso de GTick"
+
+#: src/help.c:130
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - La Metronomo\n"
+"Kopirajto (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Kopirajto (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Tiu ĉi programo estas libera programaro; vi povas redistribui ĝin kaj/aŭ\n"
+"modifi ĝin laŭ la termoj de la GNU-a Ĝenerala Publika Liber-permeso\n"
+"kiel publikigite de 'Free Software Foundation'; aŭ versio 3\n"
+"de la Liberpermeso, aŭ (laŭ via elekto) iu ajn posta versio.\n"
+"\n"
+"Tiu ĉi programo estas distribuita esperante ke ĝi estu utila,\n"
+"sed SEN IU AJN GARANTIO; sen eĉ implicita garantio pri\n"
+"VENDEBLECO aŭ TAŬGECO POR IU SPECIFA APLIKO.  Vidu la\n"
+"GNU-an Ĝeneralan Publikan Liberpermeson por pli da detaloj.\n"
+"\n"
+"Vi devus ricevi kopion de la GNU-a Ĝenerala Publika Liberpermeso\n"
+"kune kun tiu ĉi programo; se ne, vidu <http://www.gnu.org/licenses/>."
+
+#: src/help.c:157
+msgid "Shortcuts"
+msgstr "Tujkomandoj"
+
+#: src/help.c:164
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:170
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:176
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:182
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:188
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:194
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:200
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:206
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:212
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:218
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:224
+msgid "Shift-w"
+msgstr "Shift-w"
+
+#: src/help.c:230
+msgid "Shift-q"
+msgstr "Shift-q"
+
+#: src/help.c:236
+msgid "Shift-a"
+msgstr "Shift-a"
+
+#: src/help.c:242
+msgid "Shift-s"
+msgstr "Shift-s"
+
+#: src/help.c:248
+msgid "Shift-z"
+msgstr "Shift-z"
+
+#: src/help.c:254
+msgid "Shift-x"
+msgstr "Shift-x"
+
+#: src/help.c:260
+msgid "Start/Stop"
+msgstr "Ekigi/Halti"
+
+#: src/help.c:266
+msgid "Speed: Faster"
+msgstr "Rapideco: Plie"
+
+#: src/help.c:272
+msgid "Speed: Slower"
+msgstr "Rapideco: Malplie"
+
+#: src/help.c:278 src/metro.c:1658
+msgid "Meter"
+msgstr "Mezurilo"
+
+#: src/help.c:284
+msgid "Double Speed"
+msgstr "Duobla Rapideco"
+
+#: src/help.c:290
+msgid "Half Speed"
+msgstr "Duona Rapideco"
+
+#: src/help.c:296
+msgid "Speed: -10"
+msgstr "Rapideco: -10"
+
+#: src/help.c:302
+msgid "Speed: +10"
+msgstr "Rapideco: +10"
+
+#: src/help.c:308
+msgid "Speed: -2"
+msgstr "Rapideco: -2"
+
+#: src/help.c:314
+msgid "Speed: +2"
+msgstr "Rapideco: +2"
+
+#: src/help.c:320
+msgid "Double Volume"
+msgstr "Duobla Laŭteco"
+
+#: src/help.c:326
+msgid "Half Volume"
+msgstr "Duona Laŭteco"
+
+#: src/help.c:332
+msgid "Volume: -10"
+msgstr "Laŭteco: -10"
+
+#: src/help.c:338
+msgid "Volume: +10"
+msgstr "Laŭteco: +10"
+
+#: src/help.c:344
+msgid "Volume: -2"
+msgstr "Laŭteco: -2"
+
+#: src/help.c:350
+msgid "Volume: +2"
+msgstr "Laŭteco: +2"
+
+#: src/metro.c:74
+msgid "Idle"
+msgstr "Senokupa"
+
+#: src/metro.c:74 src/metro.c:90
+msgid "Start"
+msgstr "Ekigi"
+
+#: src/metro.c:75
+msgid "Running"
+msgstr "Aktiva"
+
+#: src/metro.c:75
+msgid "Stop"
+msgstr "Halti"
+
+#: src/metro.c:79
+msgid "_Help"
+msgstr "_Helpo"
+
+#: src/metro.c:80
+msgid "_Metronome"
+msgstr "_Metronomo"
+
+#: src/metro.c:81
+msgid "_Quit"
+msgstr "_Foriri"
+
+#: src/metro.c:82
+msgid "_Edit"
+msgstr "R_edakti"
+
+#: src/metro.c:83
+msgid "_Preferences"
+msgstr "_Preferoj"
+
+#: src/metro.c:84
+msgid "_View"
+msgstr "_Vidi"
+
+#: src/metro.c:85
+msgid "_About"
+msgstr "_Pri"
+
+#: src/metro.c:86
+msgid "_Shortcuts"
+msgstr "_Tujkomandoj"
+
+#: src/metro.c:90
+msgid "Start the metronome"
+msgstr "Ekigi la metronomon"
+
+#: src/metro.c:91
+msgid "_Visual Tick"
+msgstr "_Videbla Klako"
+
+#: src/metro.c:92
+msgid "_Accent Table"
+msgstr "Tabelo de _Akcentoj"
+
+#: src/metro.c:93
+msgid "Pr_ofiles"
+msgstr "Pers_onigoj"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:133
+msgid "Larghissimo"
+msgstr "Larghissimo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:136
+msgid "Largo"
+msgstr "Largo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:139
+msgid "Larghetto"
+msgstr "Larghetto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:142
+msgid "Adagio"
+msgstr "Adagio"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:145
+msgid "Andante"
+msgstr "Andante"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:148
+msgid "Moderato"
+msgstr "Moderato"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:151
+msgid "Allegro"
+msgstr "Allegro"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:154
+msgid "Presto"
+msgstr "Presto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:157
+msgid "Prestissimo"
+msgstr "Prestissimo"
+
+#: src/metro.c:1507
+msgid "Settings"
+msgstr "Agordoj"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1536
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr "%s   (%d ... %d)"
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1550
+msgid "Tap"
+msgstr "Frapeto"
+
+#: src/metro.c:1555
+msgid "Speed:"
+msgstr "Rapideco:"
+
+#: src/metro.c:1624
+msgid "Volume:"
+msgstr "Laŭteco:"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1681
+msgid "Even"
+msgstr "Konstanta"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1694
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1705
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1716
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1727 src/gtkoptions.c:333
+msgid "Other:"
+msgstr "Alia:"
+
+#: src/metro.c:1749
+msgid "Beat Accent"
+msgstr "Frap-akcento"
+
+#: src/metro.c:1917
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Ne eblis ekigi la metronomon.\n"
+"Bonvolu kontroli ĉu la specifita son-aparato\n"
+"kaj la specimena dosiero estas alireblaj."
+
+#: src/gtkoptions.c:186
+msgid "Please choose a sound file."
+msgstr "Bonvolu elekti son-dosieron."
+
+#: src/gtkoptions.c:242
+msgid "Preferences"
+msgstr "Preferoj"
+
+#: src/gtkoptions.c:286
+msgid "Sound"
+msgstr "Sono"
+
+#: src/gtkoptions.c:302
+msgid "Default"
+msgstr "Originala"
+
+#: src/gtkoptions.c:315
+msgid "Sine"
+msgstr "Sinusa"
+
+#: src/gtkoptions.c:360
+msgid "Choose"
+msgstr "Elekti"
+
+#: src/gtkoptions.c:381
+msgid "Sound Device"
+msgstr "Son-aparato"
+
+#: src/gtkoptions.c:401
+msgid "Device filename:"
+msgstr "Dosiernomo de aparato:"
+
+#: src/gtkoptions.c:420
+msgid "External Commands"
+msgstr "Eksteraj Komandoj"
+
+#: src/gtkoptions.c:438
+msgid "Execute on start:"
+msgstr "Plenumi je ekigo:"
+
+#: src/gtkoptions.c:456
+msgid "Execute on stop:"
+msgstr "Plenumi je halto:"
+
+#: src/gtkoptions.c:477
+msgid "Speed Range"
+msgstr "Rapidecaj Limoj"
+
+#: src/gtkoptions.c:495
+msgid "Minimum BPM:"
+msgstr "Minimuma PFPM"
+
+#: src/gtkoptions.c:512
+msgid "Maximum BPM:"
+msgstr "Maksimuma PFPM"
+
+#: src/profiles.c:330 src/profiles.c:616
+msgid "Unnamed Profile"
+msgstr "Nenomita Personigo"
+
+#: src/profiles.c:508
+msgid "Edit Profile"
+msgstr "Redakti Personigon"
+
+#: src/profiles.c:524
+msgid "Please enter new Profile name: "
+msgstr "Bonvolu enmeti novan nomon por Personigo: "
+
+#: src/profiles.c:682
+msgid "Profiles"
+msgstr "Personigoj"
