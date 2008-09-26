@@ -1,18 +1,20 @@
 # Messages français pour GNU gtick.
-# Copyright © 2003 Free Software Foundation, Inc.
+# Copyright (C) 2008 Roland Stigge (msgids)
+# This file is distributed under the same license as the gtick package.
 # Michel Robitaille <robitail@IRO.UMontreal.CA>, traducteur depuis/since 1996.
+# Marc Veillet <scouigne@gmail.com>, 2008
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU gtick 0.2.12\n"
+"Project-Id-Version: GNU gtick 0.4.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2008-05-22 14:39+0200\n"
-"PO-Revision-Date: 2004-01-03 08:00-0500\n"
-"Last-Translator: Michel Robitaille <robitail@IRO.UMontreal.CA>\n"
+"PO-Revision-Date: 2008-09-18 15:04-0500\n"
+"Last-Translator: Marc Veillet <scouigne@gmail.com>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/gtick.c:81
@@ -26,26 +28,23 @@ msgid ""
 "  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
 "\n"
 msgstr ""
-"Usage: %s [OPTION...]\n"
+"Usage : %s [OPTION...]\n"
 "\n"
 "Options:\n"
 "  -h, --help              afficher l'aide-mémoire\n"
 "  -v, --version           afficher la version du logiciel\n"
-"  -d, --debug[=level]     afficher des informations de mise au point lors de "
-"l'exécution sur stdout\n"
+"  -d, --debug[=level]     afficher des informations de mise au point lors de l'exécution sur stdout\n"
 "\n"
 
 #: src/help.c:78
 msgid "About GTick"
-msgstr ""
+msgstr "À propos de GTick"
 
 #: src/help.c:80
-#, fuzzy
 msgid "License"
-msgstr "License de GTick"
+msgstr "License"
 
 #: src/help.c:105
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -58,8 +57,8 @@ msgid ""
 "Developer's mailing list:\n"
 "gtick-devel@gnu.org"
 msgstr ""
-"Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright © 2003, Roland Stigge <stigge@antcom.de>\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2008, Roland Stigge <stigge@antcom.de>\n"
 "Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Homepage:\n"
@@ -74,7 +73,6 @@ msgid "GTick License"
 msgstr "License de GTick"
 
 #: src/help.c:130
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -95,12 +93,11 @@ msgid ""
 msgstr ""
 "GTick - Le métronome\n"
 "Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright © 2003, Roland Stigge <stigge@antcom.de>\n"
+"Copyright (c) 2008, Roland Stigge <stigge@antcom.de>\n"
 "\n"
 "Ce programme est un logiciel libre; vous pouvez le redistribuer ou le\n"
 "modifier selon les termes de la License Publique Générale de GNU, publiée\n"
-"par la Free Software Foundation (soit la version 2 ou soit ou soit selon "
-"votre\n"
+"par la Free Software Foundation (soit la version 2 ou soit ou soit selon votre\n"
 "choix, toute version ultérieure).\n"
 "\n"
 "Ce programme est distribué dans l'espoir qu'il soit utile,\n"
@@ -134,51 +131,51 @@ msgstr "Ctrl-1 ... Ctrl-9"
 
 #: src/help.c:188
 msgid "Alt-w"
-msgstr ""
+msgstr "Alt-w"
 
 #: src/help.c:194
 msgid "Alt-q"
-msgstr ""
+msgstr "Alt-q"
 
 #: src/help.c:200
 msgid "Alt-a"
-msgstr ""
+msgstr "Alt-a"
 
 #: src/help.c:206
 msgid "Alt-s"
-msgstr ""
+msgstr "Alt-s"
 
 #: src/help.c:212
 msgid "Alt-z"
-msgstr ""
+msgstr "Alt-z"
 
 #: src/help.c:218
 msgid "Alt-x"
-msgstr ""
+msgstr "Alt-x"
 
 #: src/help.c:224
 msgid "Shift-w"
-msgstr ""
+msgstr "Maj.-w"
 
 #: src/help.c:230
 msgid "Shift-q"
-msgstr ""
+msgstr "Maj.-q"
 
 #: src/help.c:236
 msgid "Shift-a"
-msgstr ""
+msgstr "Maj.-a"
 
 #: src/help.c:242
 msgid "Shift-s"
-msgstr ""
+msgstr "Maj.-s"
 
 #: src/help.c:248
 msgid "Shift-z"
-msgstr ""
+msgstr "Maj.-z"
 
 #: src/help.c:254
 msgid "Shift-x"
-msgstr ""
+msgstr "Maj.-x"
 
 #: src/help.c:260
 msgid "Start/Stop"
@@ -193,68 +190,56 @@ msgid "Speed: Slower"
 msgstr "Vitesse: ralentir"
 
 #: src/help.c:278 src/metro.c:1658
-#, fuzzy
 msgid "Meter"
-msgstr "Compteur de base"
+msgstr "Compteur"
 
 #: src/help.c:284
 msgid "Double Speed"
-msgstr ""
+msgstr "Vitesse double"
 
 #: src/help.c:290
-#, fuzzy
 msgid "Half Speed"
-msgstr "Vitesse:"
+msgstr "Demi vitesse :"
 
 #: src/help.c:296
-#, fuzzy
 msgid "Speed: -10"
-msgstr "Vitesse:"
+msgstr "Vitesse : -10"
 
 #: src/help.c:302
-#, fuzzy
 msgid "Speed: +10"
-msgstr "Vitesse:"
+msgstr "Vitesse : +10"
 
 #: src/help.c:308
-#, fuzzy
 msgid "Speed: -2"
-msgstr "Vitesse:"
+msgstr "Vitesse : -2"
 
 #: src/help.c:314
-#, fuzzy
 msgid "Speed: +2"
-msgstr "Vitesse:"
+msgstr "Vitesse : +2"
 
 #: src/help.c:320
-#, fuzzy
 msgid "Double Volume"
-msgstr "Volume:"
+msgstr "Volume double"
 
 #: src/help.c:326
-#, fuzzy
 msgid "Half Volume"
-msgstr "Volume:"
+msgstr "Demi volume"
 
 #: src/help.c:332
-#, fuzzy
 msgid "Volume: -10"
-msgstr "Volume:"
+msgstr "Volume : -10"
 
 #: src/help.c:338
-#, fuzzy
 msgid "Volume: +10"
-msgstr "Volume:"
+msgstr "Volume : +10"
 
 #: src/help.c:344
-#, fuzzy
 msgid "Volume: -2"
-msgstr "Volume:"
+msgstr "Volume : -2"
 
 #: src/help.c:350
-#, fuzzy
 msgid "Volume: +2"
-msgstr "Volume:"
+msgstr "Volume : +2"
 
 #: src/metro.c:74
 msgid "Idle"
@@ -273,113 +258,106 @@ msgid "Stop"
 msgstr "Arrêter"
 
 #: src/metro.c:79
-#, fuzzy
 msgid "_Help"
-msgstr "/_Aide"
+msgstr "_Aide"
 
 #: src/metro.c:80
-#, fuzzy
 msgid "_Metronome"
-msgstr "/_Métronome"
+msgstr "_Métronome"
 
 #: src/metro.c:81
 msgid "_Quit"
-msgstr ""
+msgstr "_Quitter"
 
 #: src/metro.c:82
 msgid "_Edit"
-msgstr ""
+msgstr "_Édition"
 
 #: src/metro.c:83
 msgid "_Preferences"
-msgstr ""
+msgstr "_Préférences"
 
 #: src/metro.c:84
 msgid "_View"
-msgstr ""
+msgstr "_Vue"
 
 #: src/metro.c:85
-#, fuzzy
 msgid "_About"
-msgstr "/Aide/_A propos"
+msgstr "_À propos"
 
 #: src/metro.c:86
-#, fuzzy
 msgid "_Shortcuts"
-msgstr "Raccourcis"
+msgstr "_Raccourcis"
 
 #: src/metro.c:90
 msgid "Start the metronome"
-msgstr ""
+msgstr "Démarrer le métronome"
 
 #: src/metro.c:91
-#, fuzzy
 msgid "_Visual Tick"
-msgstr "/Options/Afficher les tics en _Visuel"
+msgstr "Tics_visuels"
 
 #: src/metro.c:92
-#, fuzzy
 msgid "_Accent Table"
-msgstr "Table d'accents"
+msgstr "Table d'_accents"
 
 #: src/metro.c:93
-#, fuzzy
 msgid "Pr_ofiles"
-msgstr "Propriétés"
+msgstr "Pr_ofils"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:133
 msgid "Larghissimo"
-msgstr ""
+msgstr "Larghissimo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:136
 msgid "Largo"
-msgstr ""
+msgstr "Largo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:139
 msgid "Larghetto"
-msgstr ""
+msgstr "Larghetto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:142
 msgid "Adagio"
-msgstr ""
+msgstr "Adagio"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:145
 msgid "Andante"
-msgstr ""
+msgstr "Andante"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:148
 msgid "Moderato"
-msgstr ""
+msgstr "Moderato"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:151
 msgid "Allegro"
-msgstr ""
+msgstr "Allegro"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:154
 msgid "Presto"
-msgstr ""
+msgstr "Presto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:157
 msgid "Prestissimo"
-msgstr ""
+msgstr "Prestissimo"
 
 #: src/metro.c:1507
 msgid "Settings"
@@ -390,7 +368,7 @@ msgstr "Configurations"
 #: src/metro.c:1536
 #, c-format
 msgid "%s   (%d ... %d)"
-msgstr ""
+msgstr "%s   (%d ... %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
@@ -429,11 +407,11 @@ msgstr "4/4"
 #. TRANSLATORS: meter with more than 4 beats per measure
 #: src/metro.c:1727 src/gtkoptions.c:333
 msgid "Other:"
-msgstr "Autre:"
+msgstr "Autre :"
 
 #: src/metro.c:1749
 msgid "Beat Accent"
-msgstr ""
+msgstr "Accent rythmique"
 
 #: src/metro.c:1917
 msgid ""
@@ -451,7 +429,7 @@ msgstr "SVP choisir un fichier de son."
 
 #: src/gtkoptions.c:242
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: src/gtkoptions.c:286
 msgid "Sound"
@@ -475,7 +453,7 @@ msgstr "Périphérique de son"
 
 #: src/gtkoptions.c:401
 msgid "Device filename:"
-msgstr "Nom de fichier du périphérique:"
+msgstr "Nom de fichier du périphérique :"
 
 #: src/gtkoptions.c:420
 msgid "External Commands"
@@ -483,11 +461,11 @@ msgstr "Commandes externes"
 
 #: src/gtkoptions.c:438
 msgid "Execute on start:"
-msgstr "Exécuter au démarrage:"
+msgstr "Exécuter au démarrage :"
 
 #: src/gtkoptions.c:456
 msgid "Execute on stop:"
-msgstr "Exécuter lors de l'arrêt:"
+msgstr "Exécuter lors de l'arrêt :"
 
 #: src/gtkoptions.c:477
 msgid "Speed Range"
@@ -495,64 +473,27 @@ msgstr "Étendue des vitesses"
 
 #: src/gtkoptions.c:495
 msgid "Minimum BPM:"
-msgstr "BPM minimun:"
+msgstr "BPM minimun :"
 
 #: src/gtkoptions.c:512
 msgid "Maximum BPM:"
-msgstr "BPM maximum:"
+msgstr "BPM maximum :"
 
 #: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
-msgstr ""
+msgstr "Profil sans nom"
 
 #: src/profiles.c:508
-#, fuzzy
 msgid "Edit Profile"
-msgstr "Propriétés"
+msgstr "Éditer un profil"
 
 #: src/profiles.c:524
 msgid "Please enter new Profile name: "
-msgstr ""
+msgstr "Entrer un nouveau nom de profil :"
 
 #: src/profiles.c:682
-#, fuzzy
 msgid "Profiles"
-msgstr "Propriétés"
-
-#~ msgid "Beat"
-#~ msgstr "Rythme"
-
-#, fuzzy
-#~ msgid "_Profiles"
-#~ msgstr "Propriétés"
-
-#, fuzzy
-#~ msgid "_Manual Timer"
-#~ msgstr "Minuterie manuelle"
-
-#~ msgid "Manual Timer"
-#~ msgstr "Minuterie manuelle"
-
-#~ msgid "Reset"
-#~ msgstr "Réinitialiser"
-
-#~ msgid ""
-#~ "Here, you can approximate the desired\n"
-#~ "speed by tapping at the \"Tap\" button.\n"
-#~ "\n"
-#~ "Just start tapping with the mouse or Enter.\n"
-#~ "\n"
-#~ "To use the calculated value, click \"OK\".\n"
-#~ "To start again, click \"Reset\".\n"
-#~ msgstr ""
-#~ "Vous pouvez approximer la vitesse désirée\n"
-#~ "en appuyant sur le bouton \"Tap\".\n"
-#~ "\n"
-#~ "Vous n'avez qu'à cliquer avec la souris ou appuyer sur la touche \"Retour"
-#~ "\".\n"
-#~ "\n"
-#~ "Pour utiliser la valeur calculée, cliquer sur \"OK\".\n"
-#~ "Pour recommencer, cliquer sur \"Reset\".\n"
+msgstr "Profils"
 
 #~ msgid "/Metronome/Start"
 #~ msgstr "/Métronome/Démarrer"
@@ -580,3 +521,29 @@ msgstr "Propriétés"
 
 #~ msgid "/Help/_License"
 #~ msgstr "/Aide/_Licence"
+
+#~ msgid "Beat"
+#~ msgstr "Rythme"
+
+#~ msgid "Manual Timer"
+#~ msgstr "Minuterie manuelle"
+
+#~ msgid "Reset"
+#~ msgstr "Réinitialiser"
+
+#~ msgid ""
+#~ "Here, you can approximate the desired\n"
+#~ "speed by tapping at the \"Tap\" button.\n"
+#~ "\n"
+#~ "Just start tapping with the mouse or Enter.\n"
+#~ "\n"
+#~ "To use the calculated value, click \"OK\".\n"
+#~ "To start again, click \"Reset\".\n"
+#~ msgstr ""
+#~ "Vous pouvez approximer la vitesse désirée\n"
+#~ "en appuyant sur le bouton \"Tap\".\n"
+#~ "\n"
+#~ "Vous n'avez qu'à cliquer avec la souris ou appuyer sur la touche \"Retour\".\n"
+#~ "\n"
+#~ "Pour utiliser la valeur calculée, cliquer sur \"OK\".\n"
+#~ "Pour recommencer, cliquer sur \"Reset\".\n"
