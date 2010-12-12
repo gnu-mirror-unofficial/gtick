@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gtick 0.4.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2008-05-22 14:39+0200\n"
-"PO-Revision-Date: 2008-06-10 11:58+0100\n"
+"PO-Revision-Date: 2008-11-15 16:04+0000\n"
 "Last-Translator: Marco Colombo <m.colombo@ed.ac.uk>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -261,7 +261,7 @@ msgstr "A_iuto"
 
 #: src/metro.c:80
 msgid "_Metronome"
-msgstr "_Metronomo"
+msgstr "M_etronomo"
 
 #: src/metro.c:81
 msgid "_Quit"
@@ -281,7 +281,7 @@ msgstr "_Visualizza"
 
 #: src/metro.c:85
 msgid "_About"
-msgstr "/I_nformazioni"
+msgstr "I_nformazioni"
 
 #: src/metro.c:86
 msgid "_Shortcuts"
@@ -301,7 +301,7 @@ msgstr "_Tabella degli accenti"
 
 #: src/metro.c:93
 msgid "Pr_ofiles"
-msgstr "Pr_ofili"
+msgstr "_Profili"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
