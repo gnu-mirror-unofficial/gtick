@@ -191,18 +191,16 @@ msgid "Speed: Slower"
 msgstr "Velocidad: más despacio"
 
 #: src/help.c:278 src/metro.c:1658
-#, fuzzy
 msgid "Meter"
-msgstr "Base métrica"
+msgstr "Medida"
 
 #: src/help.c:284
 msgid "Double Speed"
-msgstr ""
+msgstr "Velocidad doble"
 
 #: src/help.c:290
-#, fuzzy
 msgid "Half Speed"
-msgstr "Velocidad:"
+msgstr "Velocidad mitad"
 
 #: src/help.c:296
 #, fuzzy
@@ -225,14 +223,12 @@ msgid "Speed: +2"
 msgstr "Velocidad:"
 
 #: src/help.c:320
-#, fuzzy
 msgid "Double Volume"
-msgstr "Volumen:"
+msgstr "Volumen doble"
 
 #: src/help.c:326
-#, fuzzy
 msgid "Half Volume"
-msgstr "Volumen:"
+msgstr "Volumen mitad"
 
 #: src/help.c:332
 #, fuzzy
@@ -271,59 +267,52 @@ msgid "Stop"
 msgstr "Parar"
 
 #: src/metro.c:79
-#, fuzzy
 msgid "_Help"
-msgstr "/_Ayuda"
+msgstr "_Ayuda"
 
 #: src/metro.c:80
-#, fuzzy
 msgid "_Metronome"
-msgstr "/_Metrónomo"
+msgstr "_Metrónomo"
 
 #: src/metro.c:81
 msgid "_Quit"
-msgstr ""
+msgstr "_Salir"
 
 #: src/metro.c:82
 msgid "_Edit"
-msgstr ""
+msgstr "_Editar"
 
 #: src/metro.c:83
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferencias"
 
 #: src/metro.c:84
 msgid "_View"
-msgstr ""
+msgstr "_Ver"
 
 #: src/metro.c:85
-#, fuzzy
 msgid "_About"
-msgstr "/Ayuda/_Acerca de"
+msgstr "_Acerca de"
 
 #: src/metro.c:86
-#, fuzzy
 msgid "_Shortcuts"
-msgstr "Atajos"
+msgstr "Atajos de teclado"
 
 #: src/metro.c:90
 msgid "Start the metronome"
 msgstr ""
 
 #: src/metro.c:91
-#, fuzzy
 msgid "_Visual Tick"
-msgstr "/Opciones/Mostrar tick _visual"
+msgstr "Pulso _visual"
 
 #: src/metro.c:92
-#, fuzzy
 msgid "_Accent Table"
-msgstr "Tabla de acentos"
+msgstr "Tabla de _acentos"
 
 #: src/metro.c:93
-#, fuzzy
 msgid "Pr_ofiles"
-msgstr "Propiedades"
+msgstr "Perfiles"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
@@ -431,7 +420,7 @@ msgstr "Otro:"
 
 #: src/metro.c:1749
 msgid "Beat Accent"
-msgstr ""
+msgstr "Acentos"
 
 #: src/metro.c:1917
 msgid ""
