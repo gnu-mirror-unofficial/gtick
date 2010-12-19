@@ -8,6 +8,7 @@ GTick TODO List
 * extend test suite, add resource check for FDs
 
 Further ideas:
+* Accent ticks: lower pitch instead of higher
 * Bugs:
   - Sounds correct (all platforms)?
 * start gtick in running state
