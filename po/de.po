@@ -1,14 +1,14 @@
 # German localization for GTick.
-# Copyright (C) 2003, 2006  Roland Stigge
-# Roland Stigge <stigge@antcom.de>, 2003, 2006.
+# Copyright (C) 2003, 2006, 2011  Roland Stigge
+# Roland Stigge <stigge@antcom.de>, 2003, 2006, 2011
 # Marco Tulio Gontijo e Silva <mtgontijo@yahoo.com.br>, 2005
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.3.11\n"
+"Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2011-08-06 18:57+0200\n"
-"PO-Revision-Date: 2006-10-27 14:24+0200\n"
+"PO-Revision-Date: 2011-08-06 18:58+0200\n"
 "Last-Translator: Roland Stigge <stigge@antcom.de>\n"
 "Language-Team: German <de@li.org>\n"
 "Language: de\n"
@@ -45,7 +45,6 @@ msgid "License"
 msgstr "Lizenz"
 
 #: src/help.c:103
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -59,7 +58,7 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "Logo von Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Homepage:\n"
@@ -67,14 +66,13 @@ msgstr ""
 "\n"
 "Fehler, Kommentare usw. gehen an\n"
 "Die Entwickler-Mailinglist:\n"
-"gtick-devel@nongnu.org"
+"gtick-devel@gnu.org"
 
 #: src/help.c:127
 msgid "GTick License"
 msgstr "GTick Lizenz"
 
 #: src/help.c:128
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -110,13 +108,7 @@ msgstr ""
 "\n"
 "Sie sollten eine Kopie der GNU General Public License\n"
 "zusammen mit diesem Programm erhalten haben. Falls nicht,\n"
-"schreiben Sie bitte an die\n"
-"\n"
-"Free Software Foundation, Inc.\n"
-"51 Franklin St, Fifth Floor\n"
-"Boston\n"
-"MA  02111-1301\n"
-"USA."
+"siehe auch <http://www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
@@ -199,7 +191,6 @@ msgid "Speed: Slower"
 msgstr "Geschwindigkeit: Langsamer"
 
 #: src/help.c:276 src/metro.c:1728
-#, fuzzy
 msgid "Meter"
 msgstr "Grundtaktart"
 
@@ -459,15 +450,15 @@ msgstr "Auswählen"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Soundsystem"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
