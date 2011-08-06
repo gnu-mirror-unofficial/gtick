@@ -18,7 +18,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with GTick; if not, see <http://www.gnu.org/licenses/>.
- * 
+ *
  */
 
 #include <config.h>
@@ -81,6 +81,34 @@ sound_button_toggled(GtkToggleButton *togglebutton, options_t* options)
   }
 
   option_set(options->option_list, "SampleFilename", samplename);
+}
+
+static void
+soundsystem_button_toggled(GtkToggleButton *togglebutton, options_t* options)
+{
+  GSList* group;
+  GtkWidget* radio_button;
+  const char* soundsystem;
+
+  /*
+   * Sample filename setup
+   */
+  group = gtk_radio_button_get_group(GTK_RADIO_BUTTON(togglebutton));
+  while (group &&
+    !gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(group->data)))
+  {
+    group = group->next;
+  }
+  radio_button = GTK_WIDGET(group->data);
+  soundsystem = g_object_get_data(G_OBJECT(radio_button), "choice");
+  if (strcmp(soundsystem, "<pulseaudio>")!=0 && strcmp(soundsystem, "<oss>")!=0)
+  {
+    fprintf(stderr, "Warning: Unhandled samplename case: \"%s\".\n",
+	    (char*) g_object_get_data(G_OBJECT(radio_button), "choice"));
+    soundsystem = "";
+  }
+
+  option_set(options->option_list, "SoundSystem", soundsystem);
 }
 
 static void
@@ -185,7 +213,7 @@ static void choose_cb(GtkWidget *button) {
   GtkWidget* file_selection =
     gtk_file_selection_new(_("Please choose a sound file."));
   gtk_window_set_modal(GTK_WINDOW(file_selection), TRUE);
-  
+
   g_object_set_data(G_OBJECT(GTK_FILE_SELECTION(file_selection)->ok_button),
                     "sample_name_entry",
 		    g_object_get_data(G_OBJECT(button), "sample_name_entry"));
@@ -196,19 +224,19 @@ static void choose_cb(GtkWidget *button) {
                    "clicked",
 		   G_CALLBACK(choose_cb_store),
 		   NULL);
-    
+
   /* destroy file selection dialog if ok or cancel button has been clicked */
   g_signal_connect_swapped(
       GTK_OBJECT(GTK_FILE_SELECTION(file_selection)->ok_button),
       "clicked",
-      G_CALLBACK(gtk_widget_destroy), 
-      (gpointer) file_selection); 
+      G_CALLBACK(gtk_widget_destroy),
+      (gpointer) file_selection);
   g_signal_connect_swapped(
       GTK_OBJECT(GTK_FILE_SELECTION(file_selection)->cancel_button),
       "clicked",
       G_CALLBACK(gtk_widget_destroy),
-      (gpointer) file_selection); 
-   
+      (gpointer) file_selection);
+
   gtk_widget_show(file_selection);
 }
 #endif /* WITH_SNDFILE */
@@ -261,6 +289,7 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
   GtkWidget* alignment;
   GtkSizeGroup* sizegroup;
   const char* samplename;
+  const char* soundsystem;
 
   if (!(samplename = option_get(options->option_list,
                                 "SampleFilename", 0, NULL)))
@@ -272,14 +301,14 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
 
   gtk_window_set_resizable(GTK_WINDOW(window), FALSE);
   gtk_box_set_spacing(GTK_BOX(GTK_DIALOG(window)->vbox), 12);
-  
+
   vbox = gtk_vbox_new(FALSE, 18);
   gtk_container_add(GTK_CONTAINER(GTK_DIALOG(window)->vbox), vbox);
   gtk_container_set_border_width(GTK_CONTAINER(vbox), 12);
   gtk_widget_show(vbox);
 
   sizegroup = gtk_size_group_new(GTK_SIZE_GROUP_HORIZONTAL);
-  
+
   /*
    * Sound effect setting
    */
@@ -366,7 +395,7 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
                    G_CALLBACK(sound_button_toggled), options);
   g_signal_connect(G_OBJECT(entry), "changed",
                    G_CALLBACK(sample_name_entry_changed), options);
-  
+
   /* save entry at button to retrieve value in file selection dialog */
   g_object_set_data(G_OBJECT(button), "sample_name_entry", entry);
 
@@ -374,11 +403,11 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
                    G_CALLBACK(choose_cb), options);
 #endif /* WITH_SNDFILE */
 
-  
+
   /*
    * Sound device setting
    */
-  frame = gtk_frame_new(_("Sound Device"));
+  frame = gtk_frame_new(_("Sound System"));
   label = gtk_frame_get_label_widget(GTK_FRAME(frame));
   gtk_label_attr_bold(GTK_LABEL(label));
   gtk_frame_set_shadow_type(GTK_FRAME(frame), GTK_SHADOW_NONE);
@@ -393,6 +422,34 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
   devicevbox = gtk_vbox_new(FALSE, 12);
   gtk_container_add(GTK_CONTAINER(alignment), devicevbox);
   gtk_widget_show(devicevbox);
+
+  if(! (soundsystem = option_get(options->option_list,
+		                "SoundSystem", 0, NULL)) )
+	soundsystem = "<pulseaudio>";
+
+  radiobutton = gtk_radio_button_new_with_label(NULL, _("Pulseaudio"));
+  g_object_set_data(G_OBJECT(radiobutton), "choice", "<pulseaudio>");
+  if (!strcmp(soundsystem, "<pulseaudio>"))
+    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(radiobutton), TRUE);
+  gtk_box_pack_start(GTK_BOX(devicevbox), radiobutton, FALSE, TRUE, 0);
+  gtk_widget_show(radiobutton);
+
+  /* Instant apply */
+  g_signal_connect(G_OBJECT(radiobutton), "toggled",
+                   G_CALLBACK(soundsystem_button_toggled), options);
+
+  radiobutton =
+    gtk_radio_button_new_with_label_from_widget(GTK_RADIO_BUTTON(radiobutton),
+	                                        _("OSS"));
+  g_object_set_data(G_OBJECT(radiobutton), "choice", "<oss>");
+  if (!strcmp(soundsystem, "<oss>"))
+    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(radiobutton), TRUE);
+  gtk_box_pack_start(GTK_BOX(devicevbox), radiobutton, FALSE, TRUE, 0);
+  gtk_widget_show(radiobutton);
+
+  /* Instant apply */
+  g_signal_connect(G_OBJECT(radiobutton), "toggled",
+                   G_CALLBACK(soundsystem_button_toggled), options);
 
   hbox = gtk_hbox_new(FALSE, 12);
   gtk_box_pack_start(GTK_BOX(devicevbox), hbox, FALSE, TRUE, 0);
@@ -452,7 +509,7 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
   /* Instant apply */
   g_signal_connect(G_OBJECT(entry), "changed",
                    G_CALLBACK(cmd_start_entry_changed), options);
-  
+
   label = gtk_label_new(_("Execute on stop:"));
   gtk_size_group_add_widget(sizegroup, label);
   gtk_table_attach(GTK_TABLE(table), label, 0, 1, 1, 2,
@@ -508,7 +565,7 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
   gtk_widget_show(spinbutton);
   g_signal_connect(G_OBJECT(spinbutton), "value-changed",
                    G_CALLBACK(min_bpm_value_changed), options);
-  
+
   label = gtk_label_new(_("Maximum BPM:"));
   gtk_size_group_add_widget(sizegroup, label);
   gtk_table_attach(GTK_TABLE(table), label, 0, 1, 1, 2,
@@ -525,7 +582,7 @@ GtkWidget* gtk_options_dialog_new(GtkWidget* parent, options_t* options) {
   gtk_widget_show(spinbutton);
   g_signal_connect(G_OBJECT(spinbutton), "value-changed",
                    G_CALLBACK(max_bpm_value_changed), options);
-  
+
   g_signal_connect(G_OBJECT(window), "response",
                    G_CALLBACK(response_cb), options);
   return window;

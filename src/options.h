@@ -1,8 +1,8 @@
-/* 
+/*
  * Metronome options object interface
  *
  * This file is part of GTick
- * 
+ *
  *
  * Copyright (c) 1999, Alex Roberts
  * Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>
@@ -34,6 +34,7 @@ typedef struct options_t {
   option_list_t* option_list; /* list of available rc options */
 
   char* sample_name;
+  char* soundsystem;
   char* sound_device_name;
   char* command_on_start;
   char* command_on_stop;

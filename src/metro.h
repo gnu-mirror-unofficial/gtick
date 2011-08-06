@@ -1,8 +1,8 @@
-/* 
+/*
  * Metronome session interface
  *
  * This file is part of GTick
- * 
+ *
  *
  * Copyright (c) 1999, Alex Roberts
  * Copyright (c) 2005 Marco Tulio Gontijo e Silva <mtgontijo@yahoo.com.br>
@@ -22,7 +22,7 @@
  * along with GTick; if not, see <http://www.gnu.org/licenses/>.
  *
  */
- 
+
 #ifndef METRO_H
 #define METRO_H
 
@@ -43,7 +43,7 @@
 typedef enum state_t {
   STATE_IDLE,     /* Metronome off */
   STATE_RUNNING,  /* Metronome on  */
-  
+
   STATE_NUMBER
 } state_t;
 
@@ -80,7 +80,7 @@ typedef struct metro_t {
   GtkWidget* meter_button_4;
   GtkWidget* meter_button_more;
   GtkWidget* meter_spin_button;
-  	
+
   GtkWidget* togglebutton_label;
   GtkWidget* speed_name;               /* ComboBox */
 
@@ -93,7 +93,7 @@ typedef struct metro_t {
   GtkWidget* accentframe;              /* show / hide */
   GtkWidget** accentbuttons;           /* to switch on / off */
   GtkToggleAction* accenttable_action;
-  
+
   GtkWidget* profileframe;             /* show / hide */
   GtkToggleAction* profiles_action;
   GtkTreeView* profiles_tree;

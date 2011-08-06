@@ -38,10 +38,11 @@ typedef struct comm_t {
  */
 enum message_type_t {
   MESSAGE_TYPE_NO_MESSAGE,
-  
+
   MESSAGE_TYPE_STOP_SERVER,
   MESSAGE_TYPE_SET_DEVICE,      /* param: char*: device */
   MESSAGE_TYPE_SET_SOUND,       /* param: char* sound name or filename */
+  MESSAGE_TYPE_SET_SOUNDSYSTEM,
   MESSAGE_TYPE_SET_METER,       /* param: int*: meter */
   MESSAGE_TYPE_SET_ACCENTS,     /* param: char*: accent list: {'0','1'}* */
   MESSAGE_TYPE_SET_FREQUENCY,   /* param: double*: frequency */
@@ -51,7 +52,7 @@ enum message_type_t {
   MESSAGE_TYPE_STOP_SYNC,
   MESSAGE_TYPE_SET_VOLUME,      /* param: double*: volume 0.0 ... 1.0 */
   MESSAGE_TYPE_GET_VOLUME,      /* response needed: double*: volume 0.0...1.0 */
-  
+
   MESSAGE_TYPE_RESPONSE_VOLUME, /* param: int*: volume 0 ... 100 */
   MESSAGE_TYPE_RESPONSE_SYNC,   /* param: unsigned int*: position in meter*/
   MESSAGE_TYPE_RESPONSE_START_ERROR

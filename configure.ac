@@ -37,7 +37,7 @@ AC_PROG_GCC_TRADITIONAL
 AC_FUNC_MALLOC
 AC_CHECK_FUNCS([floor strdup setlocale strtol])
 
-PKG_CHECK_MODULES(DEPS, gtk+-2.0 gthread-2.0)
+PKG_CHECK_MODULES(DEPS, gtk+-2.0 gthread-2.0 libpulse-simple)
 # samplerate
 
 #AC_ARG_WITH([alsa],

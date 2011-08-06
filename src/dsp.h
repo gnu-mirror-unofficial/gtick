@@ -1,8 +1,8 @@
-/* 
+/*
  * DSP interface
  *
  * This file is part of GTick
- * 
+ *
  *
  * Copyright (c) 1999, Alex Roberts
  * Copyright (c) 2003, 2004, 2005, 2006  Roland Stigge <stigge@antcom.de>
@@ -28,12 +28,17 @@
 /* GTK headers */
 #include <gtk/gtk.h>
 
+#include <pulse/simple.h>
+
 /* own headers */
 #include "threadtalk.h"
 
 typedef struct dsp_t {
   char* devicename;
   char* soundname;
+  char* soundsystem;
+
+  pa_simple *pas;   /* pa simple playback stream */
 
   int dspfd;        /* file descriptor */
   int fragmentsize; /* fragment size */
@@ -47,7 +52,7 @@ typedef struct dsp_t {
   int channels_in;  /* number of channels of input data in Hz */
 
   unsigned char* fragment;
-  
+
   unsigned char* tickdata0; /* raw dsp sample bytes for single tick */
   int td0_size;  /* length in bytes */
   unsigned char* tickdata1; /* raw dsp sample bytes for first tick */
@@ -69,7 +74,7 @@ typedef struct dsp_t {
   int running;      /* on/off flag */
 
   double volume;    /* 0.0 ... 1.0 */
-  
+
   int sync_flag;
 
   comm_t* inter_thread_comm;

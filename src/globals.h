@@ -1,8 +1,8 @@
-/* 
+/*
  * Global definitions
  *
  * This file is part of GTick
- * 
+ *
  *
  * Copyright (c) 1999, Alex Roberts
  * Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>
@@ -43,6 +43,7 @@
 #define VOLUME_MIN 0
 #define VOLUME_MAX 100
 #define MAX_METER 100
+#define DEFAULT_SOUND_SYSTEM "<pulseaudio>"
 #define DEFAULT_SOUND_DEVICE_FILENAME "/dev/dsp"
 #define DEFAULT_SAMPLE_FILENAME "<default>"
 #define DEFAULT_SPEED 75

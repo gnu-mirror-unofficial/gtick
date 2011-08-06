@@ -1,6 +1,11 @@
 GTick TODO List
 ===============
 
+* Bugs in Pulseaudio support:
+  - Visual tick unsynchronized / bad display
+  - Re-initialization of dsp/pulseaudio device upon prefs change
+  - Config entry of Sound System on Start
+
 * sub beats
 * start actual beat at time of setting speed (?)
 * save settings periodically, also on every profile saved

@@ -50,6 +50,10 @@
 #include <dmalloc.h>
 #endif
 
+#include <pulse/simple.h>
+#include <pulse/error.h>
+#include <pulse/gccmacro.h>
+
 /* own headers */
 #include "g711.h"
 #include "globals.h"
@@ -106,7 +110,7 @@ static format_t formats[] = {
  */
 dsp_t* dsp_new(comm_t* comm) {
   dsp_t* result;
-  
+
   result = (dsp_t*) g_malloc0(sizeof(dsp_t));
   result->dspfd = -1;
   comm_server_register(comm);
@@ -132,7 +136,7 @@ void dsp_delete(dsp_t* dsp) {
 static void encode_sample(short sample, int format, unsigned char* dest)
 {
   static int error = 0;
-    
+
   switch (format) {
   case AFMT_MU_LAW:
     *dest = linear2ulaw(sample);
@@ -198,7 +202,7 @@ static int limit_int(int x, int limit) {
  *     from_channels: number of channels in <from>
  *     dsp:           the dsp_t structure holding rate, channels, samplesize
  *                    and format of the initialized dsp
- *     
+ *
  * output:
  *     to:            the pointer to the allocated data, ready for playback
  *     return value:  number of bytes generated, -1 on error
@@ -234,12 +238,12 @@ static int generate_data(short* from,
 	double dummy;
 	double frac = modf(leftbound, &dummy);
         double weight;
-	
+
 	if (rightbound - leftbound < 1)
 	  weight = rightbound - leftbound;
 	else
 	  weight = 1.0;
-	
+
         for (j = 0; j < from_channels; j++) {
 	  mixdown += weight * (
 	      (1.0 - frac) * from[from_channels * index + j] +
@@ -252,7 +256,7 @@ static int generate_data(short* from,
     }
     for (j = 0; j < dsp->channels; j++) { /* for each channel */
       double sample;
-      
+
       if (dsp->channels != from_channels) {
 	sample = mixdown;
       } else {
@@ -265,12 +269,12 @@ static int generate_data(short* from,
 	  double dummy;
 	  double frac = modf(leftbound, &dummy);
           double weight;
-	
+
 	  if (rightbound - leftbound < 1)
 	    weight = rightbound - leftbound;
 	  else
 	    weight = 1.0;
-	
+
 	  sample += weight * (
 	      (1.0 - frac) * from[from_channels * index + j] +
 	      frac * from[from_channels * limit_int(index + 1, from_size) + j]);
@@ -322,7 +326,7 @@ int generate_sine(int samplefreq, double sinfreq, double sigdur, double fadedur,
 	(-cos((double)(size - i) / (samplefreq * sigdur) * 2 * M_PI) + 1) * 0.5;
     s[i] = sample * scale;
   }
- 
+
   *samples = s;
   return size;
 }
@@ -357,15 +361,15 @@ int sndfile_get_samples(const char* filename,
   }
   if (!sfinfo.seekable)
     return -1;
- 
+
   frames = sfinfo.frames;
   *rate = sfinfo.samplerate;
   *channels = sfinfo.channels ;
 
   *samples = (short*) g_malloc(frames * sizeof(short) * sfinfo.channels);
- 
+
   sf_readf_short(sf, *samples, frames);
-  
+
   sf_close(sf);
   return frames;
 }
@@ -405,7 +409,7 @@ static int init_sample(dsp_t* dsp) {
 
   return 0;
 }
-  
+
 /*
  * allocates and initializes dsp->tickdata{0,1,2}
  * and initializes dsp->td{0,1,2}_size
@@ -418,7 +422,7 @@ static int prepare_buffers(dsp_t* dsp) {
   int i;
 
   int attack = 0;
-  
+
   /* generate single ticks */
   if ((dsp->td0_size = generate_data(dsp->frames, dsp->number_of_frames,
 	  dsp->rate_in, dsp->channels_in, dsp, &dsp->tickdata0)) == -1)
@@ -443,19 +447,19 @@ static int prepare_buffers(dsp_t* dsp) {
   if (attack < dsp->number_of_frames / 3) {
     unsigned char* newdata;
     int offset;
-    
+
     offset = attack / 2 * dsp->channels * dsp->samplesize / 8;
     if ((newdata = realloc(dsp->tickdata1, dsp->td1_size + offset))) {
       int modul = dsp->channels * dsp->samplesize / 8;
       int i;
-      
+
       dsp->tickdata1 = newdata;
-      
+
       for (i = dsp->td1_size - 1; i >= 0; i--)
 	dsp->tickdata1[i + offset] = dsp->tickdata1[i];
       for (i = 0; i < offset; i++)
 	dsp->tickdata1[i] = dsp->silence[i % modul];
-      
+
       dsp->td1_size += offset;
 
       if (debug)
@@ -479,6 +483,62 @@ static int prepare_buffers(dsp_t* dsp) {
 }
 
 /*
+ * Opens pulseaudio connection
+ *
+ * returns 0 on success, -1 otherwise
+ */
+static int pulse_open(dsp_t *dsp)
+{
+  static int debug_todo = 1;
+  /* The Sample format to use */
+  static const pa_sample_spec pulse_format = {
+      .format = PA_SAMPLE_S16LE, /* DEFAULT_FORMAT */
+      .rate = DEFAULT_RATE,
+      .channels = DEFAULT_CHANNELS
+  };
+  int error;
+  unsigned int format_index;
+
+  dsp->pas = NULL;
+  /* Create a new playback stream */
+  if (!(dsp->pas = pa_simple_new(NULL, "GTick metronome", PA_STREAM_PLAYBACK, NULL, "gtick", &pulse_format, NULL, NULL, &error))) {
+    fprintf(stderr, __FILE__": pa_simple_new() failed: %s\n", pa_strerror(error));
+    return -1;
+  }
+
+  dsp->format = DEFAULT_FORMAT;
+  for (format_index = 0;
+       formats[format_index].format != 0 &&
+       formats[format_index].format != dsp->format;
+       format_index++);
+
+  if (debug && debug_todo) {
+    g_print("pulse_open: Used sample format: %s (%s)\n",
+    formats[format_index].name, formats[format_index].description);
+  }
+
+  dsp->rate = DEFAULT_RATE; /* requested default */
+  if (debug && debug_todo) {
+    g_print("pulse_open: Sampling rate = %d\n", dsp->rate);
+  }
+
+  dsp->channels = DEFAULT_CHANNELS;
+  if (debug && debug_todo) {
+    g_print("pulse_open: Number of channels = %d\n", dsp->channels);
+  }
+
+  dsp->samplesize = formats[format_index].samplesize;
+  dsp->fragmentsize = dsp->rate / 10 /*0.1s fragment time*/ * dsp->channels * dsp->samplesize / 8;
+
+  if (debug && debug_todo)
+    g_print ("pulse_open: fragment size = %d\n", dsp->fragmentsize);
+
+  dsp->fragment = g_malloc(dsp->fragmentsize);
+
+  return 0;
+}
+
+/*
  * Opens sound device specified in dsp
  *
  * returns 0 on success, -1 otherwise
@@ -488,14 +548,16 @@ int dsp_open(dsp_t* dsp) {
   unsigned int format_index;
   int requested_format = DEFAULT_FORMAT;
   audio_buf_info info;
-  
+
   dsp->fragmentsize = 0x7fff0008; /* at least request fragment size 2^8=256 */
                                     /* = minimum recommended size */
   if (debug && debug_todo)
     g_print ("dsp_open: Initialising %s ...\n", dsp->devicename);
 
   /* Initialise sound device */
-  if ((dsp->dspfd = open(dsp->devicename, O_WRONLY)) == -1)
+  if(!strcmp(dsp->soundsystem, "<pulseaudio>"))
+    return pulse_open(dsp);
+  else if ((dsp->dspfd = open(dsp->devicename, O_WRONLY)) == -1)
     {
       perror(dsp->devicename);
       return -1;
@@ -510,7 +572,7 @@ int dsp_open(dsp_t* dsp) {
   if (debug && debug_todo) {
     unsigned int i;
     int mask;
-    
+
     if (ioctl(dsp->dspfd, SNDCTL_DSP_GETFMTS, &mask) == -1) {
       perror("SNDCTL_DSP_GETFMTS");
     }
@@ -528,19 +590,19 @@ int dsp_open(dsp_t* dsp) {
       perror ("SNDCTL_DSP_SETFMT");
       return -1;
     }
-  
+
   for (format_index = 0;
     formats[format_index].format != 0 &&
       formats[format_index].format != dsp->format;
     format_index++);
-  
+
   if (debug && debug_todo) {
     g_print("dsp_open: Used sample format: %s (%s)\n",
 	    formats[format_index].name, formats[format_index].description);
   }
 
   dsp->samplesize = formats[format_index].samplesize;
-		  
+
   /* Set dsp to default: mono */
   dsp->channels = DEFAULT_CHANNELS;
   if (ioctl (dsp->dspfd, SNDCTL_DSP_CHANNELS, &dsp->channels) == -1) {
@@ -550,7 +612,7 @@ int dsp_open(dsp_t* dsp) {
   if (debug && debug_todo) {
     g_print("dsp_open: Number of channels = %d\n", dsp->channels);
   }
-  
+
   /* Set the DSP rate (in Hz) */
   dsp->rate = DEFAULT_RATE; /* requested default */
   if (ioctl (dsp->dspfd, SNDCTL_DSP_SPEED, &dsp->rate) == -1) {
@@ -581,7 +643,7 @@ int dsp_open(dsp_t* dsp) {
   if (debug && debug_todo)
     g_print("dsp_open: Total number of fragments in DSP buffer = %d.\n",
 	    dsp->fragstotal);
-  
+
   debug_todo = 0;
   return 0;
 }
@@ -591,7 +653,7 @@ int dsp_open(dsp_t* dsp) {
  */
 void dsp_close(dsp_t* dsp) {
   static int debug_todo = 1;
-  
+
   if (debug && debug_todo)
     g_print ("dsp_close: Closing sound device ...\n");
   if (dsp->dspfd != -1) {
@@ -606,6 +668,9 @@ void dsp_close(dsp_t* dsp) {
     }
   }
 
+  if (dsp->pas)
+    pa_simple_free(dsp->pas);
+
   debug_todo = 0;
 }
 
@@ -617,16 +682,16 @@ void dsp_close(dsp_t* dsp) {
 int dsp_init(dsp_t* dsp)
 {
   short silencelevel = 0;
- 
+
   if (dsp_open(dsp) == -1)
     return -1;
-  
+
   dsp->frames = NULL;
   dsp->silence = NULL;
   dsp->tickdata0 = NULL;
   dsp->tickdata1 = NULL;
   dsp->tickdata2 = NULL;
-  
+
   /* silence */
   generate_data(&silencelevel, 1, dsp->rate, 1, dsp, &dsp->silence);
 
@@ -654,7 +719,7 @@ void dsp_deinit(dsp_t* dsp)
 {
   dsp->running = 0;
   dsp_close(dsp);
-  
+
   if (dsp->tickdata0) {
     g_free(dsp->tickdata0);
     dsp->tickdata0 = NULL;
@@ -682,7 +747,7 @@ void dsp_deinit(dsp_t* dsp)
  */
 static void wrap_position(dsp_t* dsp, int ticklen) {
   unsigned int* reply;
-  
+
   if (dsp->tickpos >= ticklen) {
     dsp->tickpos = 0;
     dsp->cyclepos++;
@@ -694,6 +759,67 @@ static void wrap_position(dsp_t* dsp, int ticklen) {
     comm_server_send_response(dsp->inter_thread_comm,
 			      MESSAGE_TYPE_RESPONSE_SYNC, reply);
   }
+}
+
+/*
+ * Feed pulseaudio stream with next samples
+ */
+gboolean pulse_feed(dsp_t* dsp)
+{
+  int ticklen = rint(dsp->rate / dsp->frequency) *
+                dsp->channels * dsp->samplesize / 8;
+  unsigned char *the_data; /* pointer to actual buffer */
+  int data_size;           /* size of actual buffer */
+
+  int fragments; /* number of fragments yet to write */
+  int error;
+  fragments = 1;
+
+  wrap_position(dsp, ticklen);
+
+  /* write as many fragments as possible */
+  while (fragments > 0) {
+    int i;
+
+    /* generate fragment */
+    for (i = 0; i < dsp->fragmentsize; i++) {
+      int index;
+
+      if (dsp->meter == 1) {                 /* single ticks */
+	the_data = dsp->tickdata0;
+	data_size = dsp->td0_size;
+      } else if (dsp->accents[dsp->cyclepos]) {  /* accentuate 1st tick */
+	the_data = dsp->tickdata1;
+	data_size = dsp->td1_size;
+      } else {                                 /* sound of 2nd tick */
+	the_data = dsp->tickdata2;
+	data_size = dsp->td2_size;
+      }
+
+      if ((index = dsp->tickpos) < data_size) { /* tick! */
+	dsp->fragment[i] = the_data[index];
+      } else { /* silence (between ticks)  */
+	dsp->fragment[i] =
+	  dsp->silence[i % (dsp->samplesize / 8 * dsp->channels)];
+      }
+
+      dsp->tickpos++;
+      wrap_position(dsp, ticklen);
+    }
+
+    if (pa_simple_write(dsp->pas, dsp->fragment, (size_t) dsp->fragmentsize, &error) < 0) {
+      g_print("pulse_feed: pa_simple_write ERROR: %s\n", pa_strerror(error));
+    }
+    fragments--;
+  }
+
+#if 0
+  if (pa_simple_drain(dsp->pas, &error) < 0) {
+    g_print("pulse_feed: pa_simple_drain ERROR: %s\n", pa_strerror(error));
+  }
+#endif
+
+  return 1;
 }
 
 /*
@@ -711,7 +837,7 @@ gboolean dsp_feed(dsp_t* dsp)
 
   int fragments; /* number of fragments yet to write */
   int limit; /* number of fragments we want to have filled */
- 
+
   /* get number of fragments to write to dsp */
   if (ioctl(dsp->dspfd, SNDCTL_DSP_GETOSPACE, &info) == -1) {
     perror("SNDCTL_DSP_GETOSPACE");
@@ -729,11 +855,11 @@ gboolean dsp_feed(dsp_t* dsp)
   /* write as many fragments as possible */
   while (fragments > 0) {
     int i;
-    
+
     /* generate fragment */
     for (i = 0; i < dsp->fragmentsize; i++) {
       int index;
-	
+
       if (dsp->meter == 1) {                 /* single ticks */
 	the_data = dsp->tickdata0;
 	data_size = dsp->td0_size;
@@ -789,7 +915,7 @@ void dsp_set_volume(dsp_t* dsp, double volume)
     free(dsp->tickdata0);
     free(dsp->tickdata1);
     free(dsp->tickdata2);
-    
+
     prepare_buffers(dsp);
   }
 }
@@ -808,12 +934,12 @@ void dsp_main_loop(dsp_t* dsp) {
     void* message;
     int get_volume = 0;         /* flag */
     void* reply = NULL;
-    
+
     while ((message_type = comm_server_try_get_query(dsp->inter_thread_comm,
 	                                             &message))
 	   != MESSAGE_TYPE_NO_MESSAGE)
     {
-      
+
       switch (message_type) {
         case MESSAGE_TYPE_STOP_SERVER:
 	  repeat_flag = 0;
@@ -825,6 +951,10 @@ void dsp_main_loop(dsp_t* dsp) {
 	case MESSAGE_TYPE_SET_SOUND:
 	  if (dsp->soundname) free(dsp->soundname);
 	  dsp->soundname = (char*) message;
+	  break;
+	case MESSAGE_TYPE_SET_SOUNDSYSTEM:
+	  if (dsp->soundsystem) free(dsp->soundsystem);
+	  dsp->soundsystem = (char*) message;
 	  break;
 	case MESSAGE_TYPE_SET_METER:
 	  dsp->meter = *((int*) message);
@@ -868,7 +998,7 @@ void dsp_main_loop(dsp_t* dsp) {
 
     if (get_volume) {
       double volume = dsp_get_volume(dsp);
-      
+
       reply = (double*) g_malloc0 (sizeof(double));
       *((double*)reply) = volume;
       if (*((double*)reply) != -1) {
@@ -880,8 +1010,13 @@ void dsp_main_loop(dsp_t* dsp) {
     }
 
     if (dsp->running) { /* metronome running */
-      dsp_feed(dsp);
+      if (dsp->dspfd != -1) { /* metronome running */
+        dsp_feed(dsp);
+      } else {
+        pulse_feed(dsp);
+      }
     }
+
     nanosleep(&requested, &remaining);
   }
 }
