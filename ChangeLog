@@ -1,4 +1,7 @@
-	* Added patch by Samuel Thibault <sthibault@debian.org>
+gtick 0.5.0, 2011-08-06, Roland Stigge <stigge@antcom.de>
+	* Added Pulseaudio support by Alexander Varnin and Samo Pogacnik
+	* Added patch by Samuel Thibault <sthibault@debian.org> to fix build
+	  problems on non-Linux systems
 	* Added Indonesian translation, thanks to Andhika Padmawan
 	* Added Esperanto translation, thanks to Felipe Castro
 	* Added Persian translation, thanks to Mahyar Moghimi
