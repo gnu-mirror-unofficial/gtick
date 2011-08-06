@@ -41,11 +41,7 @@
 #endif
 
 /* OSS headers */
-#if defined(__FreeBSD__) || defined(__FreeBSD_kernel__)
 #include <sys/soundcard.h>
-#else
-#include <linux/soundcard.h>
-#endif
 
 /* GTK+ headers */
 #include <glib.h>
