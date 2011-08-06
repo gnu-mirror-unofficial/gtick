@@ -70,7 +70,7 @@ fi
 
 # GNU gettext
 AM_GNU_GETTEXT
-AM_GNU_GETTEXT_VERSION(0.16.1)
+AM_GNU_GETTEXT_VERSION(0.18.1)
 
 # directory containing configuration support files
 # defaults to package root
