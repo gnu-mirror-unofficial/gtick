@@ -72,7 +72,6 @@ void about_box(GtkAction *action _U_, metro_t* metro)
 
   GdkPixmap* pixmap;
   GdkBitmap* mask;
-  GtkStyle* style;
   GtkWidget* pixmapwidget;
 
   window = gtk_dialog_new_with_buttons(_("About GTick"), GTK_WINDOW(metro->window),
@@ -92,7 +91,6 @@ void about_box(GtkAction *action _U_, metro_t* metro)
   gtk_widget_show(vbox);
 
   gtk_widget_realize(window);
-  style = gtk_widget_get_style(window);
   pixmap = gdk_pixmap_create_from_xpm_d(window->window,
   				        &mask,
 				        NULL,
