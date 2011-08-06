@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtick 0.3.12\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2008-05-22 14:39+0200\n"
+"POT-Creation-Date: 2011-08-06 18:57+0200\n"
 "PO-Revision-Date: 2007-02-19 10:00+0300\n"
 "Last-Translator: Youri Bulka <jblk@icmail.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,15 +36,15 @@ msgstr ""
 "ліквідації помилок\n"
 "\n"
 
-#: src/help.c:78
+#: src/help.c:77
 msgid "About GTick"
 msgstr "Про GTick"
 
-#: src/help.c:80
+#: src/help.c:79
 msgid "License"
 msgstr "Ліцензія"
 
-#: src/help.c:105
+#: src/help.c:103
 #, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -68,11 +69,11 @@ msgstr ""
 "список розсилки розробників:\n"
 "gtick-devel@nongnu.org"
 
-#: src/help.c:129
+#: src/help.c:127
 msgid "GTick License"
 msgstr "Ліцензія GTick"
 
-#: src/help.c:130
+#: src/help.c:128
 #, fuzzy
 msgid ""
 "GTick - The Metronome\n"
@@ -109,136 +110,136 @@ msgstr ""
 "програмою; якщо ні, напишіть до Фундації Вільного Програмного Забезпечення, "
 "51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA."
 
-#: src/help.c:157
+#: src/help.c:155
 msgid "Shortcuts"
 msgstr "Швидкі клавіші"
 
-#: src/help.c:164
+#: src/help.c:162
 msgid "Ctrl-S"
 msgstr "Ctrl-S"
 
-#: src/help.c:170
+#: src/help.c:168
 msgid "Ctrl-+"
 msgstr "Ctrl-+"
 
-#: src/help.c:176
+#: src/help.c:174
 msgid "Ctrl--"
 msgstr "Ctrl--"
 
-#: src/help.c:182
+#: src/help.c:180
 msgid "Ctrl-1 ... Ctrl-9"
 msgstr "Ctrl-1 ... Ctrl-9"
 
-#: src/help.c:188
+#: src/help.c:186
 msgid "Alt-w"
 msgstr "Alt-w"
 
-#: src/help.c:194
+#: src/help.c:192
 msgid "Alt-q"
 msgstr "Alt-q"
 
-#: src/help.c:200
+#: src/help.c:198
 msgid "Alt-a"
 msgstr "Alt-a"
 
-#: src/help.c:206
+#: src/help.c:204
 msgid "Alt-s"
 msgstr "Alt-s"
 
-#: src/help.c:212
+#: src/help.c:210
 msgid "Alt-z"
 msgstr "Alt-z"
 
-#: src/help.c:218
+#: src/help.c:216
 msgid "Alt-x"
 msgstr "Alt-x"
 
-#: src/help.c:224
+#: src/help.c:222
 msgid "Shift-w"
 msgstr "Shift-w"
 
-#: src/help.c:230
+#: src/help.c:228
 msgid "Shift-q"
 msgstr "Shift-q"
 
-#: src/help.c:236
+#: src/help.c:234
 msgid "Shift-a"
 msgstr "Shift-a"
 
-#: src/help.c:242
+#: src/help.c:240
 msgid "Shift-s"
 msgstr "Shift-s"
 
-#: src/help.c:248
+#: src/help.c:246
 msgid "Shift-z"
 msgstr "Shift-z"
 
-#: src/help.c:254
+#: src/help.c:252
 msgid "Shift-x"
 msgstr "Shift-x"
 
-#: src/help.c:260
+#: src/help.c:258
 msgid "Start/Stop"
 msgstr "Старт/Стоп"
 
-#: src/help.c:266
+#: src/help.c:264
 msgid "Speed: Faster"
 msgstr "Темп: швидший"
 
-#: src/help.c:272
+#: src/help.c:270
 msgid "Speed: Slower"
 msgstr "Темп: повільніший"
 
-#: src/help.c:278 src/metro.c:1658
+#: src/help.c:276 src/metro.c:1728
 #, fuzzy
 msgid "Meter"
 msgstr "Базовий Метр"
 
-#: src/help.c:284
+#: src/help.c:282
 msgid "Double Speed"
 msgstr "Подвійний темп"
 
-#: src/help.c:290
+#: src/help.c:288
 msgid "Half Speed"
 msgstr "Пів-темп"
 
-#: src/help.c:296
+#: src/help.c:294
 msgid "Speed: -10"
 msgstr "Темп: -10"
 
-#: src/help.c:302
+#: src/help.c:300
 msgid "Speed: +10"
 msgstr "Темп: +10"
 
-#: src/help.c:308
+#: src/help.c:306
 msgid "Speed: -2"
 msgstr "Темп: -2"
 
-#: src/help.c:314
+#: src/help.c:312
 msgid "Speed: +2"
 msgstr "Темп: +2"
 
-#: src/help.c:320
+#: src/help.c:318
 msgid "Double Volume"
 msgstr "Подвійна гучність"
 
-#: src/help.c:326
+#: src/help.c:324
 msgid "Half Volume"
 msgstr "Пів-гучність"
 
-#: src/help.c:332
+#: src/help.c:330
 msgid "Volume: -10"
 msgstr "Гучність: -10"
 
-#: src/help.c:338
+#: src/help.c:336
 msgid "Volume: +10"
 msgstr "Гучність: +10"
 
-#: src/help.c:344
+#: src/help.c:342
 msgid "Volume: -2"
 msgstr "Гучність: -2"
 
-#: src/help.c:350
+#: src/help.c:348
 msgid "Volume: +2"
 msgstr "Гучність: +2"
 
@@ -360,61 +361,61 @@ msgstr "Presto"
 msgid "Prestissimo"
 msgstr "Prestissimo"
 
-#: src/metro.c:1507
+#: src/metro.c:1577
 msgid "Settings"
 msgstr "Налаштування"
 
 #. TRANSLATORS: This is a tempo name with its associated BPM
 #. (beats per minute) range
-#: src/metro.c:1536
+#: src/metro.c:1606
 #, c-format
 msgid "%s   (%d ... %d)"
 msgstr "%s   (%d ... %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
-#: src/metro.c:1550
+#: src/metro.c:1620
 msgid "Tap"
 msgstr "Стук!"
 
-#: src/metro.c:1555
+#: src/metro.c:1625
 msgid "Speed:"
 msgstr "Темп:"
 
-#: src/metro.c:1624
+#: src/metro.c:1694
 msgid "Volume:"
 msgstr "Гучність:"
 
 #. TRANSLATORS: all beats are equal
-#: src/metro.c:1681
+#: src/metro.c:1751
 msgid "Even"
 msgstr "Поодинчий"
 
 #. TRANSLATORS: duple meter
-#: src/metro.c:1694
+#: src/metro.c:1764
 msgid "2/4"
 msgstr "2/4"
 
 #. TRANSLATORS: triple meter
-#: src/metro.c:1705
+#: src/metro.c:1775
 msgid "3/4"
 msgstr "3/4"
 
 #. TRANSLATORS: quadruple meter / common meter
-#: src/metro.c:1716
+#: src/metro.c:1786
 msgid "4/4"
 msgstr "4/4"
 
 #. TRANSLATORS: meter with more than 4 beats per measure
-#: src/metro.c:1727 src/gtkoptions.c:333
+#: src/metro.c:1797 src/gtkoptions.c:362
 msgid "Other:"
 msgstr "Інший:"
 
-#: src/metro.c:1749
+#: src/metro.c:1819
 msgid "Beat Accent"
 msgstr "Акцент"
 
-#: src/metro.c:1917
+#: src/metro.c:1987
 msgid ""
 "Couldn't start metronome.\n"
 "Please check if specified sound device\n"
@@ -424,59 +425,67 @@ msgstr ""
 "Будь-ласка перевірте чи вибраний звуковий пристрій і файл звуку (стуку) є "
 "доступними."
 
-#: src/gtkoptions.c:186
+#: src/gtkoptions.c:214
 msgid "Please choose a sound file."
 msgstr "Будь-ласка виберіть звуковий пристрій."
 
-#: src/gtkoptions.c:242
+#: src/gtkoptions.c:270
 msgid "Preferences"
 msgstr "Налаштування"
 
-#: src/gtkoptions.c:286
+#: src/gtkoptions.c:315
 msgid "Sound"
 msgstr "Звук"
 
-#: src/gtkoptions.c:302
+#: src/gtkoptions.c:331
 msgid "Default"
 msgstr "Типовий"
 
-#: src/gtkoptions.c:315
+#: src/gtkoptions.c:344
 msgid "Sine"
 msgstr "Синусоподібний"
 
-#: src/gtkoptions.c:360
+#: src/gtkoptions.c:389
 msgid "Choose"
 msgstr "Вибрати"
 
-#: src/gtkoptions.c:381
-msgid "Sound Device"
-msgstr "Звуковий пристрій"
+#: src/gtkoptions.c:410
+msgid "Sound System"
+msgstr ""
 
-#: src/gtkoptions.c:401
+#: src/gtkoptions.c:430
+msgid "Pulseaudio"
+msgstr ""
+
+#: src/gtkoptions.c:443
+msgid "OSS"
+msgstr ""
+
+#: src/gtkoptions.c:458
 msgid "Device filename:"
 msgstr "Файл пристрою:"
 
-#: src/gtkoptions.c:420
+#: src/gtkoptions.c:477
 msgid "External Commands"
 msgstr "Зовнішні команди"
 
-#: src/gtkoptions.c:438
+#: src/gtkoptions.c:495
 msgid "Execute on start:"
 msgstr "Виконувати при старті:"
 
-#: src/gtkoptions.c:456
+#: src/gtkoptions.c:513
 msgid "Execute on stop:"
 msgstr "Виконувати під-час зупинки:"
 
-#: src/gtkoptions.c:477
+#: src/gtkoptions.c:534
 msgid "Speed Range"
 msgstr "Швидкісні межі темпу"
 
-#: src/gtkoptions.c:495
+#: src/gtkoptions.c:552
 msgid "Minimum BPM:"
 msgstr "Мінімальна к-сть ударів/хв.:"
 
-#: src/gtkoptions.c:512
+#: src/gtkoptions.c:569
 msgid "Maximum BPM:"
 msgstr "Максимальна к-сть ударів/хв.:"
 
@@ -495,6 +504,9 @@ msgstr "Будь-ласка введіть назву нового профай�
 #: src/profiles.c:682
 msgid "Profiles"
 msgstr "Про_файли"
+
+#~ msgid "Sound Device"
+#~ msgstr "Звуковий пристрій"
 
 #~ msgid "Beat"
 #~ msgstr "Метр"

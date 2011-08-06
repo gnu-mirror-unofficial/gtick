@@ -6,11 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gtick 0.4.2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-30 23:22+0200\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2011-08-06 18:57+0200\n"
 "PO-Revision-Date: 2010-08-23 13:29+0330\n"
 "Last-Translator: Mahyar Moghimi <mahyar.moqimi@gmail.com>\n"
 "Language-Team: Persian <translation-team-fa@lists.sourceforge.net>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,15 +29,15 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/help.c:78
+#: src/help.c:77
 msgid "About GTick"
 msgstr "درباره‌ی جی‌تیک"
 
-#: src/help.c:80
+#: src/help.c:79
 msgid "License"
 msgstr "مجوز"
 
-#: src/help.c:105
+#: src/help.c:103
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -50,11 +51,11 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 
-#: src/help.c:129
+#: src/help.c:127
 msgid "GTick License"
 msgstr "مجوز جی‌تیک"
 
-#: src/help.c:130
+#: src/help.c:128
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -74,161 +75,160 @@ msgid ""
 "along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 
-#: src/help.c:157
+#: src/help.c:155
 msgid "Shortcuts"
 msgstr "میانبُرهای صفحه‌کلید"
 
-#: src/help.c:164
+#: src/help.c:162
 #, fuzzy
 msgid "Ctrl-S"
 msgstr "مهار"
 
-#: src/help.c:170
+#: src/help.c:168
 #, fuzzy
 msgid "Ctrl-+"
 msgstr "مهار"
 
-#: src/help.c:176
+#: src/help.c:174
 #, fuzzy
 msgid "Ctrl--"
 msgstr "مهار"
 
-#: src/help.c:182
+#: src/help.c:180
 #, fuzzy
 msgid "Ctrl-1 ... Ctrl-9"
 msgstr "مهار"
 
-#: src/help.c:188
+#: src/help.c:186
 #, fuzzy
 msgid "Alt-w"
 msgstr "دگرساز"
 
-#: src/help.c:194
+#: src/help.c:192
 #, fuzzy
 msgid "Alt-q"
 msgstr "دگرساز"
 
-#: src/help.c:200
+#: src/help.c:198
 #, fuzzy
 msgid "Alt-a"
 msgstr "دگرساز"
 
-#: src/help.c:206
+#: src/help.c:204
 #, fuzzy
 msgid "Alt-s"
 msgstr "دگرساز"
 
-#: src/help.c:212
+#: src/help.c:210
 #, fuzzy
 msgid "Alt-z"
 msgstr "دگرساز"
 
-#: src/help.c:218
+#: src/help.c:216
 #, fuzzy
 msgid "Alt-x"
 msgstr "دگرساز"
 
-#: src/help.c:224
+#: src/help.c:222
 #, fuzzy
 msgid "Shift-w"
 msgstr "تبدیل"
 
-#: src/help.c:230
+#: src/help.c:228
 #, fuzzy
 msgid "Shift-q"
 msgstr "تبدیل"
 
-#: src/help.c:236
+#: src/help.c:234
 #, fuzzy
 msgid "Shift-a"
 msgstr "تبدیل"
 
-#: src/help.c:242
+#: src/help.c:240
 #, fuzzy
 msgid "Shift-s"
 msgstr "تبدیل"
 
-#: src/help.c:248
+#: src/help.c:246
 #, fuzzy
 msgid "Shift-z"
 msgstr "تبدیل"
 
-#: src/help.c:254
+#: src/help.c:252
 #, fuzzy
 msgid "Shift-x"
 msgstr "تبدیل"
 
-#: src/help.c:260
+#: src/help.c:258
 #, fuzzy
 msgid "Start/Stop"
 msgstr "توقف صفحه‌کلید"
 
-#: src/help.c:266
+#: src/help.c:264
 #, fuzzy
 msgid "Speed: Faster"
 msgstr "_سرعت اتصال:"
 
-#: src/help.c:272
+#: src/help.c:270
 #, fuzzy
 msgid "Speed: Slower"
 msgstr "_سرعت اتصال:"
 
-#: src/help.c:278
-#: src/metro.c:1658
+#: src/help.c:276 src/metro.c:1728
 msgid "Meter"
 msgstr ""
 
-#: src/help.c:284
+#: src/help.c:282
 #, fuzzy
 msgid "Double Speed"
 msgstr "_سرعت اتصال:"
 
-#: src/help.c:290
+#: src/help.c:288
 #, fuzzy
 msgid "Half Speed"
 msgstr "_سرعت اتصال:"
 
-#: src/help.c:296
+#: src/help.c:294
 #, fuzzy
 msgid "Speed: -10"
 msgstr "Sans 10"
 
-#: src/help.c:302
+#: src/help.c:300
 #, fuzzy
 msgid "Speed: +10"
 msgstr "Sans 10"
 
-#: src/help.c:308
+#: src/help.c:306
 #, fuzzy
 msgid "Speed: -2"
 msgstr "سرعت"
 
-#: src/help.c:314
+#: src/help.c:312
 #, fuzzy
 msgid "Speed: +2"
 msgstr "سرعت"
 
-#: src/help.c:320
+#: src/help.c:318
 msgid "Double Volume"
 msgstr "دوبرابر کردن صدا"
 
-#: src/help.c:326
+#: src/help.c:324
 msgid "Half Volume"
 msgstr "نصف‌کردن صدا"
 
-#: src/help.c:332
+#: src/help.c:330
 msgid "Volume: -10"
 msgstr "صدا: ۱۰-"
 
-#: src/help.c:338
+#: src/help.c:336
 msgid "Volume: +10"
 msgstr "صدا: ۱۰+"
 
-#: src/help.c:344
+#: src/help.c:342
 msgid "Volume: -2"
 msgstr "صدا: ۲-"
 
-#: src/help.c:350
+#: src/help.c:348
 msgid "Volume: +2"
 msgstr "صدا: ۲+"
 
@@ -236,8 +236,7 @@ msgstr "صدا: ۲+"
 msgid "Idle"
 msgstr "عاطل"
 
-#: src/metro.c:74
-#: src/metro.c:90
+#: src/metro.c:74 src/metro.c:90
 msgid "Start"
 msgstr "شروع"
 
@@ -352,143 +351,148 @@ msgstr ""
 msgid "Prestissimo"
 msgstr ""
 
-#: src/metro.c:1507
+#: src/metro.c:1577
 #, fuzzy
 msgid "Settings"
 msgstr "تنظیمات"
 
 #. TRANSLATORS: This is a tempo name with its associated BPM
 #. (beats per minute) range
-#: src/metro.c:1536
+#: src/metro.c:1606
 #, c-format
 msgid "%s   (%d ... %d)"
 msgstr ""
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
-#: src/metro.c:1550
+#: src/metro.c:1620
 msgid "Tap"
 msgstr ""
 
-#: src/metro.c:1555
+#: src/metro.c:1625
 #, fuzzy
 msgid "Speed:"
 msgstr "سرعت:"
 
-#: src/metro.c:1624
+#: src/metro.c:1694
 #, fuzzy
 msgid "Volume:"
 msgstr "جلد:"
 
 #. TRANSLATORS: all beats are equal
-#: src/metro.c:1681
+#: src/metro.c:1751
 #, fuzzy
 msgid "Even"
 msgstr "صفحه‌های زوج"
 
 #. TRANSLATORS: duple meter
-#: src/metro.c:1694
+#: src/metro.c:1764
 msgid "2/4"
 msgstr ""
 
 #. TRANSLATORS: triple meter
-#: src/metro.c:1705
+#: src/metro.c:1775
 msgid "3/4"
 msgstr ""
 
 #. TRANSLATORS: quadruple meter / common meter
-#: src/metro.c:1716
+#: src/metro.c:1786
 msgid "4/4"
 msgstr ""
 
 #. TRANSLATORS: meter with more than 4 beats per measure
-#: src/metro.c:1727
-#: src/gtkoptions.c:333
+#: src/metro.c:1797 src/gtkoptions.c:362
 #, fuzzy
 msgid "Other:"
 msgstr "غیره..."
 
-#: src/metro.c:1749
+#: src/metro.c:1819
 msgid "Beat Accent"
 msgstr ""
 
-#: src/metro.c:1917
+#: src/metro.c:1987
 msgid ""
 "Couldn't start metronome.\n"
 "Please check if specified sound device\n"
 "and sample file are accessible."
 msgstr ""
 
-#: src/gtkoptions.c:186
+#: src/gtkoptions.c:214
 msgid "Please choose a sound file."
 msgstr ""
 
-#: src/gtkoptions.c:242
+#: src/gtkoptions.c:270
 #, fuzzy
 msgid "Preferences"
 msgstr "تنظیمات"
 
-#: src/gtkoptions.c:286
+#: src/gtkoptions.c:315
 #, fuzzy
 msgid "Sound"
 msgstr "صدا"
 
-#: src/gtkoptions.c:302
+#: src/gtkoptions.c:331
 #, fuzzy
 msgid "Default"
 msgstr "پیش‌فرض"
 
-#: src/gtkoptions.c:315
+#: src/gtkoptions.c:344
 #, fuzzy
 msgid "Sine"
 msgstr "تابع سینوس"
 
-#: src/gtkoptions.c:360
+#: src/gtkoptions.c:389
 #, fuzzy
 msgid "Choose"
 msgstr "پرونده را انتخاب کنید"
 
-#: src/gtkoptions.c:381
-#, fuzzy
-msgid "Sound Device"
-msgstr "اطلاعات دستگاه"
+#: src/gtkoptions.c:410
+msgid "Sound System"
+msgstr ""
 
-#: src/gtkoptions.c:401
+#: src/gtkoptions.c:430
+msgid "Pulseaudio"
+msgstr ""
+
+#: src/gtkoptions.c:443
+msgid "OSS"
+msgstr ""
+
+#: src/gtkoptions.c:458
 #, fuzzy
 msgid "Device filename:"
 msgstr "تنظیم نام پرونده"
 
-#: src/gtkoptions.c:420
+#: src/gtkoptions.c:477
 #, fuzzy
 msgid "External Commands"
 msgstr "فرمان‌های مشترک"
 
-#: src/gtkoptions.c:438
+#: src/gtkoptions.c:495
 #, fuzzy
 msgid "Execute on start:"
 msgstr "آغاز با کلید فاصله"
 
-#: src/gtkoptions.c:456
+#: src/gtkoptions.c:513
 msgid "Execute on stop:"
 msgstr ""
 
-#: src/gtkoptions.c:477
+#: src/gtkoptions.c:534
 #, fuzzy
 msgid "Speed Range"
 msgstr "محدوده‌ی چاپ"
 
-#: src/gtkoptions.c:495
+#: src/gtkoptions.c:552
 #, fuzzy
 msgid "Minimum BPM:"
 msgstr "_حداقل اندازه:"
 
-#: src/gtkoptions.c:512
+#: src/gtkoptions.c:569
 #, fuzzy
 msgid "Maximum BPM:"
 msgstr "طول حداکثر"
 
-#: src/profiles.c:330
-#: src/profiles.c:616
+#: src/profiles.c:330 src/profiles.c:616
 #, fuzzy
 msgid "Unnamed Profile"
 msgstr "_تغییر شرح‌حال"
@@ -507,3 +511,6 @@ msgstr ""
 msgid "Profiles"
 msgstr "مجموعه‌های‌ تنظیمات"
 
+#, fuzzy
+#~ msgid "Sound Device"
+#~ msgstr "اطلاعات دستگاه"

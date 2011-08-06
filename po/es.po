@@ -6,10 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtick 0.2.12\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2008-05-22 14:39+0200\n"
+"POT-Creation-Date: 2011-08-06 18:57+0200\n"
 "PO-Revision-Date: 2004-01-04 14:22+0100\n"
 "Last-Translator: Bernardo Arlandis Mañó <berarma@ya.com>\n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,16 +35,16 @@ msgstr ""
 "ejecución\n"
 "\n"
 
-#: src/help.c:78
+#: src/help.c:77
 msgid "About GTick"
 msgstr ""
 
-#: src/help.c:80
+#: src/help.c:79
 #, fuzzy
 msgid "License"
 msgstr "Licencia de GTick"
 
-#: src/help.c:105
+#: src/help.c:103
 #, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -68,11 +69,11 @@ msgstr ""
 "la lista de correo de los desarrolladores:\n"
 "gtick-devel@nongnu.org"
 
-#: src/help.c:129
+#: src/help.c:127
 msgid "GTick License"
 msgstr "Licencia de GTick"
 
-#: src/help.c:130
+#: src/help.c:128
 #, fuzzy
 msgid ""
 "GTick - The Metronome\n"
@@ -110,142 +111,142 @@ msgstr ""
 "Free Software Foundation, Inc.\", 59 Temple Place - Suite 330,\n"
 "Boston, MA  02111-1307, USA."
 
-#: src/help.c:157
+#: src/help.c:155
 msgid "Shortcuts"
 msgstr "Atajos"
 
-#: src/help.c:164
+#: src/help.c:162
 msgid "Ctrl-S"
 msgstr "Ctrl-S"
 
-#: src/help.c:170
+#: src/help.c:168
 msgid "Ctrl-+"
 msgstr "Ctrl-+"
 
-#: src/help.c:176
+#: src/help.c:174
 msgid "Ctrl--"
 msgstr "Ctrl--"
 
-#: src/help.c:182
+#: src/help.c:180
 msgid "Ctrl-1 ... Ctrl-9"
 msgstr "Ctrl-1 ... Ctrl-9"
 
-#: src/help.c:188
+#: src/help.c:186
 msgid "Alt-w"
 msgstr ""
 
-#: src/help.c:194
+#: src/help.c:192
 msgid "Alt-q"
 msgstr ""
 
-#: src/help.c:200
+#: src/help.c:198
 msgid "Alt-a"
 msgstr ""
 
-#: src/help.c:206
+#: src/help.c:204
 msgid "Alt-s"
 msgstr ""
 
-#: src/help.c:212
+#: src/help.c:210
 msgid "Alt-z"
 msgstr ""
 
-#: src/help.c:218
+#: src/help.c:216
 msgid "Alt-x"
 msgstr ""
 
-#: src/help.c:224
+#: src/help.c:222
 msgid "Shift-w"
 msgstr ""
 
-#: src/help.c:230
+#: src/help.c:228
 msgid "Shift-q"
 msgstr ""
 
-#: src/help.c:236
+#: src/help.c:234
 msgid "Shift-a"
 msgstr ""
 
-#: src/help.c:242
+#: src/help.c:240
 msgid "Shift-s"
 msgstr ""
 
-#: src/help.c:248
+#: src/help.c:246
 msgid "Shift-z"
 msgstr ""
 
-#: src/help.c:254
+#: src/help.c:252
 msgid "Shift-x"
 msgstr ""
 
-#: src/help.c:260
+#: src/help.c:258
 msgid "Start/Stop"
 msgstr "Iniciar/Parar"
 
-#: src/help.c:266
+#: src/help.c:264
 msgid "Speed: Faster"
 msgstr "Velocidad: más rápido"
 
-#: src/help.c:272
+#: src/help.c:270
 msgid "Speed: Slower"
 msgstr "Velocidad: más despacio"
 
-#: src/help.c:278 src/metro.c:1658
+#: src/help.c:276 src/metro.c:1728
 msgid "Meter"
 msgstr "Medida"
 
-#: src/help.c:284
+#: src/help.c:282
 msgid "Double Speed"
 msgstr "Velocidad doble"
 
-#: src/help.c:290
+#: src/help.c:288
 msgid "Half Speed"
 msgstr "Velocidad mitad"
 
-#: src/help.c:296
+#: src/help.c:294
 #, fuzzy
 msgid "Speed: -10"
 msgstr "Velocidad:"
 
-#: src/help.c:302
+#: src/help.c:300
 #, fuzzy
 msgid "Speed: +10"
 msgstr "Velocidad:"
 
-#: src/help.c:308
+#: src/help.c:306
 #, fuzzy
 msgid "Speed: -2"
 msgstr "Velocidad:"
 
-#: src/help.c:314
+#: src/help.c:312
 #, fuzzy
 msgid "Speed: +2"
 msgstr "Velocidad:"
 
-#: src/help.c:320
+#: src/help.c:318
 msgid "Double Volume"
 msgstr "Volumen doble"
 
-#: src/help.c:326
+#: src/help.c:324
 msgid "Half Volume"
 msgstr "Volumen mitad"
 
-#: src/help.c:332
+#: src/help.c:330
 #, fuzzy
 msgid "Volume: -10"
 msgstr "Volumen:"
 
-#: src/help.c:338
+#: src/help.c:336
 #, fuzzy
 msgid "Volume: +10"
 msgstr "Volumen:"
 
-#: src/help.c:344
+#: src/help.c:342
 #, fuzzy
 msgid "Volume: -2"
 msgstr "Volumen:"
 
-#: src/help.c:350
+#: src/help.c:348
 #, fuzzy
 msgid "Volume: +2"
 msgstr "Volumen:"
@@ -368,61 +369,61 @@ msgstr ""
 msgid "Prestissimo"
 msgstr ""
 
-#: src/metro.c:1507
+#: src/metro.c:1577
 msgid "Settings"
 msgstr "Ajustes"
 
 #. TRANSLATORS: This is a tempo name with its associated BPM
 #. (beats per minute) range
-#: src/metro.c:1536
+#: src/metro.c:1606
 #, c-format
 msgid "%s   (%d ... %d)"
 msgstr ""
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
-#: src/metro.c:1550
+#: src/metro.c:1620
 msgid "Tap"
 msgstr "Golpe"
 
-#: src/metro.c:1555
+#: src/metro.c:1625
 msgid "Speed:"
 msgstr "Velocidad:"
 
-#: src/metro.c:1624
+#: src/metro.c:1694
 msgid "Volume:"
 msgstr "Volumen:"
 
 #. TRANSLATORS: all beats are equal
-#: src/metro.c:1681
+#: src/metro.c:1751
 msgid "Even"
 msgstr "Uniforme"
 
 #. TRANSLATORS: duple meter
-#: src/metro.c:1694
+#: src/metro.c:1764
 msgid "2/4"
 msgstr "2/4"
 
 #. TRANSLATORS: triple meter
-#: src/metro.c:1705
+#: src/metro.c:1775
 msgid "3/4"
 msgstr "3/4"
 
 #. TRANSLATORS: quadruple meter / common meter
-#: src/metro.c:1716
+#: src/metro.c:1786
 msgid "4/4"
 msgstr "4/4"
 
 #. TRANSLATORS: meter with more than 4 beats per measure
-#: src/metro.c:1727 src/gtkoptions.c:333
+#: src/metro.c:1797 src/gtkoptions.c:362
 msgid "Other:"
 msgstr "Otro:"
 
-#: src/metro.c:1749
+#: src/metro.c:1819
 msgid "Beat Accent"
 msgstr "Acentos"
 
-#: src/metro.c:1917
+#: src/metro.c:1987
 msgid ""
 "Couldn't start metronome.\n"
 "Please check if specified sound device\n"
@@ -432,59 +433,67 @@ msgstr ""
 "Por favor, compruebe que el dispositivo de sonido\n"
 "especificado y el fichero de sonido están accesibles."
 
-#: src/gtkoptions.c:186
+#: src/gtkoptions.c:214
 msgid "Please choose a sound file."
 msgstr "Por favor, seleccione un fichero de sonido."
 
-#: src/gtkoptions.c:242
+#: src/gtkoptions.c:270
 msgid "Preferences"
 msgstr ""
 
-#: src/gtkoptions.c:286
+#: src/gtkoptions.c:315
 msgid "Sound"
 msgstr "Sonido"
 
-#: src/gtkoptions.c:302
+#: src/gtkoptions.c:331
 msgid "Default"
 msgstr "Estándar"
 
-#: src/gtkoptions.c:315
+#: src/gtkoptions.c:344
 msgid "Sine"
 msgstr "Seno"
 
-#: src/gtkoptions.c:360
+#: src/gtkoptions.c:389
 msgid "Choose"
 msgstr "Selecciona"
 
-#: src/gtkoptions.c:381
-msgid "Sound Device"
-msgstr "Dispositivo de sonido"
+#: src/gtkoptions.c:410
+msgid "Sound System"
+msgstr ""
 
-#: src/gtkoptions.c:401
+#: src/gtkoptions.c:430
+msgid "Pulseaudio"
+msgstr ""
+
+#: src/gtkoptions.c:443
+msgid "OSS"
+msgstr ""
+
+#: src/gtkoptions.c:458
 msgid "Device filename:"
 msgstr "Fichero del dispositivo:"
 
-#: src/gtkoptions.c:420
+#: src/gtkoptions.c:477
 msgid "External Commands"
 msgstr "Comandos externos"
 
-#: src/gtkoptions.c:438
+#: src/gtkoptions.c:495
 msgid "Execute on start:"
 msgstr "Ejecutar al iniciar:"
 
-#: src/gtkoptions.c:456
+#: src/gtkoptions.c:513
 msgid "Execute on stop:"
 msgstr "Ejecutar al parar:"
 
-#: src/gtkoptions.c:477
+#: src/gtkoptions.c:534
 msgid "Speed Range"
 msgstr "Rango de velocidades"
 
-#: src/gtkoptions.c:495
+#: src/gtkoptions.c:552
 msgid "Minimum BPM:"
 msgstr "BPM mínimo:"
 
-#: src/gtkoptions.c:512
+#: src/gtkoptions.c:569
 msgid "Maximum BPM:"
 msgstr "BPM máximo:"
 
@@ -505,6 +514,9 @@ msgstr ""
 #, fuzzy
 msgid "Profiles"
 msgstr "Propiedades"
+
+#~ msgid "Sound Device"
+#~ msgstr "Dispositivo de sonido"
 
 #~ msgid "Beat"
 #~ msgstr "Compás"
