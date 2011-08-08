@@ -2,13 +2,13 @@
 # Copyright (C) 2006 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
 # Wenshu Liu <wenshuliu@gmail.com>, 2006.
-# Ji ZhengYu <zhengyuji@gmail.com>, 2010.
+# Ji ZhengYu <zhengyuji@gmail.com>, 2010, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.4.2\n"
+"Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2011-08-06 18:57+0200\n"
-"PO-Revision-Date: 2010-10-12 17:45+0000\n"
+"PO-Revision-Date: 2011-08-08 16:10+0800\n"
 "Last-Translator: Ji ZhengYu <zhengyuji@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -448,15 +448,15 @@ msgstr "选择"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "音频驱动"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"

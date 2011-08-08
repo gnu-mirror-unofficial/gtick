@@ -1,20 +1,22 @@
 # GTick Polish Translation.
-# Copyright (C) 2007 Roland Stigge
+# Copyright (C) 2007 Roland Stigge (msgids)
 # This file is distributed under the same license as the GTick package.
-# Tomasz Sałaciński <tsalacinski@gmail.com>, 2007.
+# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick\n"
+"Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2011-08-06 18:57+0200\n"
-"PO-Revision-Date: 2007-09-28 11:42+GMT+1\n"
-"Last-Translator: Tomasz Sałaciński <tsalacinski@gmail.com>\n"
-"Language-Team: POLISH <pl@li.org>\n"
+"PO-Revision-Date: 2011-08-08 00:56+0100\n"
+"Last-Translator: Michał Trzebiatowski <hippie_1968@hotmail.com>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
 
 #: src/gtick.c:81
 #, c-format
@@ -55,10 +57,20 @@ msgid ""
 "Developer's mailing list:\n"
 "gtick-devel@gnu.org"
 msgstr ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo przez Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Strona główna:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Pisz E-maile dotyczące raportów o błędach, komentarze, itp.\n"
+"do listy mailingowej deweloperów:\n"
+"gtick-devel@gnu.org"
 
 #: src/help.c:127
 msgid "GTick License"
-msgstr ""
+msgstr "Licencja GTick"
 
 #: src/help.c:128
 msgid ""
@@ -79,6 +91,25 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Niniejszy program jest wolnym oprogramowaniem; możesz go\n"
+"rozprowadzać dalej i/lub modyfikować na warunkach Powszechnej\n"
+"Licencji Publicznej GNU, wydanej przez Fundację Wolnego\n"
+"Oprogramowania - według wersji 3 tej Licencji lub (według\n"
+"twojego wyboru) którejś z późniejszych wersji.\n"
+"\n"
+"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on\n"
+"użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej\n"
+"gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH\n"
+"ZASTOSOWAŃ. W celu uzyskania bliższych informacji sięgnij do\n"
+"Powszechnej Licencji Publicznej GNU.\n"
+"\n"
+"Z pewnością wraz z niniejszym programem otrzymałeś też egzemplarz\n"
+"Powszechnej Licencji Publicznej GNU (GNU General Public License);\n"
+"jeśli nie, zobacz <http://www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
@@ -150,7 +181,7 @@ msgstr "Shift-x"
 
 #: src/help.c:258
 msgid "Start/Stop"
-msgstr ""
+msgstr "Start/Stop"
 
 #: src/help.c:264
 msgid "Speed: Faster"
@@ -161,9 +192,8 @@ msgid "Speed: Slower"
 msgstr "Prędkość: Wolniej"
 
 #: src/help.c:276 src/metro.c:1728
-#, fuzzy
 msgid "Meter"
-msgstr "Podstawowe metrum"
+msgstr "Metr"
 
 #: src/help.c:282
 msgid "Double Speed"
@@ -281,55 +311,55 @@ msgstr "P_rofile"
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:133
 msgid "Larghissimo"
-msgstr ""
+msgstr "Larghissimo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:136
 msgid "Largo"
-msgstr ""
+msgstr "Largo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:139
 msgid "Larghetto"
-msgstr ""
+msgstr "Larghetto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:142
 msgid "Adagio"
-msgstr ""
+msgstr "Adagio"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:145
 msgid "Andante"
-msgstr ""
+msgstr "Andante"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:148
 msgid "Moderato"
-msgstr ""
+msgstr "Moderato"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:151
 msgid "Allegro"
-msgstr ""
+msgstr "Allegro"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:154
 msgid "Presto"
-msgstr ""
+msgstr "Presto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:157
 msgid "Prestissimo"
-msgstr ""
+msgstr "Prestissimo"
 
 #: src/metro.c:1577
 msgid "Settings"
@@ -340,7 +370,7 @@ msgstr "Ustawienia"
 #: src/metro.c:1606
 #, c-format
 msgid "%s   (%d ... %d)"
-msgstr ""
+msgstr "%s   (%d ... %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
@@ -421,15 +451,15 @@ msgstr "Wybierz"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Sound System"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
