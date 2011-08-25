@@ -1,13 +1,13 @@
 # Esperanto translation of GTick
-# Copyright (C) 2008 Roland Stigge (msgids)
+# Copyright (C) 2008, 2011 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Felipe Castro <fefcas@gmail.com>, 2008
+# Felipe Castro <fefcas@gmail.com>, 2008, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.4.2\n"
+"Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2011-08-06 18:57+0200\n"
-"PO-Revision-Date: 2008-08-31 21:53-0300\n"
+"PO-Revision-Date: 2011-08-21 16:11-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
@@ -26,13 +26,12 @@ msgid ""
 "  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
 "\n"
 msgstr ""
-"Uzado: %s [OPCIO...]\n"
+"Uzado: %s [ELEKTEBLO...]\n"
 "\n"
-"Opcioj:\n"
+"Elektebloj:\n"
 "  -h, --help              Montri tiun ĉi help-mesaĝon\n"
 "  -v, --version           Montri informon pri versio\n"
-"  -d, --debug[=nivelo]    Sendi kroman funkcitempan rafinigan datumaron al "
-"'stdout'\n"
+"  -d, --debug[=nivelo]    Sendi kroman funkcitempan rafinigan datumaron al 'stdout'\n"
 "\n"
 
 #: src/help.c:77
@@ -447,15 +446,15 @@ msgstr "Elekti"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Sono-Sistemo"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
