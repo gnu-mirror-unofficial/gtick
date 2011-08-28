@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2011-08-06 18:57+0200\n"
-"PO-Revision-Date: 2011-08-21 16:11-0300\n"
+"PO-Revision-Date: 2011-08-25 16:11-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
 "Language: eo\n"
@@ -176,27 +176,27 @@ msgstr "Shift-x"
 
 #: src/help.c:258
 msgid "Start/Stop"
-msgstr "Ekigi/Halti"
+msgstr "Ekigi/Haltigi"
 
 #: src/help.c:264
 msgid "Speed: Faster"
-msgstr "Rapideco: Plie"
+msgstr "Rapideco: pli"
 
 #: src/help.c:270
 msgid "Speed: Slower"
-msgstr "Rapideco: Malplie"
+msgstr "Rapideco: malpli"
 
 #: src/help.c:276 src/metro.c:1728
 msgid "Meter"
-msgstr "Mezurilo"
+msgstr "Takto"
 
 #: src/help.c:282
 msgid "Double Speed"
-msgstr "Duobla Rapideco"
+msgstr "Duobla rapideco"
 
 #: src/help.c:288
 msgid "Half Speed"
-msgstr "Duona Rapideco"
+msgstr "Duona rapideco"
 
 #: src/help.c:294
 msgid "Speed: -10"
@@ -216,11 +216,11 @@ msgstr "Rapideco: +2"
 
 #: src/help.c:318
 msgid "Double Volume"
-msgstr "Duobla Laŭteco"
+msgstr "Duobla laŭteco"
 
 #: src/help.c:324
 msgid "Half Volume"
-msgstr "Duona Laŭteco"
+msgstr "Duona laŭteco"
 
 #: src/help.c:330
 msgid "Volume: -10"
@@ -252,7 +252,7 @@ msgstr "Aktiva"
 
 #: src/metro.c:75
 msgid "Stop"
-msgstr "Halti"
+msgstr "Haltigi"
 
 #: src/metro.c:79
 msgid "_Help"
@@ -268,7 +268,7 @@ msgstr "_Foriri"
 
 #: src/metro.c:82
 msgid "_Edit"
-msgstr "R_edakti"
+msgstr "_Redakti"
 
 #: src/metro.c:83
 msgid "_Preferences"
@@ -371,7 +371,7 @@ msgstr "%s   (%d ... %d)"
 #. specifying a tempo
 #: src/metro.c:1620
 msgid "Tap"
-msgstr "Frapeto"
+msgstr "Frapadu"
 
 #: src/metro.c:1625
 msgid "Speed:"
@@ -446,7 +446,7 @@ msgstr "Elekti"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr "Sono-Sistemo"
+msgstr "Sonsistemo"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
@@ -462,7 +462,7 @@ msgstr "Dosiernomo de aparato:"
 
 #: src/gtkoptions.c:477
 msgid "External Commands"
-msgstr "Eksteraj Komandoj"
+msgstr "Eksteraj komandoj"
 
 #: src/gtkoptions.c:495
 msgid "Execute on start:"
@@ -474,19 +474,19 @@ msgstr "Plenumi je halto:"
 
 #: src/gtkoptions.c:534
 msgid "Speed Range"
-msgstr "Rapidecaj Limoj"
+msgstr "Rapidecaj limoj"
 
 #: src/gtkoptions.c:552
 msgid "Minimum BPM:"
-msgstr "Minimuma PFPM"
+msgstr "Minimuma FPM"
 
 #: src/gtkoptions.c:569
 msgid "Maximum BPM:"
-msgstr "Maksimuma PFPM"
+msgstr "Maksimuma FPM"
 
 #: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
-msgstr "Nenomita Personigo"
+msgstr "Sennoma personigo"
 
 #: src/profiles.c:508
 msgid "Edit Profile"
