@@ -1,6 +1,6 @@
 gtick UNRELEASED
-	* Updated Chinese (simple), Dutch, Esperanto, Polish and German
-	  translations
+	* Updated Chinese (simple), Dutch, Esperanto, German, Italian and
+	  Polish translations
 
 gtick 0.5.0, 2011-08-06, Roland Stigge <stigge@antcom.de>
 	* Added Pulseaudio support by Alexander Varnin and Samo Pogacnik
