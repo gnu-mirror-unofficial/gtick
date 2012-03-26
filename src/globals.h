@@ -35,7 +35,7 @@
 #define _(String) gettext (String)
 #define N_(String) gettext_noop (String)
 
-#define MIN_BPM 10
+#define MIN_BPM 1
 #define MAX_BPM 1000
 #define DEFAULT_BPM 100
 #define DEFAULT_MIN_BPM 30
