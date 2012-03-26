@@ -1,7 +1,8 @@
-gtick UNRELEASED
+gtick 0.5.1, 2012-03-26, Roland Stigge <stigge@antcom.de>
 	* Updated Chinese (simple), Dutch, Esperanto, German, Italian and
 	  Polish translations
 	* Added Serbian translation
+	* Set MIN_BPM to 1 to extend range
 
 gtick 0.5.0, 2011-08-06, Roland Stigge <stigge@antcom.de>
 	* Added Pulseaudio support by Alexander Varnin and Samo Pogacnik
