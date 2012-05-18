@@ -1,14 +1,14 @@
 # Indonesian translations for gtick package.
 # Copyright (C) 2008 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008-2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.4.2\n"
+"Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2012-03-26 11:03+0200\n"
-"PO-Revision-Date: 2008-08-17 19:03+0700\n"
+"POT-Creation-Date: 2011-08-06 18:57+0200\n"
+"PO-Revision-Date: 2012-05-18 15:48+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
 "Language: id\n"
@@ -32,8 +32,7 @@ msgstr ""
 "Opsi:\n"
 "  -h, --help              Tampilkan pesan bantuan ini\n"
 "  -v, --version           Cetak informasi versi\n"
-"  -d, --debug[=level]     Cetak data awakutu waktu operasi tambahan ke "
-"keluaran standar\n"
+"  -d, --debug[=level]     Cetak data awakutu waktu operasi tambahan ke keluaran standar\n"
 "\n"
 
 #: src/help.c:77
@@ -448,15 +447,15 @@ msgstr "Pilih"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Sistem Suara"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
