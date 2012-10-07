@@ -1,22 +1,24 @@
 # Messages français pour GNU gtick.
 # Copyright (C) 2008 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Michel Robitaille <robitail@IRO.UMontreal.CA>, traducteur depuis/since 1996.
-# Marc Veillet <scouigne@gmail.com>, 2008
 #
+# Michel Robitaille <robitail@IRO.UMontreal.CA>, 2004.
+# Marc Veillet <scouigne@gmail.com>, 2008.
+# David Prévot <david@tilapin.org>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: GNU gtick 0.4.2\n"
+"Project-Id-Version: gtick 0.5.0\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2012-03-26 11:03+0200\n"
-"PO-Revision-Date: 2008-09-18 15:04-0500\n"
-"Last-Translator: Marc Veillet <scouigne@gmail.com>\n"
+"POT-Creation-Date: 2011-08-06 18:57+0200\n"
+"PO-Revision-Date: 2012-10-07 16:55-0400\n"
+"Last-Translator: David Prévot <david@tilapin.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: src/gtick.c:81
 #, c-format
@@ -29,13 +31,12 @@ msgid ""
 "  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
 "\n"
 msgstr ""
-"Usage : %s [OPTION...]\n"
+"Utilisation : %s [OPTION...]\n"
 "\n"
 "Options:\n"
 "  -h, --help              afficher l'aide-mémoire\n"
 "  -v, --version           afficher la version du logiciel\n"
-"  -d, --debug[=level]     afficher des informations de mise au point lors de "
-"l'exécution sur stdout\n"
+"  -d, --debug[=NIVEAU]    afficher des données de débogage sur sortie standard\n"
 "\n"
 
 #: src/help.c:77
@@ -44,7 +45,7 @@ msgstr "À propos de GTick"
 
 #: src/help.c:79
 msgid "License"
-msgstr "License"
+msgstr "Licence"
 
 #: src/help.c:103
 msgid ""
@@ -59,20 +60,20 @@ msgid ""
 "Developer's mailing list:\n"
 "gtick-devel@gnu.org"
 msgstr ""
-"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (c) 2008, Roland Stigge <stigge@antcom.de>\n"
-"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo de Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
-"Homepage:\n"
+"Page d'accueil :\n"
 "http://www.antcom.de/gtick/\n"
 "\n"
-"Transmettre tous rapports d'anomalie, commentaires, etc. à\n"
-"la liste de courrier des développeurs:\n"
+"Signaler tous rapports de bogue, commentaires, etc. à\n"
+"la liste de diffusion des développeurs :\n"
 "gtick-devel@nongnu.org"
 
 #: src/help.c:127
 msgid "GTick License"
-msgstr "License de GTick"
+msgstr "Licence de GTick"
 
 #: src/help.c:128
 msgid ""
@@ -93,24 +94,22 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"GTick - Le métronome\n"
+"GTick — le métronome\n"
 "Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (c) 2008, Roland Stigge <stigge@antcom.de>\n"
+"Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
 "\n"
-"Ce programme est un logiciel libre; vous pouvez le redistribuer ou le\n"
-"modifier selon les termes de la License Publique Générale de GNU, publiée\n"
-"par la Free Software Foundation (soit la version 2 ou soit ou soit selon "
-"votre\n"
-"choix, toute version ultérieure).\n"
+"Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le\n"
+"modifier selon les termes de la Licence Publique Générale de GNU, publiée\n"
+"par la Free Software Foundation, soit la version 3, soit (selon votre\n"
+"préférence) toute version ultérieure.\n"
 "\n"
 "Ce programme est distribué dans l'espoir qu'il soit utile,\n"
-"mais AUCUNE garantie n'est donnée tant pour des raisons COMMERCIALES que\n"
-"pour RÉPONDRE À UN BESOIN PARTICULIER.  Consulter la licence\n"
-"GNU General Public License pour plus de détails.\n"
+"mais AUCUNE garantie n'est donnée tant pour des raisons COMMERCIALES\n"
+"que pour RÉPONDRE À UN BESOIN PARTICULIER. Consulter la Licence\n"
+"Publique Générale de GNU pour plus de précisions.\n"
 "\n"
 "Vous devriez avoir reçu copie de la Licence Publique Générale de GNU\n"
-"avec ce programme; sinon, écrire à la Free Software Foundation, Inc.,\n"
-"59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+"avec ce programme ; sinon, consultez <http://www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
@@ -158,27 +157,27 @@ msgstr "Alt-x"
 
 #: src/help.c:222
 msgid "Shift-w"
-msgstr "Maj.-w"
+msgstr "Maj-w"
 
 #: src/help.c:228
 msgid "Shift-q"
-msgstr "Maj.-q"
+msgstr "Maj-q"
 
 #: src/help.c:234
 msgid "Shift-a"
-msgstr "Maj.-a"
+msgstr "Maj-a"
 
 #: src/help.c:240
 msgid "Shift-s"
-msgstr "Maj.-s"
+msgstr "Maj-s"
 
 #: src/help.c:246
 msgid "Shift-z"
-msgstr "Maj.-z"
+msgstr "Maj-z"
 
 #: src/help.c:252
 msgid "Shift-x"
-msgstr "Maj.-x"
+msgstr "Maj-x"
 
 #: src/help.c:258
 msgid "Start/Stop"
@@ -186,15 +185,15 @@ msgstr "Démarrer/Arrêter"
 
 #: src/help.c:264
 msgid "Speed: Faster"
-msgstr "Vitesse: accélérer"
+msgstr "Vitesse : accélérer"
 
 #: src/help.c:270
 msgid "Speed: Slower"
-msgstr "Vitesse: ralentir"
+msgstr "Vitesse : ralentir"
 
 #: src/help.c:276 src/metro.c:1728
 msgid "Meter"
-msgstr "Compteur"
+msgstr "Mesure"
 
 #: src/help.c:282
 msgid "Double Speed"
@@ -202,7 +201,7 @@ msgstr "Vitesse double"
 
 #: src/help.c:288
 msgid "Half Speed"
-msgstr "Demi vitesse :"
+msgstr "Demi-vitesse"
 
 #: src/help.c:294
 msgid "Speed: -10"
@@ -226,7 +225,7 @@ msgstr "Volume double"
 
 #: src/help.c:324
 msgid "Half Volume"
-msgstr "Demi volume"
+msgstr "Demi-volume"
 
 #: src/help.c:330
 msgid "Volume: -10"
@@ -298,7 +297,7 @@ msgstr "Démarrer le métronome"
 
 #: src/metro.c:91
 msgid "_Visual Tick"
-msgstr "Tics_visuels"
+msgstr "Tics _visuels"
 
 #: src/metro.c:92
 msgid "_Accent Table"
@@ -364,7 +363,7 @@ msgstr "Prestissimo"
 
 #: src/metro.c:1577
 msgid "Settings"
-msgstr "Configurations"
+msgstr "Configuration"
 
 #. TRANSLATORS: This is a tempo name with its associated BPM
 #. (beats per minute) range
@@ -377,35 +376,35 @@ msgstr "%s   (%d ... %d)"
 #. specifying a tempo
 #: src/metro.c:1620
 msgid "Tap"
-msgstr "Tap"
+msgstr "Marque"
 
 #: src/metro.c:1625
 msgid "Speed:"
-msgstr "Vitesse:"
+msgstr "Vitesse :"
 
 #: src/metro.c:1694
 msgid "Volume:"
-msgstr "Volume:"
+msgstr "Volume :"
 
 #. TRANSLATORS: all beats are equal
 #: src/metro.c:1751
 msgid "Even"
-msgstr "Paire"
+msgstr "un temps"
 
 #. TRANSLATORS: duple meter
 #: src/metro.c:1764
 msgid "2/4"
-msgstr "2/4"
+msgstr "deux temps"
 
 #. TRANSLATORS: triple meter
 #: src/metro.c:1775
 msgid "3/4"
-msgstr "3/4"
+msgstr "trois temps"
 
 #. TRANSLATORS: quadruple meter / common meter
 #: src/metro.c:1786
 msgid "4/4"
-msgstr "4/4"
+msgstr "quatre temps"
 
 #. TRANSLATORS: meter with more than 4 beats per measure
 #: src/metro.c:1797 src/gtkoptions.c:362
@@ -422,13 +421,13 @@ msgid ""
 "Please check if specified sound device\n"
 "and sample file are accessible."
 msgstr ""
-"Ne peut démarrrer le métronome.\n"
-"SVP vérifier si le périphérique de son\n"
+"Impossible de démarrer le métronome.\n"
+"Veuillez vérifier que le périphérique de son\n"
 "et le fichier d'échantillonnage sont accessibles."
 
 #: src/gtkoptions.c:214
 msgid "Please choose a sound file."
-msgstr "SVP choisir un fichier de son."
+msgstr "Veuillez choisir un fichier de son."
 
 #: src/gtkoptions.c:270
 msgid "Preferences"
@@ -452,15 +451,15 @@ msgstr "Choisir"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Système de son"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "PulseAudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
@@ -476,7 +475,7 @@ msgstr "Exécuter au démarrage :"
 
 #: src/gtkoptions.c:513
 msgid "Execute on stop:"
-msgstr "Exécuter lors de l'arrêt :"
+msgstr "Exécuter à l'arrêt :"
 
 #: src/gtkoptions.c:534
 msgid "Speed Range"
@@ -484,11 +483,11 @@ msgstr "Étendue des vitesses"
 
 #: src/gtkoptions.c:552
 msgid "Minimum BPM:"
-msgstr "BPM minimun :"
+msgstr "BPM minimal :"
 
 #: src/gtkoptions.c:569
 msgid "Maximum BPM:"
-msgstr "BPM maximum :"
+msgstr "BPM maximal :"
 
 #: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
@@ -500,7 +499,7 @@ msgstr "Éditer un profil"
 
 #: src/profiles.c:524
 msgid "Please enter new Profile name: "
-msgstr "Entrer un nouveau nom de profil :"
+msgstr "Veuillez saisir un nouveau nom de profil :"
 
 #: src/profiles.c:682
 msgid "Profiles"
@@ -557,8 +556,7 @@ msgstr "Profils"
 #~ "Vous pouvez approximer la vitesse désirée\n"
 #~ "en appuyant sur le bouton \"Tap\".\n"
 #~ "\n"
-#~ "Vous n'avez qu'à cliquer avec la souris ou appuyer sur la touche \"Retour"
-#~ "\".\n"
+#~ "Vous n'avez qu'à cliquer avec la souris ou appuyer sur la touche \"Retour\".\n"
 #~ "\n"
 #~ "Pour utiliser la valeur calculée, cliquer sur \"OK\".\n"
 #~ "Pour recommencer, cliquer sur \"Reset\".\n"
