@@ -668,8 +668,10 @@ void dsp_close(dsp_t* dsp) {
     }
   }
 
-  if (dsp->pas)
+  if (dsp->pas) {
     pa_simple_free(dsp->pas);
+    dsp->pas = NULL;
+  }
 
   debug_todo = 0;
 }
