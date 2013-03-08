@@ -1,6 +1,9 @@
-gtick 0.5.2, UNRELEASED, Roland Stigge <stigge@antcom.de>
+gtick 0.5.2, 2013-03-08, Roland Stigge <stigge@antcom.de>
 	* Updated Czech, French, German, Indonesian and Vietnamese translations
 	* Added Galician translation
+	* Included fixes by Nils Philippsen:
+	  - Building with new bison
+	  - Double free
 
 gtick 0.5.1, 2012-03-26, Roland Stigge <stigge@antcom.de>
 	* Updated Chinese (simple), Dutch, Esperanto, German, Italian and
