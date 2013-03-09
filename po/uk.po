@@ -1,20 +1,23 @@
 # Translation of `gtick' messages to Ukrainian.
-# Copyright (C) 2007 Roland Stigge (msgid)
+# Copyright (C) 2007 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Youri Bulka <jblk@icmail.net>, 2006.
 #
+# Yuri Chornoivan <yurchor@ukr.net>, 2013.
+# Yury Bulka <yurkobb@gmail.com>, 2006, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.3.12\n"
+"Project-Id-Version: gtick 0.5.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2013-03-08 11:13+0100\n"
-"PO-Revision-Date: 2007-02-19 10:00+0300\n"
-"Last-Translator: Youri Bulka <jblk@icmail.net>\n"
+"PO-Revision-Date: 2013-03-09 11:44+0200\n"
+"Last-Translator: Yury Bulka <yurkobb@gmail.com>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: src/gtick.c:81
 #, c-format
@@ -32,8 +35,7 @@ msgstr ""
 "Параметри:\n"
 "  -h, --help\tПоказати це повідомлення\n"
 "  -v, --version\tПоказати інформацію про версію\n"
-"  -d, --debug[=level]\tДрукувати додаткову інформацію, корисну для "
-"ліквідації помилок\n"
+"  -d, --debug[=level]\tДрукувати додаткову інформацію, корисну для усування помилок\n"
 "\n"
 
 #: src/help.c:77
@@ -45,7 +47,6 @@ msgid "License"
 msgstr "Ліцензія"
 
 #: src/help.c:103
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -59,22 +60,21 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
-"Автор лоґотипу Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Автор логотипу — Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Домашня сторінка:\n"
 "http://www.antcom.de/gtick/\n"
 "\n"
-"Висилайте повідомлення про помилки, коментарі, і т.д. на\n"
-"список розсилки розробників:\n"
-"gtick-devel@nongnu.org"
+"Надсилайте повідомлення про помилки, коментарі тощо до\n"
+"списку листування розробників:\n"
+"gtick-devel@gnu.org"
 
 #: src/help.c:127
 msgid "GTick License"
 msgstr "Ліцензія GTick"
 
 #: src/help.c:128
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -93,26 +93,26 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"GTick - Метроном\n"
+"Метроном GTick\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
 "\n"
-"Ця програма - вільне програмне забезпечення; ви маєте право розповсюджувати "
-"і змінювати його згідно з Загальною Публічною Ґну,\n"
-"виданою Free Software Foundation; версією 2, або (за вашим вибором) будь-"
-"якою наступною версією.\n"
+"Ця програма є вільним програмним забезпеченням; ви можете поширювати її\n"
+"і/або змінювати її за умов дотримання GNU General Public License у тому\n"
+"вигляді, у якому її оприлюднено Free Software Foundation; версії 3 цієї\n"
+"ліцензії, або (за потреби) будь-якої пізнішої версії\n"
 "\n"
-"Ця програма розповсюджується з надією що вона буде корисною,\n"
-"але БЕЗ ЖОДНИХ ГАРАНТІЙ; навіть без передбачено гарантії на\n"
-"ПРАЦЕЗДАТНІСТЬ, або на придатність на використання В БУДЬ-ЯКИХ ЦІЛЯХ. "
-"Дивіться Загальну Публічну Ліцензію Ґну задля подробиць.\n"
-"Ви повинні були отримати копію Загальної Публічної Ліцензії Ґну разом з цією "
-"програмою; якщо ні, напишіть до Фундації Вільного Програмного Забезпечення, "
-"51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA."
+"Ця програма поширюється у сподіванні, що вона буде корисною, але БЕЗ БУДЬ-\n"
+"ЯКИХ ГАРАНТІЙ; навіть без очевидної гарантії КОМЕРЦІЙНОЇ ЦІННОСТІ або\n"
+"ПРИДАТНОСТІ ДЛЯ ЯКОЇСЬ МЕТИ.  Докладніше про це ви можете дізнатися з\n"
+"GNU General Public License.\n"
+"Разом з цією програмою ви маєте отримати копію GNU General Public License.\n"
+"Якщо ви її не отримали, зверніться за адресою\n"
+"<http://www.gnu.org/licenses/>, щоб дізнатися про подальші дії."
 
 #: src/help.c:155
 msgid "Shortcuts"
-msgstr "Швидкі клавіші"
+msgstr "Клавіатурні скорочення"
 
 #: src/help.c:162
 msgid "Ctrl-S"
@@ -191,9 +191,8 @@ msgid "Speed: Slower"
 msgstr "Темп: повільніший"
 
 #: src/help.c:276 src/metro.c:1728
-#, fuzzy
 msgid "Meter"
-msgstr "Базовий Метр"
+msgstr "Метр"
 
 #: src/help.c:282
 msgid "Double Speed"
@@ -201,7 +200,7 @@ msgstr "Подвійний темп"
 
 #: src/help.c:288
 msgid "Half Speed"
-msgstr "Пів-темп"
+msgstr "Півтемп"
 
 #: src/help.c:294
 msgid "Speed: -10"
@@ -225,7 +224,7 @@ msgstr "Подвійна гучність"
 
 #: src/help.c:324
 msgid "Half Volume"
-msgstr "Пів-гучність"
+msgstr "Півгучність"
 
 #: src/help.c:330
 msgid "Volume: -10"
@@ -273,7 +272,7 @@ msgstr "_Вихід"
 
 #: src/metro.c:82
 msgid "_Edit"
-msgstr "_Редагування"
+msgstr "_Зміни"
 
 #: src/metro.c:83
 msgid "_Preferences"
@@ -281,15 +280,15 @@ msgstr "_Налаштування"
 
 #: src/metro.c:84
 msgid "_View"
-msgstr "_Вигляд"
+msgstr "П_ерегляд"
 
 #: src/metro.c:85
 msgid "_About"
-msgstr "_Про"
+msgstr "_Про програму"
 
 #: src/metro.c:86
 msgid "_Shortcuts"
-msgstr "_Швидкі клавіші"
+msgstr "_Клавіатурні скорочення"
 
 #: src/metro.c:90
 msgid "Start the metronome"
@@ -305,7 +304,7 @@ msgstr "Таблиця _акцентів"
 
 #: src/metro.c:93
 msgid "Pr_ofiles"
-msgstr "Про_файли"
+msgstr "Про_філі"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
@@ -389,7 +388,7 @@ msgstr "Гучність:"
 #. TRANSLATORS: all beats are equal
 #: src/metro.c:1751
 msgid "Even"
-msgstr "Поодинчий"
+msgstr "Рівномірний"
 
 #. TRANSLATORS: duple meter
 #: src/metro.c:1764
@@ -421,13 +420,12 @@ msgid ""
 "Please check if specified sound device\n"
 "and sample file are accessible."
 msgstr ""
-"Не можливо запустити метроном.\n"
-"Будь-ласка перевірте чи вибраний звуковий пристрій і файл звуку (стуку) є "
-"доступними."
+"Не вдалося запустити метроном.\n"
+"Будь ласка, перевірте, чи вибраний звуковий пристрій і файл звуку (стуку) є доступними."
 
 #: src/gtkoptions.c:214
 msgid "Please choose a sound file."
-msgstr "Будь-ласка виберіть звуковий пристрій."
+msgstr "Будь ласка, виберіть звуковий пристрій."
 
 #: src/gtkoptions.c:270
 msgid "Preferences"
@@ -451,15 +449,15 @@ msgstr "Вибрати"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Звукові підсистеми"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
@@ -471,11 +469,11 @@ msgstr "Зовнішні команди"
 
 #: src/gtkoptions.c:495
 msgid "Execute on start:"
-msgstr "Виконувати при старті:"
+msgstr "Виконувати під час запуску:"
 
 #: src/gtkoptions.c:513
 msgid "Execute on stop:"
-msgstr "Виконувати під-час зупинки:"
+msgstr "Виконувати під час зупинки:"
 
 #: src/gtkoptions.c:534
 msgid "Speed Range"
@@ -483,30 +481,30 @@ msgstr "Швидкісні межі темпу"
 
 #: src/gtkoptions.c:552
 msgid "Minimum BPM:"
-msgstr "Мінімальна к-сть ударів/хв.:"
+msgstr "Мінімальна к-сть тактів/хв.:"
 
 #: src/gtkoptions.c:569
 msgid "Maximum BPM:"
-msgstr "Максимальна к-сть ударів/хв.:"
+msgstr "Максимальна к-сть тактів/хв.:"
 
 #: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
-msgstr "Неназваний профайл"
+msgstr "Профіль без назви"
 
 #: src/profiles.c:508
 msgid "Edit Profile"
-msgstr "Про_файли"
+msgstr "Змінити профіль"
 
 #: src/profiles.c:524
 msgid "Please enter new Profile name: "
-msgstr "Будь-ласка введіть назву нового профайлу:"
+msgstr "Будь ласка, вкажіть назву нового профілю: "
 
 #: src/profiles.c:682
 msgid "Profiles"
-msgstr "Про_файли"
-
-#~ msgid "Sound Device"
-#~ msgstr "Звуковий пристрій"
+msgstr "Про_філі"
 
 #~ msgid "Beat"
 #~ msgstr "Метр"
+
+#~ msgid "Sound Device"
+#~ msgstr "Звуковий пристрій"
