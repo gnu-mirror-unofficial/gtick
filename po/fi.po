@@ -1,14 +1,14 @@
 # Finnish messages for gtick.
-# Copyright © 2007 Roland Stigge (msgid)
+# Copyright © 2007 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Lauri Nurmi <lanurmi@iki.fi>, 2003, 2007.
+# Lauri Nurmi <lanurmi@iki.fi>, 2003, 2007, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.3.15\n"
+"Project-Id-Version: gtick 0.5.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2013-03-08 11:13+0100\n"
-"PO-Revision-Date: 2007-07-21 17:57+0300\n"
+"PO-Revision-Date: 2013-03-10 14:10+0200\n"
 "Last-Translator: Lauri Nurmi <lanurmi@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -32,8 +32,7 @@ msgstr ""
 "Valitsimet:\n"
 "  -h, --help              Näytä tämä ohje\n"
 "  -v, --version           Tulosta versiotiedot\n"
-"  -d, --debug[=taso]      Tulosta ylimääräistä ajonaikaista "
-"vianetsintätietoa vakiotulosteeseen\n"
+"  -d, --debug[=taso]      Tulosta ylimääräistä ajonaikaista vianetsintätietoa vakiotulosteeseen\n"
 "\n"
 
 #: src/help.c:77
@@ -45,7 +44,6 @@ msgid "License"
 msgstr "Lisenssi"
 
 #: src/help.c:103
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -59,7 +57,7 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Tekijänoikeus © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Tekijänoikeus © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"Tekijänoikeus © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "Logon tehnyt Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Kotisivu:\n"
@@ -74,7 +72,6 @@ msgid "GTick License"
 msgstr "GTickin lisenssi"
 
 #: src/help.c:128
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -99,7 +96,7 @@ msgstr ""
 "\n"
 "Tämä ohjelma on vapaaohjelmisto; voitte levittää edelleen ja/tai \n"
 "muuttaa sitä Free Software Foundationin julkaiseman GNU General Public\n"
-"Licensen ehtojen mukaisesti; joko version 2, tai (valintanne mukaan)\n"
+"Licensen ehtojen mukaisesti; joko version 3, tai (valintanne mukaan)\n"
 "minkä tahansa myöhemmän version.\n"
 "\n"
 "Tätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen,\n"
@@ -108,9 +105,7 @@ msgstr ""
 "General Public Licensestä.\n"
 "\n"
 "Olette saaneet kopion GNU General Public Licensestä tämän\n"
-"ohjelman mukana. Ellette saaneet, kirjoittakaa osoitteeseen\n"
-"Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,\n"
-"Boston, MA  02110-1301, USA."
+"ohjelman mukana. Ellette saaneet, katsokaa lisätietoja osoitteesta<http://www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
@@ -193,9 +188,8 @@ msgid "Speed: Slower"
 msgstr "Nopeus: Hitaampi"
 
 #: src/help.c:276 src/metro.c:1728
-#, fuzzy
 msgid "Meter"
-msgstr "Perustahti"
+msgstr "Tahti"
 
 #: src/help.c:282
 msgid "Double Speed"
@@ -453,15 +447,15 @@ msgstr "Valitse"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Äänijärjestelmä"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
