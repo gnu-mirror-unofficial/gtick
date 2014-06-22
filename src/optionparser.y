@@ -1,4 +1,4 @@
-%name-prefix="option_"
+%name-prefix "option_"
 %{
 /*
  * options file format parser
@@ -80,7 +80,7 @@ line      : TOKEN_NAME '=' TOKEN_VALUE
  * by error token actions in grammar, but not if errors occur to
  * often (bison needs 3 "correct" tokens to recover)
  */
-void option_error(void *option_list, const char *message) {
+void option_error(void *option_list _U_, const char *message) {
   if (debug && option_nerrs == 1)
     fprintf(stderr,
 	    "Warning: Parsing options file: first error at %d:%d: %s.\n",

@@ -1480,14 +1480,8 @@ metro_t* metro_new(void) {
 
   metro->inter_thread_comm = comm_new();
   metro->audio_thread =
-    g_thread_create_full((GThreadFunc) audio_loop,
-                         metro, /* data passed to function */
-		         0, /* stack size = default */
-			 TRUE, /* joinable */
-			 TRUE, /* bound in system scope (faster) */
-			 G_THREAD_PRIORITY_NORMAL, /* G_THREAD_PRIORITY_URGENT
-						   would be highest priority */
-			 NULL /* no GError reporting */);
+    g_thread_new("metro", (GThreadFunc) audio_loop,
+                         metro /* data passed to function */);
 
   option_register(&metro->options->option_list,
                   "SampleFilename",

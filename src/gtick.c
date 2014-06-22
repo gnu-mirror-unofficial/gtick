@@ -110,10 +110,6 @@ Options:\n\
   }
 #endif
 
-  if (!g_thread_supported()) {
-    g_thread_init(NULL);
-  }
-
   /* Initialise UI */
   metro = metro_new();
   
