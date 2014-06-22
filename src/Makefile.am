@@ -40,6 +40,8 @@ EXTRA_DIST = aboutlogo.xpm \
 	     icon32x32.xpm \
 	     icon48x48.xpm \
 	     icon64x64.xpm \
+	     gtick.xpm \
+	     gtick_32x32.xpm \
 	     converter.c
 
 top_srcdir = @top_srcdir@
@@ -54,3 +56,9 @@ AM_CFLAGS = -DVERSION='"@VERSION@"' -DPACKAGE='"@PACKAGE@"'
 AM_YFLAGS = -d
 AM_LFLAGS=-olex.yy.c
 BUILT_SOURCES = optionparser.h
+
+pixmapsdir = $(datadir)/pixmaps
+pixmaps_DATA = gtick_32x32.xpm
+
+hicolordir = $(datadir)/icons/hicolor/64x64/apps
+hicolor_DATA = gtick.xpm
