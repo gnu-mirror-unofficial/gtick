@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtick 0.5.2\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
-"POT-Creation-Date: 2013-03-08 11:13+0100\n"
+"POT-Creation-Date: 2014-06-22 16:24+0200\n"
 "PO-Revision-Date: 2013-03-10 14:10+0200\n"
 "Last-Translator: Lauri Nurmi <lanurmi@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
@@ -32,7 +32,8 @@ msgstr ""
 "Valitsimet:\n"
 "  -h, --help              Näytä tämä ohje\n"
 "  -v, --version           Tulosta versiotiedot\n"
-"  -d, --debug[=taso]      Tulosta ylimääräistä ajonaikaista vianetsintätietoa vakiotulosteeseen\n"
+"  -d, --debug[=taso]      Tulosta ylimääräistä ajonaikaista "
+"vianetsintätietoa vakiotulosteeseen\n"
 "\n"
 
 #: src/help.c:77
@@ -57,7 +58,8 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Tekijänoikeus © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Tekijänoikeus © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Tekijänoikeus © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom."
+"de>\n"
 "Logon tehnyt Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Kotisivu:\n"
@@ -105,7 +107,8 @@ msgstr ""
 "General Public Licensestä.\n"
 "\n"
 "Olette saaneet kopion GNU General Public Licensestä tämän\n"
-"ohjelman mukana. Ellette saaneet, katsokaa lisätietoja osoitteesta<http://www.gnu.org/licenses/>."
+"ohjelman mukana. Ellette saaneet, katsokaa lisätietoja osoitteesta<http://"
+"www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
@@ -187,7 +190,7 @@ msgstr "Nopeus: Nopeampi"
 msgid "Speed: Slower"
 msgstr "Nopeus: Hitaampi"
 
-#: src/help.c:276 src/metro.c:1728
+#: src/help.c:276 src/metro.c:1722
 msgid "Meter"
 msgstr "Tahti"
 
@@ -357,61 +360,61 @@ msgstr "Presto"
 msgid "Prestissimo"
 msgstr "Prestissimo"
 
-#: src/metro.c:1577
+#: src/metro.c:1571
 msgid "Settings"
 msgstr "Asetukset"
 
 #. TRANSLATORS: This is a tempo name with its associated BPM
 #. (beats per minute) range
-#: src/metro.c:1606
+#: src/metro.c:1600
 #, c-format
 msgid "%s   (%d ... %d)"
 msgstr "%s (%d–%d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
-#: src/metro.c:1620
+#: src/metro.c:1614
 msgid "Tap"
 msgstr "Naputa"
 
-#: src/metro.c:1625
+#: src/metro.c:1619
 msgid "Speed:"
 msgstr "Nopeus:"
 
-#: src/metro.c:1694
+#: src/metro.c:1688
 msgid "Volume:"
 msgstr "Äänenvoimakkuus:"
 
 #. TRANSLATORS: all beats are equal
-#: src/metro.c:1751
+#: src/metro.c:1745
 msgid "Even"
 msgstr "1/4"
 
 #. TRANSLATORS: duple meter
-#: src/metro.c:1764
+#: src/metro.c:1758
 msgid "2/4"
 msgstr "2/4"
 
 #. TRANSLATORS: triple meter
-#: src/metro.c:1775
+#: src/metro.c:1769
 msgid "3/4"
 msgstr "3/4"
 
 #. TRANSLATORS: quadruple meter / common meter
-#: src/metro.c:1786
+#: src/metro.c:1780
 msgid "4/4"
 msgstr "4/4"
 
 #. TRANSLATORS: meter with more than 4 beats per measure
-#: src/metro.c:1797 src/gtkoptions.c:362
+#: src/metro.c:1791 src/gtkoptions.c:362
 msgid "Other:"
 msgstr "Muu:"
 
-#: src/metro.c:1819
+#: src/metro.c:1813
 msgid "Beat Accent"
 msgstr "Tahdin iskut"
 
-#: src/metro.c:1987
+#: src/metro.c:1981
 msgid ""
 "Couldn't start metronome.\n"
 "Please check if specified sound device\n"
