@@ -48,7 +48,7 @@ localedir = $(datadir)/locale
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
 LIBS = @LIBINTL@ @LIBS@
 
-INCLUDES = -I../intl -I$(top_srcdir)/intl @DEPS_CFLAGS@ @SNDFILE_CFLAGS@
+AM_CPPFLAGS = -I../intl -I$(top_srcdir)/intl @DEPS_CFLAGS@ @SNDFILE_CFLAGS@
 AM_CFLAGS = -DVERSION='"@VERSION@"' -DPACKAGE='"@PACKAGE@"'
 
 AM_YFLAGS = -d

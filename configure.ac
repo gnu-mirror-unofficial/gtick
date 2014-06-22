@@ -1,8 +1,8 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-AC_INIT(gtick)
+AC_INIT([gtick], [0.5.3])
 AC_PREREQ(2.57)
-AM_INIT_AUTOMAKE(gtick, "0.5.2", gtick-devel@gnu.org)
+AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([config.h.in])
 AM_CONFIG_HEADER([config.h])
 

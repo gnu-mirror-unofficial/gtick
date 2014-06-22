@@ -1,6 +1,8 @@
-gtick 0.5.3, UNRELEASED, Roland Stigge <stigge@antcom.de>
+gtick 0.5.3, 2014-06-22, Roland Stigge <stigge@gnu.org>
 	* Updated Brazilian Portuguese, Finnish, Russian and Ukrainian
 	  translations
+	* Added appdata file
+	* Updated GNU build infrastructure files
 
 gtick 0.5.2, 2013-03-08, Roland Stigge <stigge@antcom.de>
 	* Updated Czech, French, German, Indonesian and Vietnamese translations

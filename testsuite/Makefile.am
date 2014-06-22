@@ -62,10 +62,11 @@ localedir = $(datadir)/locale
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
 LIBS = @LIBINTL@ @LIBS@
 
-INCLUDES = -I../src -I../intl -I$(top_srcdir)/intl @DEPS_CFLAGS@ @SNDFILE_CFLAGS@ @CHECK_CFLAGS@ @DMALLOC_CFLAGS@
+AM_CPPFLAGS = -I../src -I../intl -I$(top_srcdir)/intl @DEPS_CFLAGS@ @SNDFILE_CFLAGS@ @CHECK_CFLAGS@ @DMALLOC_CFLAGS@
 AM_CFLAGS = -DVERSION='"@VERSION@"' -DPACKAGE='"@PACKAGE@"' -DUSE_DMALLOC
 
 AM_YFLAGS = -d
 AM_LFLAGS=-olex.yy.c
 BUILT_SOURCES = ../src/optionparser.h
 
+AUTOMAKE_OPTIONS = subdir-objects
