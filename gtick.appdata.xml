@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Roland Stigge <stigge@gnu.org> -->
+<application>
+ <id type="desktop">gtick.desktop</id>
+ <metadata_license>CC0-1.0</metadata_license>
+ <project_license>GPL-3.0+</project_license>
+ <name>GTick</name>
+ <summary>Metronome application</summary>
+ <description>
+  <p>
+   GTick is an acoustical and graphical metronome application (usually used to
+   support musicians at practising an instrument). It features a scale from 30 to
+   250 beats per minute and 2/4, 3/4, 4/4 and other meters. You need a sound
+   device for using it.
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default">http://www.antcom.de/gtick/gtick-simple.png</screenshot>
+  <screenshot>http://www.antcom.de/gtick/gtick-full.png</screenshot>
+ </screenshots>
+ <url type="homepage">http://www.antcom.de/gtick/</url>
+ <updatecontact>stigge@gnu.org</updatecontact>
+</application>
+
