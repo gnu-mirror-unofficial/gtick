@@ -4,6 +4,7 @@ gtick 0.5.3, 2014-06-22, Roland Stigge <stigge@gnu.org>
 	* Added appdata file
 	* Updated GNU build infrastructure files
 	* glib and yacc API adjustments
+	* Include and install desktop and icon files
 
 gtick 0.5.2, 2013-03-08, Roland Stigge <stigge@antcom.de>
 	* Updated Czech, French, German, Indonesian and Vietnamese translations
