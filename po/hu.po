@@ -1,0 +1,505 @@
+# Hungarian translation for gtick.
+# Copyright (C) 2014 Roland Stigge (msgids)
+# This file is distributed under the same license as the gtick package.
+#
+# Balázs Úr <urbalazs@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.5.3\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2014-06-22 16:24+0200\n"
+"PO-Revision-Date: 2014-06-25 19:21+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: src/gtick.c:81
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Használat: %s [KAPCSOLÓ…]\n"
+"\n"
+"Kapcsolók:\n"
+"  -h, --help              Ezen súgószöveg megjelenítése\n"
+"  -v, --version           Verzióinformációk kiírása\n"
+"  -d, --debug[=szint]     További futásidejű hibakeresési adatok kiírása a szabványos kimenetre\n"
+"\n"
+
+#: src/help.c:77
+msgid "About GTick"
+msgstr "A GTick névjegye"
+
+#: src/help.c:79
+msgid "License"
+msgstr "Licenc"
+
+#: src/help.c:103
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"A logót készítette: Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Honlap:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Hibajelentéseket, megjegyzéseket, stb.\n"
+"a fejlesztői levelezőlistára küldjön:\n"
+"gtick-devel@gnu.org"
+
+#: src/help.c:127
+msgid "GTick License"
+msgstr "GTick licenc"
+
+#: src/help.c:128
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - A metronóm\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Ez a program szabad szoftver; terjeszthető illetve módosítható a\n"
+"Free Software Foundation által kiadott GNU General Public License\n"
+"dokumentumában leírtak; akár a licenc 3-as, akár (tetszőleges) későbbi\n"
+"változata szerint.\n"
+"\n"
+"Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz,\n"
+"de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA\n"
+"VALÓ ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve.\n"
+"További részleteket a GNU General Public License tartalmaz.\n"
+"\n"
+"A felhasználónak a programmal együtt meg kell kapnia a GNU General\n"
+"Public License egy példányát; ha mégsem kapta meg, akkor\n"
+"tekintse meg a <http://www.gnu.org/licenses/> oldalon."
+
+#: src/help.c:155
+msgid "Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: src/help.c:162
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:168
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:174
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:180
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 … Ctrl-9"
+
+#: src/help.c:186
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:192
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:198
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:204
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:210
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:216
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:222
+msgid "Shift-w"
+msgstr "Shift-w"
+
+#: src/help.c:228
+msgid "Shift-q"
+msgstr "Shift-q"
+
+#: src/help.c:234
+msgid "Shift-a"
+msgstr "Shift-a"
+
+#: src/help.c:240
+msgid "Shift-s"
+msgstr "Shift-s"
+
+#: src/help.c:246
+msgid "Shift-z"
+msgstr "Shift-z"
+
+#: src/help.c:252
+msgid "Shift-x"
+msgstr "Shift-x"
+
+#: src/help.c:258
+msgid "Start/Stop"
+msgstr "Indítás/Leállítás"
+
+#: src/help.c:264
+msgid "Speed: Faster"
+msgstr "Sebesség: gyorsabb"
+
+#: src/help.c:270
+msgid "Speed: Slower"
+msgstr "Sebesség: lassabb"
+
+#: src/help.c:276 src/metro.c:1722
+msgid "Meter"
+msgstr "Mérő"
+
+#: src/help.c:282
+msgid "Double Speed"
+msgstr "Dupla sebesség"
+
+#: src/help.c:288
+msgid "Half Speed"
+msgstr "Fél sebesség"
+
+#: src/help.c:294
+msgid "Speed: -10"
+msgstr "Sebesség: -10"
+
+#: src/help.c:300
+msgid "Speed: +10"
+msgstr "Sebesség: +10"
+
+#: src/help.c:306
+msgid "Speed: -2"
+msgstr "Sebesség: -2"
+
+#: src/help.c:312
+msgid "Speed: +2"
+msgstr "Sebesség: +2"
+
+#: src/help.c:318
+msgid "Double Volume"
+msgstr "Dupla hangerő"
+
+#: src/help.c:324
+msgid "Half Volume"
+msgstr "Fél hangerő"
+
+#: src/help.c:330
+msgid "Volume: -10"
+msgstr "Hangerő: -10"
+
+#: src/help.c:336
+msgid "Volume: +10"
+msgstr "Hangerő: +10"
+
+#: src/help.c:342
+msgid "Volume: -2"
+msgstr "Hangerő: -2"
+
+#: src/help.c:348
+msgid "Volume: +2"
+msgstr "Hangerő: +2"
+
+#: src/metro.c:74
+msgid "Idle"
+msgstr "Üresjárat"
+
+#: src/metro.c:74 src/metro.c:90
+msgid "Start"
+msgstr "Indítás"
+
+#: src/metro.c:75
+msgid "Running"
+msgstr "Fut"
+
+#: src/metro.c:75
+msgid "Stop"
+msgstr "Leállítás"
+
+#: src/metro.c:79
+msgid "_Help"
+msgstr "_Súgó"
+
+#: src/metro.c:80
+msgid "_Metronome"
+msgstr "_Metronóm"
+
+#: src/metro.c:81
+msgid "_Quit"
+msgstr "_Kilépés"
+
+#: src/metro.c:82
+msgid "_Edit"
+msgstr "S_zerkesztés"
+
+#: src/metro.c:83
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+#: src/metro.c:84
+msgid "_View"
+msgstr "_Nézet"
+
+#: src/metro.c:85
+msgid "_About"
+msgstr "Né_vjegy"
+
+#: src/metro.c:86
+msgid "_Shortcuts"
+msgstr "_Gyorsbillentyűk"
+
+#: src/metro.c:90
+msgid "Start the metronome"
+msgstr "A metronóm indítása"
+
+#: src/metro.c:91
+msgid "_Visual Tick"
+msgstr "_Látható beosztás"
+
+#: src/metro.c:92
+msgid "_Accent Table"
+msgstr "_Hangsúly táblázat"
+
+#: src/metro.c:93
+msgid "Pr_ofiles"
+msgstr "_Profilok"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:133
+msgid "Larghissimo"
+msgstr "Larghissimo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:136
+msgid "Largo"
+msgstr "Largo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:139
+msgid "Larghetto"
+msgstr "Larghetto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:142
+msgid "Adagio"
+msgstr "Adagio"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:145
+msgid "Andante"
+msgstr "Andante"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:148
+msgid "Moderato"
+msgstr "Moderato"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:151
+msgid "Allegro"
+msgstr "Allegro"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:154
+msgid "Presto"
+msgstr "Presto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:157
+msgid "Prestissimo"
+msgstr "Prestissimo"
+
+#: src/metro.c:1571
+msgid "Settings"
+msgstr "Beállítások"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1600
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr "%s   (%d … %d)"
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1614
+msgid "Tap"
+msgstr "Koppintson"
+
+#: src/metro.c:1619
+msgid "Speed:"
+msgstr "Sebesség:"
+
+#: src/metro.c:1688
+msgid "Volume:"
+msgstr "Hangerő:"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1745
+msgid "Even"
+msgstr "Páros"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1758
+msgid "2/4"
+msgstr "2/4"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1769
+msgid "3/4"
+msgstr "3/4"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1780
+msgid "4/4"
+msgstr "4/4"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1791 src/gtkoptions.c:362
+msgid "Other:"
+msgstr "Egyéb:"
+
+#: src/metro.c:1813
+msgid "Beat Accent"
+msgstr "Ütés hangsúly"
+
+#: src/metro.c:1981
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Nem sikerült elindítani a metronómot.\n"
+"Ellenőrizze, hogy a megadott hangeszköz\n"
+"és mintafájl elérhető-e."
+
+#: src/gtkoptions.c:214
+msgid "Please choose a sound file."
+msgstr "Válasszon egy hangfájlt."
+
+#: src/gtkoptions.c:270
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: src/gtkoptions.c:315
+msgid "Sound"
+msgstr "Hang"
+
+#: src/gtkoptions.c:331
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: src/gtkoptions.c:344
+msgid "Sine"
+msgstr "Szinusz"
+
+#: src/gtkoptions.c:389
+msgid "Choose"
+msgstr "Válasszon"
+
+#: src/gtkoptions.c:410
+msgid "Sound System"
+msgstr "Hangrendszer"
+
+#: src/gtkoptions.c:430
+msgid "Pulseaudio"
+msgstr "Pulseaudio"
+
+#: src/gtkoptions.c:443
+msgid "OSS"
+msgstr "OSS"
+
+#: src/gtkoptions.c:458
+msgid "Device filename:"
+msgstr "Eszköz fájlnév:"
+
+#: src/gtkoptions.c:477
+msgid "External Commands"
+msgstr "Külső parancsok"
+
+#: src/gtkoptions.c:495
+msgid "Execute on start:"
+msgstr "Végrehajtás indításkor:"
+
+#: src/gtkoptions.c:513
+msgid "Execute on stop:"
+msgstr "Végrehajtás leállításkor:"
+
+#: src/gtkoptions.c:534
+msgid "Speed Range"
+msgstr "Sebességtartomány"
+
+#: src/gtkoptions.c:552
+msgid "Minimum BPM:"
+msgstr "Legkisebb BPM:"
+
+#: src/gtkoptions.c:569
+msgid "Maximum BPM:"
+msgstr "Legnagyobb BPM:"
+
+#: src/profiles.c:330 src/profiles.c:616
+msgid "Unnamed Profile"
+msgstr "Névtelen profil"
+
+#: src/profiles.c:508
+msgid "Edit Profile"
+msgstr "Profil szerkesztése"
+
+#: src/profiles.c:524
+msgid "Please enter new Profile name: "
+msgstr "Adjon meg új profilnevet: "
+
+#: src/profiles.c:682
+msgid "Profiles"
+msgstr "Profilok"
