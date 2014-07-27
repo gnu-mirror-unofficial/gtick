@@ -10,7 +10,7 @@ EXTRA_DIST = config.rpath \
 appdatadir = $(datadir)/appdata
 appdata_DATA = gtick.appdata.xml
 
-desktopdir = $(datadir)/application
+desktopdir = $(datadir)/applications
 desktop_DATA = gtick.desktop
 
 #AUTOMAKE_OPTIONS = dist-bzip2

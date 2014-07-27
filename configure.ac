@@ -1,6 +1,6 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-AC_INIT([gtick], [0.5.3])
+AC_INIT([gtick], [0.5.4])
 AC_PREREQ(2.57)
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([config.h.in])
