@@ -1,20 +1,21 @@
 # Irish translations for gtick.
 # Copyright (C) 2006 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Kevin Patrick Scannell <scannell@SLU.EDU>, 2003, 2006, 2007, 2008
+# Kevin Patrick Scannell <kscanne@gmail.com>, 2003, 2006, 2007, 2008, 2017
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.4.2\n"
+"Project-Id-Version: gtick 0.5.4\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2014-07-27 19:36+0200\n"
-"PO-Revision-Date: 2008-05-22 15:53-0500\n"
+"PO-Revision-Date: 2017-01-10 15:53-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #: src/gtick.c:81
 #, c-format
@@ -27,12 +28,12 @@ msgid ""
 "  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
 "\n"
 msgstr ""
-"Úsáid: %s [ROGHA...]\n"
+"ÃšsÃ¡id: %s [ROGHA...]\n"
 "\n"
 "Roghanna:\n"
-"  -h, --help              Taispeáin an chabhair seo\n"
-"  -v, --version           Taispeáin eolas faoin leagan\n"
-"  -d, --debug[=leibhéal]  Taispeáin tuilleadh eolais dífhabhtaithe\n"
+"  -h, --help              TaispeÃ¡in an chabhair seo\n"
+"  -v, --version           TaispeÃ¡in eolas faoin leagan\n"
+"  -d, --debug[=leibhÃ©al]  TaispeÃ¡in tuilleadh eolais dÃ­fhabhtaithe\n"
 "\n"
 
 #: src/help.c:77
@@ -41,7 +42,7 @@ msgstr "Maidir le GTick"
 
 #: src/help.c:79
 msgid "License"
-msgstr "Ceadúnas"
+msgstr "CeadÃºnas"
 
 #: src/help.c:103
 msgid ""
@@ -56,21 +57,20 @@ msgid ""
 "Developer's mailing list:\n"
 "gtick-devel@gnu.org"
 msgstr ""
-"Cóipcheart/Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Cóipcheart/Copyright © 2003, 2004, 2005, 2006, 2007 Roland Stigge "
-"<stigge@antcom.de>\n"
-"Lógó le Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
+"CÃ³ipcheart/Copyright Â© 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"CÃ³ipcheart/Copyright Â© 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"LÃ³gÃ³ le Mario AndrÃ©s Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
 "Leathanach Baile:\n"
 "http://www.antcom.de/gtick/\n"
 "\n"
-"Seol tuairiscí fabhtanna, nótaí tráchta, srl. chuig\n"
-"Liosta r-phoist na bhforbróirí:\n"
+"Seol tuairiscÃ­ fabhtanna, nÃ³taÃ­ trÃ¡chta, srl. chuig\n"
+"Liosta r-phoist na bhforbrÃ³irÃ­:\n"
 "gtick-devel@gnu.org"
 
 #: src/help.c:127
 msgid "GTick License"
-msgstr "Ceadúnas GTick"
+msgstr "CeadÃºnas GTick"
 
 # Diarmaid Mac Mathuna did some of this for our GaelSpell project - KPS
 #: src/help.c:128
@@ -92,28 +92,27 @@ msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"GTick - An Méadranóm\n"
-"Cóipcheart/Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Cóipcheart/Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom."
-"de>\n"
+"GTick - An MÃ©adranÃ³m\n"
+"CÃ³ipcheart/Copyright Â© 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"CÃ³ipcheart/Copyright Â© 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
 "\n"
-"Is saorbhogearra an ríomhchlár seo; is féidir leat é a scaipeadh agus/nó\n"
-"a athrú de réir na gcoinníollacha den GNU General Public License mar atá\n"
-"foilsithe ag an Free Software Foundation; faoi leagan 3 den cheadúnas,\n"
-"nó (más mian leat) aon leagan níos déanaí.\n"
+"Is saorbhogearra an rÃ­omhchlÃ¡r seo; is fÃ©idir leat Ã© a scaipeadh agus/nÃ³\n"
+"a athrÃº de rÃ©ir na gcoinnÃ­ollacha den GNU General Public License mar atÃ¡\n"
+"foilsithe ag an Free Software Foundation; faoi leagan 3 den cheadÃºnas,\n"
+"nÃ³ (mÃ¡s mian leat) aon leagan nÃ­os dÃ©anaÃ­.\n"
 "\n"
-"Scaiptear an ríomhchlár seo le súil go mbeidh se áisiúil,\n"
-"ach GAN AON BARÁNTA; go fiú gan an barántas intuigthe\n"
-"d'INDÍOLTACHT nó FEILIÚNACHT D'FHEIDHM AR LEITH.  Féach ar an\n"
-"GNU General Public License chun níos mó sonraí a fháil.\n"
+"Scaiptear an rÃ­omhchlÃ¡r seo le sÃºil go mbeidh se Ã¡isiÃºil,\n"
+"ach GAN AON BARÃNTA; go fiÃº gan an barÃ¡ntas intuigthe\n"
+"d'INDÃOLTACHT nÃ³ FEILIÃšNACHT D'FHEIDHM AR LEITH.  FÃ©ach ar an\n"
+"GNU General Public License chun nÃ­os mÃ³ sonraÃ­ a fhÃ¡il.\n"
 "\n"
-"Ba chóir go mbeifeá tar éis cóip den GNU General Public License a fháil in\n"
-"éineacht leis an ríomhchlár seo; mura bhfuair, féach ar\n"
+"Ba chÃ³ir go mbeifeÃ¡ tar Ã©is cÃ³ip den GNU General Public License a fhÃ¡il in\n"
+"Ã©ineacht leis an rÃ­omhchlÃ¡r seo; mura bhfuair, fÃ©ach ar\n"
 "<http://www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
-msgstr "Aicearraí"
+msgstr "AicearraÃ­"
 
 #: src/help.c:162
 msgid "Ctrl-S"
@@ -185,19 +184,19 @@ msgstr "Tosaigh/Stop"
 
 #: src/help.c:264
 msgid "Speed: Faster"
-msgstr "Luas: Níos Tapúla"
+msgstr "Luas: NÃ­os TapÃºla"
 
 #: src/help.c:270
 msgid "Speed: Slower"
-msgstr "Luas: Níos Moille"
+msgstr "Luas: NÃ­os Moille"
 
 #: src/help.c:276 src/metro.c:1722
 msgid "Meter"
-msgstr "Méadar"
+msgstr "MÃ©adar"
 
 #: src/help.c:282
 msgid "Double Speed"
-msgstr "Luas Dúbailte"
+msgstr "Luas DÃºbailte"
 
 #: src/help.c:288
 msgid "Half Speed"
@@ -221,7 +220,7 @@ msgstr "Luas: +2"
 
 #: src/help.c:318
 msgid "Double Volume"
-msgstr "Airde Dhúbailte"
+msgstr "Airde DhÃºbailte"
 
 #: src/help.c:324
 msgid "Half Volume"
@@ -245,7 +244,7 @@ msgstr "Airde: +2"
 
 #: src/metro.c:74
 msgid "Idle"
-msgstr "Díomhaoin"
+msgstr "DÃ­omhaoin"
 
 #: src/metro.c:74 src/metro.c:90
 msgid "Start"
@@ -265,7 +264,7 @@ msgstr "_Cabhair"
 
 #: src/metro.c:80
 msgid "_Metronome"
-msgstr "_Méadranóm"
+msgstr "_MÃ©adranÃ³m"
 
 #: src/metro.c:81
 msgid "_Quit"
@@ -289,11 +288,11 @@ msgstr "_Faoi seo"
 
 #: src/metro.c:86
 msgid "_Shortcuts"
-msgstr "_Aicearraí"
+msgstr "_AicearraÃ­"
 
 #: src/metro.c:90
 msgid "Start the metronome"
-msgstr "Tosaigh an méadranóm"
+msgstr "Tosaigh an mÃ©adranÃ³m"
 
 #: src/metro.c:91
 msgid "_Visual Tick"
@@ -301,11 +300,11 @@ msgstr "Tic _Radharcach"
 
 #: src/metro.c:92
 msgid "_Accent Table"
-msgstr "Tábla _Béime"
+msgstr "TÃ¡bla _BÃ©ime"
 
 #: src/metro.c:93
 msgid "Pr_ofiles"
-msgstr "_Próifílí"
+msgstr "_PrÃ³ifÃ­lÃ­"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
@@ -413,7 +412,7 @@ msgstr "Eile:"
 
 #: src/metro.c:1813
 msgid "Beat Accent"
-msgstr "Béim Bhuille"
+msgstr "BÃ©im Bhuille"
 
 #: src/metro.c:1981
 msgid ""
@@ -421,9 +420,9 @@ msgid ""
 "Please check if specified sound device\n"
 "and sample file are accessible."
 msgstr ""
-"Níorbh fhéidir an méadranóm a chur ar siúl.\n"
-"Féach an bhfuil an gléas fuaime agus\n"
-"comhad sampla ar fáil."
+"NÃ­orbh fhÃ©idir an mÃ©adranÃ³m a chur ar siÃºl.\n"
+"FÃ©ach an bhfuil an glÃ©as fuaime agus\n"
+"comhad sampla ar fÃ¡il."
 
 #: src/gtkoptions.c:214
 msgid "Please choose a sound file."
@@ -439,11 +438,11 @@ msgstr "Fuaim"
 
 #: src/gtkoptions.c:331
 msgid "Default"
-msgstr "Réamhshocrú"
+msgstr "RÃ©amhshocrÃº"
 
 #: src/gtkoptions.c:344
 msgid "Sine"
-msgstr "Sín"
+msgstr "SÃ­n"
 
 #: src/gtkoptions.c:389
 msgid "Choose"
@@ -451,19 +450,19 @@ msgstr "Roghnaigh"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "CÃ³ras Fuaime"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
-msgstr "Ainm comhaid gléis:"
+msgstr "Ainm comhaid glÃ©is:"
 
 #: src/gtkoptions.c:477
 msgid "External Commands"
@@ -483,63 +482,63 @@ msgstr "Raon Luais"
 
 #: src/gtkoptions.c:552
 msgid "Minimum BPM:"
-msgstr "Íosmhéid BSN:"
+msgstr "ÃosmhÃ©id BSN:"
 
 #: src/gtkoptions.c:569
 msgid "Maximum BPM:"
-msgstr "Uasmhéid BSN:"
+msgstr "UasmhÃ©id BSN:"
 
 #: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
-msgstr "Próifíl Gan Ainm"
+msgstr "PrÃ³ifÃ­l Gan Ainm"
 
 #: src/profiles.c:508
 msgid "Edit Profile"
-msgstr "Cuir Próifíl in Eagar"
+msgstr "Cuir PrÃ³ifÃ­l in Eagar"
 
 #: src/profiles.c:524
 msgid "Please enter new Profile name: "
-msgstr "Iontráil ainm na Próifíle: "
+msgstr "IontrÃ¡il ainm na PrÃ³ifÃ­le: "
 
 #: src/profiles.c:682
 msgid "Profiles"
-msgstr "Próifílí"
+msgstr "PrÃ³ifÃ­lÃ­"
 
 #~ msgid "Sound Device"
-#~ msgstr "Gléas Fuaime"
+#~ msgstr "GlÃ©as Fuaime"
 
 #~ msgid "Beat"
 #~ msgstr "Buille"
 
 #~ msgid "/Metronome/Start"
-#~ msgstr "/Méadranóm/Tosaigh"
+#~ msgstr "/MÃ©adranÃ³m/Tosaigh"
 
 #~ msgid "/Metronome/_Manual Timer"
-#~ msgstr "/Méadranóm/_Amadóir Láimhe"
+#~ msgstr "/MÃ©adranÃ³m/_AmadÃ³ir LÃ¡imhe"
 
 #~ msgid "/Metronome/"
-#~ msgstr "/Méadranóm/"
+#~ msgstr "/MÃ©adranÃ³m/"
 
 #~ msgid "/Metronome/_Quit"
-#~ msgstr "/Méadranóm/_Scoir"
+#~ msgstr "/MÃ©adranÃ³m/_Scoir"
 
 #~ msgid "/_Options"
 #~ msgstr "/_Roghanna"
 
 #~ msgid "/Options/Show _Accent Table"
-#~ msgstr "/Roghanna/Tábla Béime"
+#~ msgstr "/Roghanna/TÃ¡bla BÃ©ime"
 
 #~ msgid "/Options/_Properties"
-#~ msgstr "/Roghanna/_Airíonna"
+#~ msgstr "/Roghanna/_AirÃ­onna"
 
 #~ msgid "/Help/_Shortcuts"
-#~ msgstr "/Cabhair/_Aicearraí"
+#~ msgstr "/Cabhair/_AicearraÃ­"
 
 #~ msgid "/Help/_License"
-#~ msgstr "/Cabhair/_Ceadúnas"
+#~ msgstr "/Cabhair/_CeadÃºnas"
 
 #~ msgid "Manual Timer"
-#~ msgstr "Amadóir Láimhe"
+#~ msgstr "AmadÃ³ir LÃ¡imhe"
 
 #~ msgid "Reset"
 #~ msgstr "Athshocraigh"
@@ -553,10 +552,10 @@ msgstr "Próifílí"
 #~ "To use the calculated value, click \"OK\".\n"
 #~ "To start again, click \"Reset\".\n"
 #~ msgstr ""
-#~ "Is féidir leat an luas a shocrú anseo\n"
-#~ "trí chniogadh ar an gcnaipe \"Cniog\".\n"
+#~ "Is fÃ©idir leat an luas a shocrÃº anseo\n"
+#~ "trÃ­ chniogadh ar an gcnaipe \"Cniog\".\n"
 #~ "\n"
-#~ "Ná déan ach crom ar cniogadh leis an luch nó leis an eochair \"Enter\".\n"
+#~ "NÃ¡ dÃ©an ach crom ar cniogadh leis an luch nÃ³ leis an eochair \"Enter\".\n"
 #~ "\n"
-#~ "Chun an luach áirithe a úsáid, cliceáil ar \"OK\".\n"
-#~ "Cliceáil \"Athshocraigh\" chun atosú.\n"
+#~ "Chun an luach Ã¡irithe a ÃºsÃ¡id, cliceÃ¡il ar \"OK\".\n"
+#~ "CliceÃ¡il \"Athshocraigh\" chun atosÃº.\n"

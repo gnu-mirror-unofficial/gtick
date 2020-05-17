@@ -1,23 +1,23 @@
-# Translation of gtick-0.2.12.po to Swedish
-# Copyright © 2004 Free Software Foundation, Inc.
+# Translation of gtick to Swedish
+# Copyright © 2004, 2017 Roland Stigge (msgids)
 # This file is distributed under the same license as the gtick package.
-# Patrik Johansson <patjoh@itstud.chalmers.se>, 2004
-#
-# This file is not really copyrighted by FSF, Inc.
-# But the Translation Robot thinks the opposite!
+# Patrik Johansson <patjoh@itstud.chalmers.se>, 2004.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gtick 0.2.12\n"
+"Project-Id-Version: gtick 0.5.4\n"
 "Report-Msgid-Bugs-To: stigge@antcom.de\n"
 "POT-Creation-Date: 2014-07-27 19:36+0200\n"
-"PO-Revision-Date: 2004-06-08 01:26+0100\n"
-"Last-Translator: Patrik Johansson <patjoh@itstud.chalmers.se>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2017-06-04 14:03+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: src/gtick.c:81
 #, c-format
@@ -30,27 +30,24 @@ msgid ""
 "  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
 "\n"
 msgstr ""
-"Användning: %s [FLAGGA...]\n"
+"Användning: %s [FLAGGA…]\n"
 "\n"
 "Alternativ:\n"
 "  -h, --help              Visa detta hjälpmeddelande\n"
 "  -v, --version           Skriv ut versionsinformation\n"
-"  -d, --debug[=nivå]      Skriv ut ytterligare felsökningsdata vid körning "
-"till standard ut\n"
+"  -d, --debug[=nivå]      Skriv ut ytterligare felsökningsdata vid körning till standard ut\n"
 "\n"
 
 #: src/help.c:77
 msgid "About GTick"
-msgstr ""
+msgstr "Om GTick"
 
 #: src/help.c:79
-#, fuzzy
 msgid "License"
-msgstr "GTick-licens"
+msgstr "Licens"
 
 #  TRANSLATORS: actually, "Andrés" with acute accent (/)
 #: src/help.c:103
-#, fuzzy
 msgid ""
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
 "Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
@@ -64,24 +61,23 @@ msgid ""
 "gtick-devel@gnu.org"
 msgstr ""
 "Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright © 2003, Roland Stigge <stigge@antcom.de>\n"
+"Copyright © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
 "Logotyp av Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
 "\n"
-"Hemsida:\n"
+"Webbsida:\n"
 "http://www.antcom.de/gtick/\n"
 "\n"
 "E-posta felrapporter, kommentarer, etc. till\n"
-"utvecklarnas e-postlista:\n"
+"utvecklarnas sändlista:\n"
 "gtick-devel@nongnu.org\n"
 "Synpunkter på den svenska översättningen\n"
-"skickas till sv@li.org"
+"skickas till tp-sv@listor.tp-sv.se"
 
 #: src/help.c:127
 msgid "GTick License"
 msgstr "GTick-licens"
 
 #: src/help.c:128
-#, fuzzy
 msgid ""
 "GTick - The Metronome\n"
 "Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
@@ -102,12 +98,12 @@ msgid ""
 msgstr ""
 "GTick - Metronomen\n"
 "Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
-"Copyright © 2003, Roland Stigge <stigge@antcom.de>\n"
+"Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
 "\n"
 "Detta program är fri programvara. Du kan distribuera det och/eller\n"
 "modifiera det under villkoren i GNU General Public License,\n"
 "publicerad av Free Software Foundation,\n"
-"antingen version 2 eller (om du så vill) någon senare version.\n"
+"antingen version 3 eller (om du så vill) någon senare version.\n"
 " \n"
 "Detta program distribueras i hopp om att det ska vara användbart\n"
 "men UTAN NÅGON GARANTI, även utan underförstådd garanti vid \n"
@@ -115,8 +111,7 @@ msgstr ""
 "Se GNU General Public License för ytterligare information.\n"
 "\n"
 "Du bör ha fått en kopia av GNU General Public License\n"
-"tillsammans med detta program. Om inte, skriv till Free Software\n"
-"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA. "
+"tillsammans med detta program. Om inte, se <http://www.gnu.org/licenses/>."
 
 #: src/help.c:155
 msgid "Shortcuts"
@@ -140,51 +135,51 @@ msgstr "Ctrl-1 ... Ctrl-9"
 
 #: src/help.c:186
 msgid "Alt-w"
-msgstr ""
+msgstr "Alt-w"
 
 #: src/help.c:192
 msgid "Alt-q"
-msgstr ""
+msgstr "Alt-q"
 
 #: src/help.c:198
 msgid "Alt-a"
-msgstr ""
+msgstr "Alt-a"
 
 #: src/help.c:204
 msgid "Alt-s"
-msgstr ""
+msgstr "Alt-s"
 
 #: src/help.c:210
 msgid "Alt-z"
-msgstr ""
+msgstr "Alt-z"
 
 #: src/help.c:216
 msgid "Alt-x"
-msgstr ""
+msgstr "Alt-x"
 
 #: src/help.c:222
 msgid "Shift-w"
-msgstr ""
+msgstr "Skift-w"
 
 #: src/help.c:228
 msgid "Shift-q"
-msgstr ""
+msgstr "Skift-q"
 
 #: src/help.c:234
 msgid "Shift-a"
-msgstr ""
+msgstr "Skift-a"
 
 #: src/help.c:240
 msgid "Shift-s"
-msgstr ""
+msgstr "Skift-s"
 
 #: src/help.c:246
 msgid "Shift-z"
-msgstr ""
+msgstr "Skift-z"
 
 #: src/help.c:252
 msgid "Shift-x"
-msgstr ""
+msgstr "Skift-x"
 
 #: src/help.c:258
 msgid "Start/Stop"
@@ -199,68 +194,56 @@ msgid "Speed: Slower"
 msgstr "Hastighet: Långsammare"
 
 #: src/help.c:276 src/metro.c:1722
-#, fuzzy
 msgid "Meter"
-msgstr "Basmätare"
+msgstr "Takt"
 
 #: src/help.c:282
 msgid "Double Speed"
-msgstr ""
+msgstr "Dubblera hastighet"
 
 #: src/help.c:288
-#, fuzzy
 msgid "Half Speed"
-msgstr "Hastighet:"
+msgstr "Halvera hastighet"
 
 #: src/help.c:294
-#, fuzzy
 msgid "Speed: -10"
-msgstr "Hastighet:"
+msgstr "Hastighet: -10"
 
 #: src/help.c:300
-#, fuzzy
 msgid "Speed: +10"
-msgstr "Hastighet:"
+msgstr "Hastighet: +10"
 
 #: src/help.c:306
-#, fuzzy
 msgid "Speed: -2"
-msgstr "Hastighet:"
+msgstr "Hastighet: -2"
 
 #: src/help.c:312
-#, fuzzy
 msgid "Speed: +2"
-msgstr "Hastighet:"
+msgstr "Hastighet: +2"
 
 #: src/help.c:318
-#, fuzzy
 msgid "Double Volume"
-msgstr "Volym:"
+msgstr "Dubblera volym"
 
 #: src/help.c:324
-#, fuzzy
 msgid "Half Volume"
-msgstr "Volym:"
+msgstr "Halvera volym"
 
 #: src/help.c:330
-#, fuzzy
 msgid "Volume: -10"
-msgstr "Volym:"
+msgstr "Volym: -10"
 
 #: src/help.c:336
-#, fuzzy
 msgid "Volume: +10"
-msgstr "Volym:"
+msgstr "Volym: +10"
 
 #: src/help.c:342
-#, fuzzy
 msgid "Volume: -2"
-msgstr "Volym:"
+msgstr "Volym: -2"
 
 #: src/help.c:348
-#, fuzzy
 msgid "Volume: +2"
-msgstr "Volym:"
+msgstr "Volym: +2"
 
 #: src/metro.c:74
 msgid "Idle"
@@ -286,9 +269,8 @@ msgstr "Stoppa"
 #  is only intended to mark menu names and menu entry names directly, i.e.
 #  just the menu name of a menu entry usually doesn't include an underscore.
 #: src/metro.c:79
-#, fuzzy
 msgid "_Help"
-msgstr "/_Hjälp"
+msgstr "_Hjälp"
 
 #  TRANSLATORS: This is the Metronome menu. The strings start with a slash
 #  ("/"), followed by the menu name, another slash and the menu entry.
@@ -298,108 +280,102 @@ msgstr "/_Hjälp"
 #  is only intended to mark menu names and menu entry names directly, i.e.
 #  just the menu name of a menu entry usually doesn't include an underscore.
 #: src/metro.c:80
-#, fuzzy
 msgid "_Metronome"
-msgstr "/_Metronom"
+msgstr "_Metronom"
 
 #: src/metro.c:81
 msgid "_Quit"
-msgstr ""
+msgstr "_Avsluta"
 
 #: src/metro.c:82
 msgid "_Edit"
-msgstr ""
+msgstr "_Redigera"
 
 #: src/metro.c:83
 msgid "_Preferences"
-msgstr ""
+msgstr "A_lternativ"
 
 #: src/metro.c:84
 msgid "_View"
-msgstr ""
+msgstr "_Visa"
 
 #: src/metro.c:85
-#, fuzzy
 msgid "_About"
-msgstr "/Hjälp/_Om"
+msgstr "_Om"
 
 #: src/metro.c:86
-#, fuzzy
 msgid "_Shortcuts"
-msgstr "Genvägar"
+msgstr "_Genvägar"
 
 #: src/metro.c:90
 msgid "Start the metronome"
-msgstr ""
+msgstr "Starta metronomen"
 
 #: src/metro.c:91
-#, fuzzy
 msgid "_Visual Tick"
-msgstr "/Alternativ/Visa _grafiska tick"
+msgstr "_Grafiska tick"
 
 #: src/metro.c:92
-#, fuzzy
 msgid "_Accent Table"
-msgstr "Tryckaccentstabell"
+msgstr "_Accenttabell"
 
 #: src/metro.c:93
-#, fuzzy
 msgid "Pr_ofiles"
-msgstr "Egenskaper"
+msgstr "Pr_ofiler"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:133
 msgid "Larghissimo"
-msgstr ""
+msgstr "Larghissimo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:136
 msgid "Largo"
-msgstr ""
+msgstr "Largo"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:139
 msgid "Larghetto"
-msgstr ""
+msgstr "Larghetto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:142
 msgid "Adagio"
-msgstr ""
+msgstr "Adagio"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:145
 msgid "Andante"
-msgstr ""
+msgstr "Andante"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:148
 msgid "Moderato"
-msgstr ""
+msgstr "Moderato"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:151
 msgid "Allegro"
-msgstr ""
+msgstr "Allegro"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:154
 msgid "Presto"
-msgstr ""
+msgstr "Presto"
 
 #. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
 #. not not translated, at least not in languages with latin alphabets.
 #: src/metro.c:157
 msgid "Prestissimo"
-msgstr ""
+msgstr "Prestissimo"
 
 #: src/metro.c:1571
 msgid "Settings"
@@ -410,7 +386,7 @@ msgstr "Inställningar"
 #: src/metro.c:1600
 #, c-format
 msgid "%s   (%d ... %d)"
-msgstr ""
+msgstr "%s   (%d … %d)"
 
 #. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
 #. specifying a tempo
@@ -458,7 +434,7 @@ msgstr "Annan:"
 
 #: src/metro.c:1813
 msgid "Beat Accent"
-msgstr ""
+msgstr "Accent på slag"
 
 #: src/metro.c:1981
 msgid ""
@@ -476,7 +452,7 @@ msgstr "Välj en ljudfil."
 
 #: src/gtkoptions.c:270
 msgid "Preferences"
-msgstr ""
+msgstr "Alternativ"
 
 #: src/gtkoptions.c:315
 msgid "Sound"
@@ -496,19 +472,19 @@ msgstr "Välj"
 
 #: src/gtkoptions.c:410
 msgid "Sound System"
-msgstr ""
+msgstr "Ljudsystem"
 
 #: src/gtkoptions.c:430
 msgid "Pulseaudio"
-msgstr ""
+msgstr "Pulseaudio"
 
 #: src/gtkoptions.c:443
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: src/gtkoptions.c:458
 msgid "Device filename:"
-msgstr "Filnamn för enhet: "
+msgstr "Filnamn för enhet:"
 
 #: src/gtkoptions.c:477
 msgid "External Commands"
@@ -532,93 +508,20 @@ msgstr "Lägsta antalet slag per minut:"
 
 #: src/gtkoptions.c:569
 msgid "Maximum BPM:"
-msgstr "Högsta antalet slag per minut: "
+msgstr "Högsta antalet slag per minut:"
 
 #: src/profiles.c:330 src/profiles.c:616
 msgid "Unnamed Profile"
-msgstr ""
+msgstr "Namnlös profil"
 
 #: src/profiles.c:508
-#, fuzzy
 msgid "Edit Profile"
-msgstr "Egenskaper"
+msgstr "Redigera profil"
 
 #: src/profiles.c:524
 msgid "Please enter new Profile name: "
-msgstr ""
+msgstr "Ange namnet på den nya profilen: "
 
 #: src/profiles.c:682
-#, fuzzy
 msgid "Profiles"
-msgstr "Egenskaper"
-
-#~ msgid "Sound Device"
-#~ msgstr "Ljudenhet"
-
-#~ msgid "Beat"
-#~ msgstr "Takt"
-
-#, fuzzy
-#~ msgid "_Profiles"
-#~ msgstr "Egenskaper"
-
-#, fuzzy
-#~ msgid "_Manual Timer"
-#~ msgstr "Manuellt tidtagarur"
-
-#~ msgid "Manual Timer"
-#~ msgstr "Manuellt tidtagarur"
-
-#~ msgid "Reset"
-#~ msgstr "Nollställ"
-
-#~ msgid ""
-#~ "Here, you can approximate the desired\n"
-#~ "speed by tapping at the \"Tap\" button.\n"
-#~ "\n"
-#~ "Just start tapping with the mouse or Enter.\n"
-#~ "\n"
-#~ "To use the calculated value, click \"OK\".\n"
-#~ "To start again, click \"Reset\".\n"
-#~ msgstr ""
-#~ "Här kan du approximera den önskade\n"
-#~ "hastigheten genom att klicka på \"Klicka\"-knappen.\n"
-#~ "\n"
-#~ "Börja bara att klicka med musen eller tryck på entertangenten.\n"
-#~ "\n"
-#~ "För att använde det beräknade värder, klicka på \"OK\".\n"
-#~ "För att starta igen, klicka på \"Nollställ\".\n"
-
-#~ msgid "/Metronome/Start"
-#~ msgstr "/Metronom/Starta"
-
-#~ msgid "/Metronome/_Manual Timer"
-#~ msgstr "/Metronom/_Manuellt tidtagarur"
-
-#~ msgid "/Metronome/"
-#~ msgstr "/Metronom/"
-
-#~ msgid "/Metronome/_Quit"
-#~ msgstr "/Metronom/_Avsluta"
-
-#  TRANSLATORS: This is the Options menu. The strings start with a slash
-#  ("/"), followed by the menu name, another slash and the menu entry.
-#  Please make sure that you translate the menu name everywhere with the same
-#  string. Otherwise, the menu is endangered to be split.
-#  An underscore marks a shortcut (also visually marked in the menu) which
-#  is only intended to mark menu names and menu entry names directly, i.e.
-#  just the menu name of a menu entry usually doesn't include an underscore.
-#~ msgid "/_Options"
-#~ msgstr "/_Alternativ"
-
-#~ msgid "/Options/Show _Accent Table"
-#~ msgstr "/Alternativ/Visa tryck_accentstabell"
-
-#~ msgid "/Options/_Properties"
-#~ msgstr "/Alternativ/Egenska_per"
-
-#~ msgid "/Help/_Shortcuts"
-#~ msgstr "/Hjälp/_Genvägar"
-
-#~ msgid "/Help/_License"
-#~ msgstr "/Hjälp/_Licens"
+msgstr "Profiler"
