@@ -1,12 +1,14 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-AC_INIT([gtick], [0.5.4])
+AC_INIT([gtick], [0.5.5])
 AC_PREREQ(2.57)
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([config.h.in])
 AM_CONFIG_HEADER([config.h])
 
 AC_GNU_SOURCE
+
+# AM_MAINTAINER_MODE([enable])
 
 # Checks for programs.
 AC_PROG_CC
@@ -70,7 +72,7 @@ fi
 
 # GNU gettext
 AM_GNU_GETTEXT
-AM_GNU_GETTEXT_VERSION(0.18.1)
+AM_GNU_GETTEXT_VERSION(0.19.8)
 
 # directory containing configuration support files
 # defaults to package root

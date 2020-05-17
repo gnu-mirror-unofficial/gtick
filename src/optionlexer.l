@@ -40,7 +40,7 @@
 #include "optionlexer.h"
 
 char* option_filename;
-YYLTYPE option_lloc;
+extern YYLTYPE option_lloc;
 
 void option_locate();
 %}

@@ -56,6 +56,7 @@ AM_CFLAGS = -DVERSION='"@VERSION@"' -DPACKAGE='"@PACKAGE@"'
 AM_YFLAGS = -d
 AM_LFLAGS=-olex.yy.c
 BUILT_SOURCES = optionparser.h
+CLEANFILES = optionlexer.c optionparser.h optionparser.c
 
 pixmapsdir = $(datadir)/pixmaps
 pixmaps_DATA = gtick_32x32.xpm
